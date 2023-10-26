@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 
-function Main() {
+function Landing() {
   return <Hero />;
 }
 
-export default Main;
+export default Landing;
