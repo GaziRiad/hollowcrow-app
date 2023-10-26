@@ -8,11 +8,11 @@ import {
 
 function Socials() {
   return (
-    <div className="text-white flex items-center gap-20 relative">
-      <p className="after:h-0.5 after:w-12  after:bg-white after:absolute after:top-2.5 after:left-36">
+    <div className="text-white gap-8 flex items-center relative font-secondary font-semibold sm:gap-24">
+      <p className="after:h-0.5 after:w-6  after:bg-white after:absolute after:top-3 after:left-36 sm:after:w-12">
         Follow Holocrow
       </p>
-      <ul className="flex gap-6 items-center">
+      <ul className="flex gap-4 items-center">
         <li>{<FaFacebookF />}</li>
         <li>{<FaLinkedinIn />}</li>
         <li>{<FaXTwitter />}</li>

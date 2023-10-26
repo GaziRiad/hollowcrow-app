@@ -30,7 +30,7 @@ function Hero() {
       <span className="border rounded-full p-8 absolute top-[65%] left-1/2 translate-x-[-50%] cursor-pointer lg:top-[57%] lg:left-[28%] ">
         <FaPlay size={42} color="white" />
       </span>
-      <span className="absolute top-[92%] ml-8 lg:left-[10%] ">
+      <span className="absolute top-[92%] ml-8 sm:ml-8 lg:left-[10%] ">
         <Socials />
       </span>
     </div>
