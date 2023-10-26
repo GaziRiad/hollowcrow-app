@@ -24,7 +24,7 @@ function Hero() {
       {/* VID OVERLAY */}
       <div className="absolute top-[25%] left-1/2 translate-x-[-50%] flex flex-col gap-8 text-white text-4xl items-center font-extrabold lg:top-[40%] xl:gap-56  xl:text-7xl lg:flex-row">
         <p>Beyond</p>
-        <img src="/public/images/camera-vector.png" />
+        <img src="/images/camera-vector.png" />
         <p className=" opacity-50">Watching</p>
       </div>
       <span className="border rounded-full p-8 absolute top-[65%] left-1/2 translate-x-[-50%] cursor-pointer lg:top-[57%] lg:left-[28%] ">
