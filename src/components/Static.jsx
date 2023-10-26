@@ -4,7 +4,7 @@ function Static({ number, name }) {
 
   return (
     <div className="font-bold relative">
-      <p className="text-black-800 uppercase text-xl tracking-[10px] sm:text-2xl">
+      <p className="text-black-800 uppercase text-xl tracking-[5px] sm:tracking-[10px] sm:text-2xl">
         {name}
       </p>
       <p className="text-primary text-5xl text-center absolute -z-10 top-[-35%] left-1/2 translate-x-[-50%] sm:text-7xl sm:top-[-60%]">

@@ -3,7 +3,7 @@ import Heading from "./Heading";
 
 function Features() {
   return (
-    <section className="container mx-auto mb-28">
+    <section className="container mx-auto mb-28 px-4 md:px-0">
       <Heading type="h1" color="primary">
         Get better
       </Heading>
