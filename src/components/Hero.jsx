@@ -12,7 +12,7 @@ function Hero() {
         loop
         autoPlay
         playsInline
-        src="/public/videos/hero-preview-2.mp4"
+        src="/videos/hero-preview-2.mp4"
         type="video/mp4"
       ></video>
 

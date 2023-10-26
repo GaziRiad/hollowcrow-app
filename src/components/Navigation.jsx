@@ -46,7 +46,7 @@ function Navigation() {
           className={`absolute inset-0 h-screen z-10 bg-primary origin-left transition-all duration-500 lg:hidden`}
         >
           <Logo
-            src="/public/images/Holocrow-logo-white.png"
+            src="images/Holocrow-logo-white.png"
             styling="pt-12 pl-8 w-48"
           />
           <ul className="text-white text-2xl flex flex-col items-center mt-44 gap-6 ">
