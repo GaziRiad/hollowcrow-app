@@ -9,6 +9,7 @@ export default {
       },
       colors: {
         primary: "#FFB800",
+        "black-800": "#161616",
       },
     },
   },

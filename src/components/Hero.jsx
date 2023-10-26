@@ -5,7 +5,7 @@ import Socials from "./Socials";
 
 function Hero() {
   return (
-    <div className="contrast-125 relative w-full h-screen cursor-pointer ">
+    <section className="contrast-125 relative w-full h-screen cursor-pointer mb-44">
       <video
         className="w-full h-full object-cover object-center"
         muted
@@ -33,7 +33,7 @@ function Hero() {
       <span className="absolute top-[92%] ml-8 sm:ml-8 lg:left-[10%] ">
         <Socials />
       </span>
-    </div>
+    </section>
   );
 }
 
