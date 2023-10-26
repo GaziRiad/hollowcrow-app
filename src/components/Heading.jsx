@@ -12,7 +12,9 @@ function Heading({ type = "h1", color = "primary", children }) {
 
   if (type === "tag")
     return (
-      <h1 className={`text-6xl text-center font-bold text-primary/25 mb-16`}>
+      <h1
+        className={`text-5xl text-center font-bold text-primary/25 mb-20 sm:text-6xl`}
+      >
         {children}
       </h1>
     );
