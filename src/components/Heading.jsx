@@ -15,7 +15,7 @@ function Heading({ type = "h1", color = "primary", children }) {
       <h1
         className={`text-3xl text-center font-bold ${
           color ? `text-${color}` : "text-primary"
-        } mb-10 md:text-5xl md:mb-16`}
+        } mb-10 md:text-5xl md:mb-16 lg:mb-20 xl:mb-24`}
       >
         {children}
       </h1>
@@ -24,7 +24,7 @@ function Heading({ type = "h1", color = "primary", children }) {
   if (type === "tag")
     return (
       <h1
-        className={`text-3xl text-center font-bold text-primary/25 mb-20 sm:text-6xl`}
+        className={`text-3xl text-center font-bold text-primary/25 mb-32 sm:text-6xl`}
       >
         {children}
       </h1>

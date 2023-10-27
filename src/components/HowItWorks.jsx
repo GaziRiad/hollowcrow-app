@@ -1,4 +1,6 @@
+import Button from "./Button";
 import Heading from "./Heading";
+import Link from "./Link";
 
 function HowItWorks() {
   return (
@@ -40,7 +42,7 @@ function HowItWorks() {
           </div>
         </div>
         {/*  */}
-        <div className="flex flex-col items-center gap-6 sm:gap-10 px-4 sm:px-12   lg:flex-row  md:mb-28  xl:gap-36 lg:px-30 xl:px-44 mb-0">
+        <div className="flex flex-col items-center gap-6 sm:gap-10 px-4 sm:px-12   lg:flex-row  md:mb-28  xl:gap-36 lg:px-30 xl:px-44 mb-14">
           <div className="z-20">
             <Heading type="h3">3. Start getting live alerts & reports</Heading>
             <p className="text-white text-lg text-center lg:text-left lg:text-xl">
@@ -53,12 +55,16 @@ function HowItWorks() {
             className=" w-2/3 lg:w-1/2 mx-auto z-20"
           />
         </div>
+        <div className=" flex flex-col justify-center items-center gap-6">
+          <Button bgcolor="white">Get started</Button>
+          <Link>Learn more</Link>
+        </div>
       </div>
 
       {/* PATTERN */}
       <img
         src="images/how-it-work-pattern.png"
-        className="absolute top-[10%] left-0 h-[80%] z-10 xl:left-[8%] xl:top-[8%]"
+        className="absolute top-[7%] left-0 h-[78%] z-10 xl:left-[8%] xl:top-[8%]"
       />
     </div>
   );

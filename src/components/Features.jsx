@@ -7,7 +7,7 @@ function Features() {
       <Heading type="h1" color="primary">
         Get better
       </Heading>
-      <div className="flex items-center justify-center gap-12 flex-wrap mb-10 xl:gap-32 ">
+      <div className="flex items-center justify-center gap-8 flex-wrap mb-10 xl:gap-20  ">
         <Feature name="security" src="/images/security.png" />
         <Feature name="safety" src="/images/safety.png" />
         <Feature name="quality control" src="/images/quality-control.png" />
