@@ -3,8 +3,19 @@ function Heading({ type = "h1", color = "primary", children }) {
     return (
       <h1
         className={`text-5xl text-center font-bold ${
-          color ? "text-primary" : ""
-        } mb-14 md:text-6xl md:mb-24`}
+          color ? `text-${color}` : "text-primary"
+        } mb-14 md:text-6xl md:mb-20`}
+      >
+        {children}
+      </h1>
+    );
+
+  if (type === "h2")
+    return (
+      <h1
+        className={`text-3xl text-center font-bold ${
+          color ? `text-${color}` : "text-primary"
+        } mb-10 md:text-5xl md:mb-16`}
       >
         {children}
       </h1>
@@ -17,6 +28,13 @@ function Heading({ type = "h1", color = "primary", children }) {
       >
         {children}
       </h1>
+    );
+
+  if (type === "h3")
+    return (
+      <h3 className="text-xl mb-4 text-center lg:text-left lg:text-2xl text-white font-semibold">
+        {children}
+      </h3>
     );
 }
 

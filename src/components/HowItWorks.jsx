@@ -1,5 +1,67 @@
+import Heading from "./Heading";
+
 function HowItWorks() {
-  return <div></div>;
+  return (
+    <div className="relative mb-44 px-4 bg-primary py-20 md:px-0">
+      <div className="container mx-auto ">
+        <Heading color="white" type="h2">
+          How does Holocrow work?
+        </Heading>
+
+        <div className="flex flex-col items-center gap-6 sm:gap-10 px-4 sm:px-12 lg:flex-row md:mb-20 lg:mb-36  xl:gap-36 lg:px-30 xl:px-44 mb-16 ">
+          <div className="z-20">
+            <Heading type="h3">
+              1. Connect Your Existing CCTVs To Holocrow
+            </Heading>
+            <p className="text-white text-lg text-center lg:text-left lg:text-xl ">
+              You don&apos;t need to purchase new cameras, equipment, or
+              anything else! Holocrow works with your existing cameras,
+              regardless of the model. Moreover, connecting it is quite easy.
+              It&apos;s plug and play.
+            </p>
+          </div>
+          <img
+            src="images/how-it-work-main-1.png"
+            className=" w-2/3 lg:w-1/2 mx-auto z-20"
+          />
+        </div>
+        {/*  */}
+        <div className="flex flex-col-reverse items-center gap-6 sm:gap-10 px-4 sm:px-12  lg:flex-row md:mb-28  xl:gap-36 lg:px-30 xl:px-44 mb-16">
+          <img
+            src="images/how-it-work-main-3.png"
+            className=" w-2/3 lg:w-1/2 mx-auto z-20"
+          />
+          <div className="z-20">
+            <Heading type="h3">2. Select what you want to track</Heading>
+            <p className="text-white text-lg text-center lg:text-left lg:text-xl">
+              Select the things you want to track with a single click from the
+              dropdown menu.
+            </p>
+          </div>
+        </div>
+        {/*  */}
+        <div className="flex flex-col items-center gap-6 sm:gap-10 px-4 sm:px-12   lg:flex-row  md:mb-28  xl:gap-36 lg:px-30 xl:px-44 mb-0">
+          <div className="z-20">
+            <Heading type="h3">3. Start getting live alerts & reports</Heading>
+            <p className="text-white text-lg text-center lg:text-left lg:text-xl">
+              Start receiving notifications and reports instantly. It&apos;s
+              that simple!
+            </p>
+          </div>
+          <img
+            src="images/how-it-work-main-3.png"
+            className=" w-2/3 lg:w-1/2 mx-auto z-20"
+          />
+        </div>
+      </div>
+
+      {/* PATTERN */}
+      <img
+        src="images/how-it-work-pattern.png"
+        className="absolute top-[10%] left-0 h-[80%] z-10 xl:left-[8%] xl:top-[8%]"
+      />
+    </div>
+  );
 }
 
 export default HowItWorks;
