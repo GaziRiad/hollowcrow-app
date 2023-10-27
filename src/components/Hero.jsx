@@ -22,13 +22,13 @@ function Hero() {
       </header>
 
       {/* VID OVERLAY */}
-      <div className="absolute top-[25%] left-1/2 translate-x-[-50%] flex flex-col gap-8 text-white text-4xl items-center font-extrabold lg:top-[40%] xl:gap-56  xl:text-7xl lg:flex-row">
+      <div className="absolute top-[25%] left-1/2 translate-x-[-50%] flex flex-col gap-8 text-white text-4xl items-center font-extrabold lg:top-[40%] lg:translate-x-[-60%] xl:translate-x-[-50%] xl:gap-28  xl:text-7xl lg:flex-row">
         <p>Beyond</p>
-        <img src="/images/camera-vector.png" />
+        <img src="/images/camera-vector.png" className="w-20 lg:w-32" />
         <p className=" opacity-50">Watching</p>
       </div>
       <span className="border rounded-full p-8 absolute top-[65%] left-1/2 translate-x-[-50%] cursor-pointer lg:top-[57%] lg:left-[28%] ">
-        <FaPlay size={42} color="white" />
+        <FaPlay size={36} color="white" />
       </span>
       <span className="absolute top-[92%] ml-8 sm:ml-8 lg:left-[10%] ">
         <Socials />

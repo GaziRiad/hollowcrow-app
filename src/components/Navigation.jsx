@@ -1,10 +1,15 @@
 import { NavLink } from "react-router-dom";
 import { navigations } from "../constants/index";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Logo from "./Logo";
 
 function Navigation() {
   const [navIsOpen, setNavIsOpen] = useState(false);
+
+  useEffect(() => {
+    if (navIsOpen) document.body.style.overflowY = "hidden";
+    else document.body.style.overflowY = "scroll";
+  }, [navIsOpen]);
 
   return (
     <nav>
@@ -43,7 +48,7 @@ function Navigation() {
 
       {navIsOpen && (
         <div
-          className={`absolute inset-0 h-screen z-10 bg-primary origin-left transition-all duration-500 lg:hidden`}
+          className={`absolute inset-0 h-screen z-10 bg-primary origin-left transition-all duration-500 lg:hidden `}
         >
           <Logo
             src="images/Holocrow-logo-white.png"
