@@ -16,13 +16,6 @@ function PlatformOverview() {
                 {content.title}
               </Heading>
               <p>{content.text}</p>
-              {/* <p>
-                The moment you register and introduce your cameras to Holocrow,
-                you start using the platform. All models of cameras & CCTVs can
-                be connected. From the dedicated page for{" "}
-                <strong>devices</strong>, you can easily view and control the
-                connection status of the devices.
-              </p> */}
             </div>
           ))}
         </div>

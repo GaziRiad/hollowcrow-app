@@ -11,7 +11,7 @@ function Footer({ children, icon, btn = "get started", btnPath }) {
             #BeyondWatching
           </p>
         </div>
-        <p className="text-white font-bold text-5xl tracking-wider absolute top-[64%] lg:top-[60%] xl:tracking-[1.25rem] lg:text-8xl  ">
+        <p className="text-white font-bold text-4xl tracking-wider absolute top-[64%] lg:top-[60%] xl:tracking-[1.25rem] lg:text-8xl  ">
           Let’s Get Started
         </p>
         <Button>{btn}</Button>
