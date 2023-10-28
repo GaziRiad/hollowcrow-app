@@ -14,11 +14,11 @@ import todolist from "../assets/sliders/To-do-list 1.png";
 import briefcase from "../assets/sliders/Brifecase 1.png";
 import achievement from "../assets/sliders/Education Icon2 1.png";
 
-import platformOverview from "../assets/homePage/platform-overview.png";
+// import platformOverview from "../assets/homeimgs/platform-overview.png";
 
-import footerIcon1 from "../assets/homePage/footer-icon1.png";
-import footerIcon2 from "../assets/homePage/footer-icon2.png";
-import footerIcon3 from "../assets/homePage/footer-icon3.png";
+// import footerIcon1 from "../assets/homePage/footer-icon1.png";
+// import footerIcon2 from "../assets/homePage/footer-icon2.png";
+// import footerIcon3 from "../assets/homePage/footer-icon3.png";
 
 export const navigations = [
   { text: "How it works", path: "" },
@@ -134,7 +134,7 @@ export const sliders = [
 
 // PLATFORM-OVERVIEW
 export const platformDetails = {
-  sectionImg: platformOverview,
+  // sectionImg: platformOverview,
   textContent: [
     {
       title: "Plug & Use",
@@ -180,15 +180,15 @@ export const testimonials = [
 
 export const homeFooter = [
   {
-    icon: footerIcon1,
+    icon: enginner,
     text: "No Installation",
   },
   {
-    icon: footerIcon2,
+    icon: enginner,
     text: "Cancel Anytime",
   },
   {
-    icon: footerIcon3,
+    icon: enginner,
     text: "7-Day Free Trial",
   },
 ];

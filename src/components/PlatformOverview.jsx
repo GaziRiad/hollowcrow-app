@@ -27,7 +27,7 @@ function PlatformOverview() {
           ))}
         </div>
         <img
-          src={platformDetails.sectionImg}
+          src={platformDetails?.sectionImg}
           className=" rounded-3xl shadow-lg lg:aspect-auto lg:h-1/2 lg:w-1/2"
         />
       </div>

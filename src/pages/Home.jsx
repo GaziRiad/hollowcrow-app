@@ -30,10 +30,10 @@ function Landing() {
               key={el.text}
               className="flex flex-col items-center justify-center gap-2 md:gap-6"
             >
-              <img
+              {/* <img
                 src={el.icon}
                 className=" scale-75 md:scale-90 lg:scale-100"
-              />
+              /> */}
               <p className=" text-white font-semibold uppercase tracking-wide text-center lg:text-lg">
                 {el.text}
               </p>
