@@ -64,7 +64,7 @@ function HowItWorks() {
       {/* PATTERN */}
       <img
         src="images/how-it-work-pattern.png"
-        className="absolute top-[10%] left-0 h-[75%] z-10 xl:left-[8%] xl:top-[8%]"
+        className="absolute top-[10%] left-0 h-[75%] z-10 xl:top-[8%]"
       />
     </section>
   );
