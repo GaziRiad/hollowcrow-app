@@ -16,8 +16,8 @@ function Testimonials() {
   return (
     <section className="container mx-auto mb-44 ">
       <Heading>Testimonials</Heading>
-      <div className="flex flex-col items-center justify-left gap-8 px-10 lg:px-4 lg:gap-40 lg:flex-row  ">
-        <div className="flex flex-wrap items-center justify-center xl:w-2/4 ">
+      <div className="flex flex-col items-center justify-left gap-8 px-4 lg:px-4 lg:gap-40 lg:flex-row  ">
+        <div className=" flex flex-wrap items-center w-full justify-center xl:w-2/4 ">
           <img
             src="./src/assets/testimonials/person2.png"
             className="lg:order-4"
@@ -48,6 +48,7 @@ function Testimonials() {
             pagination={{
               clickable: true,
             }}
+            loop={true}
             modules={[Mousewheel, Pagination]}
             className="mySwiperVertical h-80 "
           >
