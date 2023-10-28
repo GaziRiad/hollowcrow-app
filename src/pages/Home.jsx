@@ -9,7 +9,7 @@ import Testimonials from "../components/Testimonials";
 
 import { homeFooter } from "../constants";
 
-import footerHomeIcon from "../assets/homePage/footerHomeIcon.png";
+// import footerHomeIcon from "../assets/homePage/footerHomeIcon.png";
 
 function Landing() {
   return (
@@ -22,7 +22,8 @@ function Landing() {
       <PlatformOverview />
       <Testimonials />
 
-      <Footer icon={footerHomeIcon}>
+      {/* <Footer icon={footerHomeIcon}> */}
+      <Footer>
         <div className="flex flex-wrap items-center justify-center gap-4 mb-6 md:mb-20 md:gap-10">
           {homeFooter.map((el) => (
             <div
