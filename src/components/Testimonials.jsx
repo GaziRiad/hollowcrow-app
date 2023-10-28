@@ -19,23 +19,23 @@ function Testimonials() {
       <div className="flex flex-col items-center justify-left gap-8 px-4 lg:px-4 lg:gap-40 lg:flex-row  ">
         <div className=" flex flex-wrap items-center w-full justify-center xl:w-2/4 ">
           <img
-            src="./src/assets/testimonials/person2.png"
+            src="../assets/testimonials/person2.png"
             className="lg:order-4"
           />
           <img
-            src="./src/assets/testimonials/person1.png"
+            src="../assets/testimonials/person1.png"
             className=" lg:order-3"
           />
           <img
-            src="./src/assets/testimonials/person3.png"
+            src="../assets/testimonials/person3.png"
             className="lg:order-2"
           />
           <img
-            src="./src/assets/testimonials/person4.png"
+            src="../assets/testimonials/person4.png"
             className="lg:order-1"
           />
           <img
-            src="./src/assets/testimonials/person5.png"
+            src="../assets/testimonials/person5.png"
             className="lg:order-0"
           />
         </div>
