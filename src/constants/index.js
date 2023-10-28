@@ -134,11 +134,11 @@ export const platformDetails = {
   textContent: [
     {
       title: "Plug & Use",
-      text: "The moment you register and introduce your cameras to Holocrow, you start using the platform. All models of cameras & CCTVs can be connected. From the dedicated page for <strong>devices</strong>, you can easily view and control the connection status of the devices.",
+      text: "The moment you register and introduce your cameras to Holocrow, you start using the platform. All models of cameras & CCTVs can be connected. From the dedicated page for devices, you can easily view and control the connection status of the devices.",
     },
     {
       title: "Alerts & Notifications",
-      text: "Instant alerts and notifications are of vital importance in the solutions you'll use, especially in the fields of workplace safety and security. <strong>Holocrow</strong> sends instant notifications to relevant departments in risky situations.",
+      text: "Instant alerts and notifications are of vital importance in the solutions you'll use, especially in the fields of workplace safety and security. Holocrow sends instant notifications to relevant departments in risky situations.",
     },
     {
       title: "Visual Reports & Analytics",

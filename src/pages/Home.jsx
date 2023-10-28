@@ -4,6 +4,7 @@ import HowItWorks from "../components/HowItWorks";
 import PlatformOverview from "../components/PlatformOverview";
 import SlidersSection from "../components/SlidersSection";
 import Statics from "../components/Statics";
+import Testimonials from "../components/Testimonials";
 
 function Landing() {
   return (
@@ -14,6 +15,7 @@ function Landing() {
       <HowItWorks />
       <SlidersSection />
       <PlatformOverview />
+      <Testimonials />
     </>
   );
 }
