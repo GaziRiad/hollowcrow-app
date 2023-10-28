@@ -9,7 +9,7 @@ import Testimonials from "../components/Testimonials";
 
 import { homeFooter } from "../constants";
 
-import footerHomeIcon from "../assets/homePage/footerHomeIcon.png";
+import footerHomeIcon from "../assets/homeimgs/footerHomeIcon.png";
 
 function Landing() {
   return (
