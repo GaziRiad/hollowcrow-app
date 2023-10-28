@@ -14,11 +14,11 @@ import todolist from "../assets/sliders/To-do-list 1.png";
 import briefcase from "../assets/sliders/Brifecase 1.png";
 import achievement from "../assets/sliders/Education Icon2 1.png";
 
-import platformOverview from "../assets/HomePage/platform-overview.png";
+import platformOverview from "../assets/homePage/platform-overview.png";
 
-import footerIcon1 from "../assets/HomePage/footer-icon1.png";
-import footerIcon2 from "../assets/HomePage/footer-icon2.png";
-import footerIcon3 from "../assets/HomePage/footer-icon3.png";
+import footerIcon1 from "../assets/homePage/footer-icon1.png";
+import footerIcon2 from "../assets/homePage/footer-icon2.png";
+import footerIcon3 from "../assets/homePage/footer-icon3.png";
 
 export const navigations = [
   { text: "How it works", path: "" },
