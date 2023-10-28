@@ -7,7 +7,7 @@ function Static({ number, name }) {
       <p className="text-black-800 uppercase text-xl tracking-[5px] sm:tracking-[10px] sm:text-2xl">
         {name}
       </p>
-      <p className="text-primary text-5xl text-center absolute -z-10 top-[-35%] left-1/2 translate-x-[-50%] sm:text-7xl sm:top-[-60%]">
+      <div className="text-primary text-5xl text-center absolute -z-10 top-[-35%] left-1/2 translate-x-[-50%] sm:text-7xl sm:top-[-60%]">
         {isImageStat ? (
           <div className="flex flex-col">
             <span className=" mb-[-10px]">{displayedNum[0]}</span>
@@ -16,7 +16,7 @@ function Static({ number, name }) {
         ) : (
           displayedNum
         )}
-      </p>
+      </div>
     </div>
   );
 }

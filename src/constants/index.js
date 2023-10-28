@@ -14,6 +14,8 @@ import todolist from "../assets/sliders/To-do-list 1.png";
 import briefcase from "../assets/sliders/Brifecase 1.png";
 import achievement from "../assets/sliders/Education Icon2 1.png";
 
+import platformOverview from "../assets/HomePage/platform-overview.png";
+
 export const navigations = [
   { text: "How it works", path: "" },
   { text: "Industries", path: "" },
@@ -125,3 +127,30 @@ export const sliders = [
     ],
   },
 ];
+
+// PLATFORM-OVERVIEW
+export const platformDetails = {
+  sectionImg: platformOverview,
+  textContent: [
+    {
+      title: "Plug & Use",
+      text: "The moment you register and introduce your cameras to Holocrow, you start using the platform. All models of cameras & CCTVs can be connected. From the dedicated page for <strong>devices</strong>, you can easily view and control the connection status of the devices.",
+    },
+    {
+      title: "Alerts & Notifications",
+      text: "Instant alerts and notifications are of vital importance in the solutions you'll use, especially in the fields of workplace safety and security. <strong>Holocrow</strong> sends instant notifications to relevant departments in risky situations.",
+    },
+    {
+      title: "Visual Reports & Analytics",
+      text: "The collected data is automatically visualized and made as understandable and interpretable as possible. You can view all the reports and data on a weekly, monthly, yearly basis, or for a date range you determine.",
+    },
+    {
+      title: "Detailed Guides",
+      text: "While we take pride in creating the most user-friendly platform, you can find our guides, which will allow you to get instant answers to any questions that might arise, in the Help Center section whenever you want.",
+    },
+    {
+      title: "Helpdesk",
+      text: "If you have different questions that might come to your mind, you can immediately reach out to HelpDesk and get assistance from our expert team.",
+    },
+  ],
+};
