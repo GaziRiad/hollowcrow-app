@@ -16,6 +16,10 @@ import achievement from "../assets/sliders/Education Icon2 1.png";
 
 import platformOverview from "../assets/HomePage/platform-overview.png";
 
+import footerIcon1 from "../assets/HomePage/Footer-icon1.png";
+import footerIcon2 from "../assets/HomePage/Footer-icon2.png";
+import footerIcon3 from "../assets/HomePage/Footer-icon3.png";
+
 export const navigations = [
   { text: "How it works", path: "" },
   { text: "Industries", path: "" },
@@ -171,5 +175,20 @@ export const testimonials = [
   {
     id: 4,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+];
+
+export const homeFooter = [
+  {
+    icon: footerIcon1,
+    text: "No Installation",
+  },
+  {
+    icon: footerIcon2,
+    text: "Cancel Anytime",
+  },
+  {
+    icon: footerIcon3,
+    text: "7-Day Free Trial",
   },
 ];
