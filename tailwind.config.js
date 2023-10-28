@@ -10,6 +10,10 @@ export default {
       colors: {
         primary: "#FFB800",
         "black-800": "#161616",
+        "black-700": "#1E1E1E",
+      },
+      screens: {
+        "3xl": "1650px",
       },
     },
   },

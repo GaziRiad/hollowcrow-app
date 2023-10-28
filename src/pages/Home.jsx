@@ -1,6 +1,7 @@
 import Features from "../components/Features";
 import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
+import SlidersSection from "../components/SlidersSection";
 import Statics from "../components/Statics";
 
 function Landing() {
@@ -10,6 +11,7 @@ function Landing() {
       <Features />
       <Statics />
       <HowItWorks />
+      <SlidersSection />
     </>
   );
 }

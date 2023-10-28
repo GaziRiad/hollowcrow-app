@@ -2,7 +2,7 @@ function Heading({ type = "h1", color = "primary", children }) {
   if (type === "h1")
     return (
       <h1
-        className={`text-5xl text-center font-bold ${
+        className={`text-4xl text-center font-bold ${
           color ? `text-${color}` : "text-primary"
         } mb-14 md:text-6xl md:mb-20`}
       >
@@ -21,6 +21,20 @@ function Heading({ type = "h1", color = "primary", children }) {
       </h1>
     );
 
+  if (type === "h4")
+    return (
+      <h3 className="text-xl mb-4 text-center lg:text-left lg:text-2xl text-white font-semibold">
+        {children}
+      </h3>
+    );
+
+  if (type === "h3")
+    return (
+      <h3 className="text-3xl mb-6 text-center text-primary font-semibold mb-12">
+        {children}
+      </h3>
+    );
+
   if (type === "tag")
     return (
       <h1
@@ -28,13 +42,6 @@ function Heading({ type = "h1", color = "primary", children }) {
       >
         {children}
       </h1>
-    );
-
-  if (type === "h3")
-    return (
-      <h3 className="text-xl mb-4 text-center lg:text-left lg:text-2xl text-white font-semibold">
-        {children}
-      </h3>
     );
 }
 
