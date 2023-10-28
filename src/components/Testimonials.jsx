@@ -21,13 +21,13 @@ function Testimonials() {
   return (
     <section className="container mx-auto mb-44 ">
       <Heading>Testimonials</Heading>
-      <div className="flex flex-col items-center justify-left gap-8 px-4 lg:px-4 lg:gap-40 lg:flex-row  ">
-        <div className=" flex flex-wrap items-center w-full justify-center xl:w-2/4 ">
-          <img src={person1} className="lg:order-4" />
-          <img src={person2} className=" lg:order-3" />
-          <img src={person3} className="lg:order-2" />
-          <img src={person4} className="lg:order-1" />
-          <img src={person5} className="lg:order-0" />
+      <div className="flex flex-col items-center justify-left gap-2 px-4 lg:px-4 xl:gap-40 lg:flex-row  ">
+        <div className=" flex flex-wrap items-center sm:px-20 md:px-0  w-full justify-center xl:w-2/4 ">
+          <img src={person1} className=" w-28 md:w-32 lg:w-44 lg:order-4" />
+          <img src={person2} className=" w-28 md:w-32 lg:w-44 lg:order-3" />
+          <img src={person3} className=" w-28 md:w-32 lg:w-44 lg:order-2" />
+          <img src={person4} className=" w-28 md:w-32 lg:w-44 lg:order-1" />
+          <img src={person5} className=" w-28 md:w-32 lg:w-44 lg:order-0" />
         </div>
         <div className="w-full">
           <Swiper
