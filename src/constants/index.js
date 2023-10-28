@@ -14,7 +14,7 @@ import todolist from "../assets/sliders/To-do-list 1.png";
 import briefcase from "../assets/sliders/Brifecase 1.png";
 import achievement from "../assets/sliders/Education Icon2 1.png";
 
-// import platformOverview from "../assets/homeimgs/platform-overview.png";
+import platformOverview from "../assets/homeimgs/platform-overview.png";
 
 // import footerIcon1 from "../assets/homePage/footer-icon1.png";
 // import footerIcon2 from "../assets/homePage/footer-icon2.png";
