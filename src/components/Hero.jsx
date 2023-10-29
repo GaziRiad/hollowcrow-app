@@ -40,7 +40,7 @@ function Hero() {
         <span className="absolute top-[92%] ml-8 sm:ml-8 lg:left-[10%] ">
           <Socials />
         </span>
-        <div className="hidden absolute -bottom-[25%] right-0 w-80 opacity-95 md:block">
+        <div className="hidden absolute -bottom-[25%] right-0 w-80 md:block">
           <motion.img
             style={{ transformOrigin: "top" }}
             initial={{ scaleY: 1 }}
@@ -53,7 +53,7 @@ function Hero() {
             src={heropattern}
             className="z-10"
           />
-          <div className=" z-20 absolute top-1/2 -translate-y-[65%] px-10 pl-14 text-center">
+          <div className=" z-20 absolute top-1/2 -translate-y-[55%] px-10 pl-14 text-center">
             <Heading type="h4">Beyond Watching</Heading>
             <p className="text-white font-semibold mb-3">
               Predict, Protect, and Perform with AI
