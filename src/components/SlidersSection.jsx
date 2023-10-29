@@ -4,23 +4,30 @@ import Slider from "./Slider";
 import Link from "./Link";
 
 import useContent from "../hooks/useContent";
+import { motion } from "framer-motion";
 
 function SlidersSection() {
   const content = useContent();
 
   return (
-    <section className="mb-32 px-4 md:px-0">
-      <Heading>Empower Your CCTV:</Heading>
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, translateY: -100 }}
+      transition={{ duration: 0.8, translateY: "0%" }}
+      viewport={{ once: false }}
+      className="mb-32 px-4 md:px-0"
+    >
+      <Heading>{content.slidersSection.heading}</Heading>
       <HeadingDescription>
-        No Installation - Just Click and Use
+        {content.slidersSection.subHeading}
       </HeadingDescription>
 
-      {content.sliders.map((slider) => (
+      {content.slidersSection.sliders.map((slider) => (
         <Slider slider={slider} key={slider.heading} />
       ))}
 
       <Link>SOLUTIONS BY INDUSTRIES</Link>
-    </section>
+    </motion.section>
   );
 }
 

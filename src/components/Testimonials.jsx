@@ -17,12 +17,20 @@ import { Mousewheel, Pagination } from "swiper/modules";
 import { FaQuoteLeft } from "react-icons/fa6";
 import useContent from "../hooks/useContent";
 
+import { motion } from "framer-motion";
+
 function Testimonials() {
   const content = useContent();
 
   return (
-    <section className="container mx-auto mb-44 ">
-      <Heading>Testimonials</Heading>
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, translateY: -100 }}
+      transition={{ duration: 0.8, translateY: "0%" }}
+      viewport={{ once: false }}
+      className="container mx-auto mb-44 "
+    >
+      <Heading>{content.testimonialsSection.heading}</Heading>
       <div className="flex flex-col items-center justify-left gap-2 px-4 lg:px-4 xl:gap-40 lg:flex-row  ">
         <div className=" flex flex-wrap items-center sm:px-20 md:px-0  w-full justify-center xl:w-2/4 ">
           <img src={person1} className=" w-28 md:w-32 lg:w-44 lg:order-4" />
@@ -44,7 +52,7 @@ function Testimonials() {
             modules={[Mousewheel, Pagination]}
             className="mySwiperVertical h-80 "
           >
-            {content.testimonials.map((testimonial) => (
+            {content.testimonialsSection.testimonials.map((testimonial) => (
               <SwiperSlide
                 key={testimonial.id}
                 className="ml-8 flex items-center gap-6 lg:ml-12 2xl:ml-32 "
@@ -64,7 +72,7 @@ function Testimonials() {
           </Swiper>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

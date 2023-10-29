@@ -12,7 +12,7 @@ import Button from "./Button";
 function Hero() {
   return (
     <>
-      <section className="contrast-125 relative w-full h-screen cursor-pointer mb-32 ">
+      <section className="contrast-125 relative w-full h-screen cursor-pointer mb-44 ">
         <video
           className="w-full h-full object-cover object-center"
           muted

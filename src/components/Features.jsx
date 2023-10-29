@@ -1,23 +1,32 @@
+import useContent from "../hooks/useContent";
 import Feature from "./Feature";
 import Heading from "./Heading";
 
+import { motion } from "framer-motion";
+
 function Features() {
+  const content = useContent();
+
   return (
-    <section className="container mx-auto mb-28 px-4 md:px-0">
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1, translateY: -100 }}
+      transition={{ duration: 0.5, translateY: "0%" }}
+      className="container mx-auto mb-28 px-4 md:px-0"
+    >
       <Heading type="h1" color="primary">
-        Get better
+        {content.featuresSection.heading}
       </Heading>
       <div className="flex items-center justify-center gap-8 flex-wrap mb-10 xl:gap-20  ">
-        <Feature name="security" src="/images/security.png" />
-        <Feature name="safety" src="/images/safety.png" />
-        <Feature name="quality control" src="/images/quality-control.png" />
-        <Feature name="marketing" src="/images/marketing.png" />
+        {content.featuresSection.features.map((feature) => (
+          <Feature key={feature.name} name={feature.name} src={feature.icon} />
+        ))}
       </div>
 
       <p className="text-black-800 text-center text-lg font-normal">
-        by seamlessly integrating with existing cameras in facilities
+        {content.featuresSection.text}
       </p>
-    </section>
+    </motion.section>
   );
 }
 

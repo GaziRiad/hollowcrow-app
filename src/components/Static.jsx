@@ -1,9 +1,11 @@
+import { motion } from "framer-motion";
+
 function Static({ number, name }) {
   const isImageStat = number.includes("min");
   const displayedNum = isImageStat ? number.split(" ") : number;
 
   return (
-    <div className="font-bold relative">
+    <motion.div className="font-bold relative">
       <p className="text-black-800 uppercase text-xl tracking-[5px] sm:tracking-[10px] sm:text-2xl">
         {name}
       </p>
@@ -17,7 +19,7 @@ function Static({ number, name }) {
           displayedNum
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
 

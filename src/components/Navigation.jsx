@@ -7,6 +7,8 @@ import Button from "./Button";
 
 import useContent from "../hooks/useContent";
 
+import { motion } from "framer-motion";
+
 function Navigation() {
   const [navIsOpen, setNavIsOpen] = useState(false);
   const [displayLangs, setDisplayLangs] = useState(false);
@@ -102,7 +104,31 @@ function Navigation() {
             src="images/Holocrow-logo-white.png"
             styling="pt-12 pl-8 w-48"
           />
-          <ul className="text-white text-2xl flex flex-col items-center mt-44 gap-6 ">
+
+          <motion.ul
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            className="text-white text-2xl flex flex-col items-center mt-44 gap-6 "
+          >
+            <ul className="flex gap-3 text-black-800">
+              {content.navigation.languages.map((lang) => {
+                return (
+                  <li
+                    className={`${
+                      activeLanguage === lang.attribute ? "" : "opacity-50"
+                    }`}
+                    key={lang.attribute}
+                    onClick={() => {
+                      setActiveLanguage(lang.attribute);
+                      setDisplayLangs(false);
+                    }}
+                  >
+                    {lang.lang}
+                  </li>
+                );
+              })}
+            </ul>
             {content.navigation.links.map((nav) => (
               <NavLink key={nav.text}>
                 {/*  translate-x-0 origin-left hover:text-green-500 hover:translate-x-1 transition-all */}
@@ -111,7 +137,8 @@ function Navigation() {
                 </li>
               </NavLink>
             ))}
-          </ul>
+            <Button type="mobile-navigation">Login</Button>
+          </motion.ul>
         </div>
       )}
     </nav>

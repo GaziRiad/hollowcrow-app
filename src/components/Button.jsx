@@ -1,6 +1,16 @@
 import { motion } from "framer-motion";
 
 function Button({ children, type = "medium" }) {
+  if (type === "mobile-navigation")
+    return (
+      <motion.button
+        className={`rounded-full shadow-sm uppercase text-lg tracking-wide bg-white text-black-800 text-center font-secondary font-semibold px-6 py-1.5`}
+        whileTap={{ scale: 0.9 }}
+      >
+        {children}
+      </motion.button>
+    );
+
   if (type === "navigation")
     return (
       <motion.button
