@@ -9,8 +9,8 @@ function Navigation() {
   const [navIsOpen, setNavIsOpen] = useState(false);
 
   useEffect(() => {
-    if (navIsOpen) document.body.style.overflowY = "hidden";
-    else document.body.style.overflowY = "scroll";
+    if (navIsOpen) document.body.style.overflow = "hidden";
+    if (!navIsOpen) document.body.style.overflow = "auto";
   }, [navIsOpen]);
 
   return (
@@ -54,7 +54,7 @@ function Navigation() {
             initial={{ opacity: 0, x: "100%" }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "100%" }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.4 }}
             className={`absolute inset-0 h-screen z-10 bg-primary lg:hidden  `}
           >
             <Logo
