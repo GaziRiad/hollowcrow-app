@@ -2,6 +2,8 @@ import Button from "./Button";
 import Heading from "./Heading";
 import Link from "./Link";
 
+import { motion } from "framer-motion";
+
 function HowItWorks() {
   return (
     <section className="relative mb-32 px-4 bg-primary py-20 md:px-0">
@@ -22,14 +24,20 @@ function HowItWorks() {
               It&apos;s plug and play.
             </p>
           </div>
-          <img
+          <motion.img
+            initial={{ y: 200 }}
+            whileInView={{ y: 0 }}
+            transition={{ ease: "easeOut", duration: 0.5 }}
             src="images/how-it-work-main-1.png"
             className=" w-2/3 lg:w-1/2 mx-auto z-20"
           />
         </div>
         {/*  */}
         <div className="flex flex-col-reverse items-center gap-6 sm:gap-10 px-4 sm:px-12  lg:flex-row md:mb-28  xl:gap-36 lg:px-30 xl:px-44 mb-16">
-          <img
+          <motion.img
+            initial={{ y: 200 }}
+            whileInView={{ y: 0 }}
+            transition={{ ease: "easeOut", duration: 0.5 }}
             src="images/how-it-work-main-3.png"
             className=" w-2/3 lg:w-1/2 mx-auto z-20"
           />
@@ -50,7 +58,10 @@ function HowItWorks() {
               that simple!
             </p>
           </div>
-          <img
+          <motion.img
+            initial={{ y: 200 }}
+            whileInView={{ y: 0 }}
+            transition={{ ease: "easeOut", duration: 0.5 }}
             src="images/how-it-work-main-3.png"
             className=" w-2/3 lg:w-1/2 mx-auto z-20"
           />
@@ -62,7 +73,10 @@ function HowItWorks() {
       </div>
 
       {/* PATTERN */}
-      <img
+      <motion.img
+        initial={{ y: 200 }}
+        whileInView={{ y: 0 }}
+        transition={{ ease: "easeOut", duration: 0.5 }}
         src="images/how-it-work-pattern.png"
         className="absolute top-[10%] left-0 h-[75%] z-10 xl:top-[8%]"
       />
