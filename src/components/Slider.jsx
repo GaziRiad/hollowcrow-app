@@ -1,5 +1,4 @@
 import Heading from "./Heading";
-import { sliders } from "../constants";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";

@@ -1,10 +1,13 @@
 import Heading from "./Heading";
 import HeadingDescription from "./HeadingDescription";
 import Slider from "./Slider";
-import { sliders } from "../constants";
 import Link from "./Link";
 
+import useContent from "../hooks/useContent";
+
 function SlidersSection() {
+  const content = useContent();
+
   return (
     <section className="mb-32 px-4 md:px-0">
       <Heading>Empower Your CCTV:</Heading>
@@ -12,7 +15,7 @@ function SlidersSection() {
         No Installation - Just Click and Use
       </HeadingDescription>
 
-      {sliders.map((slider) => (
+      {content.sliders.map((slider) => (
         <Slider slider={slider} key={slider.heading} />
       ))}
 

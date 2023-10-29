@@ -19,7 +19,7 @@ function Hero() {
           type="video/mp4"
         ></video>
 
-        <header className="absolute top-0 w-full flex justify-between px-8 pt-12 items-center lg:justify-around lg:px-0 xl:top-[6vh]">
+        <header className="absolute top-0 w-full flex justify-between px-8 pt-12 items-center lg:justify-around lg:px-0 xl:top-[4vh]">
           <Logo />
           <Navigation />
         </header>

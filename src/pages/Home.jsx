@@ -10,8 +10,11 @@ import Testimonials from "../components/Testimonials";
 import { homeFooter } from "../constants";
 
 import footerHomeIcon from "../assets/homeimgs/footerHomeIcon.png";
+import useContent from "../hooks/useContent";
 
 function Landing() {
+  const content = useContent();
+
   return (
     <>
       <Hero />
@@ -24,7 +27,7 @@ function Landing() {
 
       <Footer icon={footerHomeIcon}>
         <div className="flex flex-wrap items-center justify-center gap-4 mb-6 md:mb-20 md:gap-10">
-          {homeFooter.map((el) => (
+          {content.homeFooter.map((el) => (
             <div
               key={el.text}
               className="flex flex-col items-center justify-center gap-2 md:gap-6"
