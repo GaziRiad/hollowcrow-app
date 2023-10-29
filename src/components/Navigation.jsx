@@ -13,11 +13,6 @@ function Navigation() {
     else document.body.style.overflowY = "scroll";
   }, [navIsOpen]);
 
-  const variants = {
-    visible: { opacity: 1, x: 0 },
-    hidden: { opacity: 0, x: window.innerWidth },
-  };
-
   return (
     <nav>
       <ul className="hidden text-white text-lg gap-8 lg:flex xl:text-xl">
@@ -56,11 +51,11 @@ function Navigation() {
       <AnimatePresence>
         {navIsOpen && (
           <motion.div
-            initial="hidden"
-            animate="visible"
-            transition={{ duration: 0.2 }}
-            variants={variants}
-            className={`absolute inset-0 h-screen z-10 bg-primary origin-left transition-all duration-500 lg:hidden `}
+            initial={{ opacity: 0, x: "100%" }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: "100%" }}
+            transition={{ duration: 0.6 }}
+            className={`absolute inset-0 h-screen z-10 bg-primary lg:hidden  `}
           >
             <Logo
               src="images/Holocrow-logo-white.png"
