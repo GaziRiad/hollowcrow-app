@@ -1,6 +1,4 @@
-import { platformDetails } from "../constants";
 import Heading from "./Heading";
-
 import useContent from "../hooks/useContent";
 
 function PlatformOverview() {
@@ -24,7 +22,7 @@ function PlatformOverview() {
           ))}
         </div>
         <img
-          src={platformDetails?.sectionImg}
+          src={content.platformDetails.sectionImg}
           className=" rounded-3xl shadow-lg lg:aspect-auto lg:h-1/2 lg:w-1/2"
         />
       </div>

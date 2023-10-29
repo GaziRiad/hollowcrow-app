@@ -15,9 +15,11 @@ import "swiper/css/pagination";
 // import required modules
 import { Mousewheel, Pagination } from "swiper/modules";
 import { FaQuoteLeft } from "react-icons/fa6";
-import { testimonials } from "../constants";
+import useContent from "../hooks/useContent";
 
 function Testimonials() {
+  const content = useContent();
+
   return (
     <section className="container mx-auto mb-44 ">
       <Heading>Testimonials</Heading>
@@ -42,7 +44,7 @@ function Testimonials() {
             modules={[Mousewheel, Pagination]}
             className="mySwiperVertical h-80 "
           >
-            {testimonials.map((testimonial) => (
+            {content.testimonials.map((testimonial) => (
               <SwiperSlide
                 key={testimonial.id}
                 className="ml-8 flex items-center gap-6 lg:ml-12 2xl:ml-32 "

@@ -68,7 +68,7 @@ function Navigation() {
           )}
         </ul>
 
-        <Button navigation={true}>Login</Button>
+        <Button type="navigation">Login</Button>
       </ul>
       {/* MOBILE MENU */}
       <div

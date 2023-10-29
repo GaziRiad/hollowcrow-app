@@ -21,19 +21,19 @@ function Heading({ type = "h1", color = "primary", style = "", children }) {
       </h1>
     );
 
-  if (type === "h4")
+  if (type === "h3")
     return (
       <h3
-        className={`text-xl mb-4 text-center lg:text-left lg:text-2xl text-white font-semibold ${style}`}
+        className={`text-3xl text-center text-primary font-semibold mb-12 ${style}`}
       >
         {children}
       </h3>
     );
 
-  if (type === "h3")
+  if (type === "h4")
     return (
       <h3
-        className={`text-3xl text-center text-primary font-semibold mb-12 ${style}`}
+        className={`text-xl mb-4 text-center lg:text-left lg:text-2xl text-white font-semibold ${style}`}
       >
         {children}
       </h3>

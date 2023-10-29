@@ -7,8 +7,6 @@ import SlidersSection from "../components/SlidersSection";
 import Statics from "../components/Statics";
 import Testimonials from "../components/Testimonials";
 
-import { homeFooter } from "../constants";
-
 import footerHomeIcon from "../assets/homeimgs/footerHomeIcon.png";
 import useContent from "../hooks/useContent";
 
