@@ -10,6 +10,25 @@ html {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgb(75, 85, 99, 0.2);
+  border-radius: 100vw;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 184, 1);
+  border-radius: 100vw;
+}
+/* 
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background: rgba(255, 184, 0.6);
+} */
+
 .mySwiper {
   --swiper-navigation-size: 32px;
   --swiper-navigation-top-offset: 40%;
