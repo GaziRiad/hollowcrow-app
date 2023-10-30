@@ -11,6 +11,17 @@ import safetyIcon from "../assets/HowItWorksPage/safety-icon.png";
 import marketingIcon from "../assets/HowItWorksPage/marketing-icon.png";
 import controlIcon from "../assets/HowItWorksPage/quality-control-icon.png";
 
+// Companies logos
+import company1 from "../assets/HowItWorksPage/companies/image1.png";
+import company2 from "../assets/HowItWorksPage/companies/image2.png";
+import company3 from "../assets/HowItWorksPage/companies/image3.png";
+import company4 from "../assets/HowItWorksPage/companies/image4.png";
+import company5 from "../assets/HowItWorksPage/companies/image5.png";
+import company6 from "../assets/HowItWorksPage/companies/image6.png";
+import company7 from "../assets/HowItWorksPage/companies/image7.png";
+import company8 from "../assets/HowItWorksPage/companies/image8.png";
+import company9 from "../assets/HowItWorksPage/companies/image9.png";
+
 export const en = {
   navigation: {
     links: [
@@ -103,6 +114,21 @@ export const en = {
       ],
     },
   ],
+
+  trustedBySection: {
+    heading: "We make them see the beyond.",
+    companies: [
+      company1,
+      company2,
+      company3,
+      company4,
+      company5,
+      company6,
+      company7,
+      company8,
+      company9,
+    ],
+  },
 };
 
 ///////////////////////////////////////////
@@ -201,4 +227,18 @@ export const tr = {
       ],
     },
   ],
+  trustedBySection: {
+    heading: "Ötesini görmelerini sağlıyoruz.",
+    companies: [
+      company1,
+      company2,
+      company3,
+      company4,
+      company5,
+      company6,
+      company7,
+      company8,
+      company9,
+    ],
+  },
 };
