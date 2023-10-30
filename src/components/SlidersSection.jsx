@@ -3,11 +3,11 @@ import HeadingDescription from "./HeadingDescription";
 import Slider from "./Slider";
 import Link from "./Link";
 
-import useContent from "../hooks/useContent";
+import useContentHome from "../hooks/useContentHome";
 import { motion } from "framer-motion";
 
 function SlidersSection() {
-  const content = useContent();
+  const content = useContentHome();
 
   return (
     <motion.section

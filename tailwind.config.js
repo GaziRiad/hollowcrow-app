@@ -11,6 +11,7 @@ export default {
         primary: "#FFB800",
         "black-800": "#161616",
         "black-700": "#1E1E1E",
+        "black-400": "#A0A6B5",
       },
       screens: {
         "3xl": "1650px",

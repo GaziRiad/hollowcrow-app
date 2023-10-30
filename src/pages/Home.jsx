@@ -1,6 +1,6 @@
 import Features from "../components/Features";
 import Footer from "../components/Footer";
-import Hero from "../components/Hero";
+import HeroMain from "../components/HeroMain";
 import HowItWorks from "../components/HowItWorks";
 import PlatformOverview from "../components/PlatformOverview";
 import SlidersSection from "../components/SlidersSection";
@@ -8,14 +8,14 @@ import Statics from "../components/Statics";
 import Testimonials from "../components/Testimonials";
 
 import footerHomeIcon from "../assets/homeimgs/footerHomeIcon.png";
-import useContent from "../hooks/useContent";
+import useContentHome from "../hooks/useContentHome";
 
 function Landing() {
-  const content = useContent();
+  const content = useContentHome();
 
   return (
     <>
-      <Hero />
+      <HeroMain />
       <Features />
       <Statics />
       <HowItWorks />

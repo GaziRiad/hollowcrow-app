@@ -1,11 +1,11 @@
 import { useLanguage } from "../contexts/LanguageContext";
-import { en } from "../constants/index";
-import { tr } from "../constants/index";
+import { en } from "../constants/HowItWorks";
+import { tr } from "../constants/HowItWorks";
 
-function useContent() {
+function useContentHowItWorks() {
   const { activeLanguage } = useLanguage();
   const content = activeLanguage === "tr" ? tr : en;
   return content;
 }
 
-export default useContent;
+export default useContentHowItWorks;

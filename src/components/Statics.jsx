@@ -1,9 +1,9 @@
-import useContent from "../hooks/useContent";
+import useContentHome from "../hooks/useContentHome";
 import Heading from "./Heading";
 import Static from "./Static";
 
 function Statics() {
-  const content = useContent();
+  const content = useContentHome();
 
   return (
     <section className="container mx-auto mb-64 px-4 md:px-0">

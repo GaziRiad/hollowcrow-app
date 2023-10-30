@@ -1,11 +1,11 @@
-import useContent from "../hooks/useContent";
+import useContentHome from "../hooks/useContentHome";
 import Feature from "./Feature";
 import Heading from "./Heading";
 
 import { motion } from "framer-motion";
 
 function Features() {
-  const content = useContent();
+  const content = useContentHome();
 
   ////////////////////////
 

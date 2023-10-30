@@ -97,32 +97,16 @@ body::-webkit-scrollbar-thumb {
   --swiper-pagination-bullet-height: 16px;
   --swiper-pagination-bullet-vertical-gap: 24px;
 }
-/* 
-@media (min-width: 1024) {
-  .mySwiperVertical .swiper-pagination {
-    left: 0;
-    margin-right: 220px;
-    --swiper-pagination-bullet-inactive-color: #fff;
-    --swiper-pagination-bullet-inactive-opacity: 1;
-    --swiper-pagination-color: #ffb800;
-    --swiper-pagination-bullet-size: 16px;
-    --swiper-pagination-bullet-width: 16px;
-    --swiper-pagination-bullet-height: 16px;
-    --swiper-pagination-bullet-vertical-gap: 24px;
-  }
-} */
-
-/* @media (min-width: 768) {
-  .mySwiperVertical .swiper-pagination {
-    margin-right: 0px;
-  }
-}
-@media (min-width: 200) {
-  .mySwiperVertical .swiper-pagination {
-    margin-right: 0px;
-  }
-} */
 
 .mySwiperVertical .swiper-pagination-bullet {
   border: 2px solid #ffb800; /* Set bullet border color */
+}
+
+/* HOW IT WORKS */
+.hero {
+  height: 100vh;
+  background-image: url("./assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }

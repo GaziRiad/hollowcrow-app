@@ -5,11 +5,9 @@ import { useLanguage } from "../contexts/LanguageContext";
 import { FaChevronDown } from "react-icons/fa6";
 import Button from "./Button";
 
-import useContent from "../hooks/useContent";
-
 import { motion } from "framer-motion";
 
-function Navigation() {
+function Navigation({ textColor = "white", content }) {
   const [navIsOpen, setNavIsOpen] = useState(false);
   const [displayLangs, setDisplayLangs] = useState(false);
 
@@ -20,13 +18,15 @@ function Navigation() {
     if (!navIsOpen) document.body.style.overflow = "auto";
   }, [navIsOpen]);
 
-  const content = useContent();
-
   return (
     <nav>
-      <ul className="hidden text-white text-lg gap-8 items-center justify-center lg:flex xl:text-xl relative">
+      <ul
+        className={`hidden ${
+          textColor ? " text-slate-600" : "text-white"
+        } gap-4 items-center justify-center lg:flex xl:gap-8 xl:text-xl relative`}
+      >
         {content.navigation.links.map((nav) => (
-          <NavLink key={nav.text}>
+          <NavLink key={nav.text} to={nav.path}>
             <li className="cursor-pointer translate-x-0 origin-left hover:text-green-500 hover:translate-x-1 transition-all">
               {nav.text}
             </li>
@@ -130,7 +130,7 @@ function Navigation() {
               })}
             </ul>
             {content.navigation.links.map((nav) => (
-              <NavLink key={nav.text}>
+              <NavLink key={nav.text} to={nav.path}>
                 {/*  translate-x-0 origin-left hover:text-green-500 hover:translate-x-1 transition-all */}
                 <li className="cursor-pointer hover:text-green-500 hover:translate-x-1 transition-all">
                   {nav.text}

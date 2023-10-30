@@ -1,19 +1,19 @@
 // sliders imgs
-import danger from "../assets/sliders/Dangeruos 1.png";
-import certeficate from "../assets/sliders/Certificate 1.png";
-import construction from "../assets/sliders/Under Contruction 1.png";
+import danger from "../assets/icons/Dangeruos 1.png";
+import certeficate from "../assets/icons/Certificate 1.png";
+import construction from "../assets/icons/Under Contruction 1.png";
 
-import enginner from "../assets/sliders/Enginerr 1.png";
-import jackhammer from "../assets/sliders/Jackhammer  1.png";
-import workingMan from "../assets/sliders/man 6.png";
+import enginner from "../assets/icons/Enginerr 1.png";
+import jackhammer from "../assets/icons/Jackhammer  1.png";
+import workingMan from "../assets/icons/man 6.png";
 
-import structure from "../assets/sliders/Structur 1.png";
-import management from "../assets/sliders/Tablet-Management 1.png";
-import education from "../assets/sliders/Education Icon9 1.png";
+import structure from "../assets/icons/Structur 1.png";
+import management from "../assets/icons/Tablet-Management 1.png";
+import education from "../assets/icons/Education Icon9 1.png";
 
-import todolist from "../assets/sliders/To-do-list 1.png";
-import briefcase from "../assets/sliders/Brifecase 1.png";
-import achievement from "../assets/sliders/Education Icon2 1.png";
+import todolist from "../assets/icons/To-do-list 1.png";
+import briefcase from "../assets/icons/Brifecase 1.png";
+import achievement from "../assets/icons/Education Icon2 1.png";
 ///////////
 
 // Features images
@@ -25,10 +25,10 @@ import feature4 from "../assets/features/marketing.png";
 ///////////////
 
 // How It Works images
-import step1 from "../assets/howItWorks/how-it-work-main-1.png";
-import step2 from "../assets/howItWorks/how-it-work-main-3.png";
-import step3 from "../assets/howItWorks/how-it-work-main-3.png";
-import HowItWorksPattern from "../assets/howItWorks/how-it-work-pattern.png";
+import step1 from "../assets/homeimgs/how-it-work-main-1.png";
+import step3 from "../assets/homeimgs/how-it-work-main-3.png";
+import step2 from "../assets/homeimgs/how-it-work-main-3.png";
+import HowItWorksPattern from "../assets/homeimgs/how-it-work-pattern.png";
 
 // import step1 from "../"
 
@@ -47,7 +47,7 @@ import footerIcon3 from "../assets/homeimgs/footer-icon3.png";
 export const en = {
   navigation: {
     links: [
-      { text: "How it works", path: "" },
+      { text: "How it works", path: "/HowItWorks" },
       { text: "Industries", path: "" },
       { text: "Solutions", path: "" },
       { text: "Success Stories", path: "" },
@@ -296,7 +296,7 @@ export const en = {
 export const tr = {
   navigation: {
     links: [
-      { text: "Nasıl çalışır", path: "" },
+      { text: "Nasıl çalışır", path: "/HowItWorks" },
       { text: "Endüstriler", path: "" },
       { text: "Solutions", path: "" },
       { text: "Çözümler", path: "" },

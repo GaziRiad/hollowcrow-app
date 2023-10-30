@@ -1,10 +1,10 @@
 import Heading from "./Heading";
-import useContent from "../hooks/useContent";
+import useContentHome from "../hooks/useContentHome";
 
 import { motion } from "framer-motion";
 
 function PlatformOverview() {
-  const content = useContent();
+  const content = useContentHome();
 
   return (
     <motion.section

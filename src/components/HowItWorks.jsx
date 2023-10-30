@@ -1,4 +1,4 @@
-import useContent from "../hooks/useContent";
+import useContentHome from "../hooks/useContentHome";
 import Button from "./Button";
 import Heading from "./Heading";
 import Link from "./Link";
@@ -6,7 +6,7 @@ import Link from "./Link";
 import { motion } from "framer-motion";
 
 function HowItWorks() {
-  const content = useContent();
+  const content = useContentHome();
 
   return (
     <motion.section
