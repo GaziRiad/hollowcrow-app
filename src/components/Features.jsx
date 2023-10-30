@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 function Features() {
   const content = useContent();
 
+  ////////////////////////
+
   return (
     <motion.section
       initial={{ opacity: 0 }}

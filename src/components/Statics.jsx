@@ -6,7 +6,7 @@ function Statics() {
   const content = useContent();
 
   return (
-    <section className="container mx-auto mb-44 px-4 md:px-0">
+    <section className="container mx-auto mb-64 px-4 md:px-0">
       <Heading type="tag">#EmpoweredbyAI</Heading>
       <div className="flex flex-col items-center justify-center gap-28 lg:flex-row lg:flex-wrap lg:gap-40">
         {content.statics.map((stat) => (

@@ -23,6 +23,7 @@ body::-webkit-scrollbar-thumb {
   background: rgba(255, 184, 1);
   border-radius: 100vw;
 }
+
 /* 
 ::-webkit-scrollbar-thumb:hover,
 ::-webkit-scrollbar-thumb:active {

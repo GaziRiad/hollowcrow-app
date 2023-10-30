@@ -1,11 +1,44 @@
 import { motion } from "framer-motion";
+import { useRef } from "react";
 
 function Feature({ src, name }) {
+  const imageRef = useRef(null);
+
+  const handleMouseMove = (e) => {
+    const image = imageRef.current;
+    if (!image) return;
+
+    const sensitivityFactor = 0.7; // Adjust as needed
+
+    const rect = image.getBoundingClientRect();
+    const offsetX = (e.clientX - rect.left) / rect.width - 0.5;
+    const offsetY = (e.clientY - rect.top) / rect.height - 0.5;
+
+    const x = offsetX * sensitivityFactor * 100;
+    const y = offsetY * sensitivityFactor * 100;
+
+    image.style.transform = `translate(${x}px, ${y}px)`;
+  };
+
+  const handleMouseLeave = () => {
+    const image = imageRef.current;
+    if (!image) return;
+
+    image.style.transform = "translate(0, 0)";
+  };
+
   return (
-    <div className="w-52 flex flex-col items-center justify-center gap-5 ">
+    <div
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      className="w-52 flex flex-col items-center justify-center gap-5 "
+    >
       <motion.img
-        initial={{ opacity: 0.8, scale: 1 }}
-        whileHover={{ opacity: 1, scale: 1.2 }}
+        // data-title={name}
+        ref={imageRef}
+        // initial={{ opacity: 0.8, scale: 1 }}
+        // whileHover={{ opacity: 1, scale: 1.2 }}
+        // whileHover={{ scale: 1.1 }}
         src={src}
         className="w-32 md:w-40"
       />

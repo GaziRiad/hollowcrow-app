@@ -40,7 +40,7 @@ function Hero() {
         <span className="absolute top-[92%] ml-8 sm:ml-8 lg:left-[10%] ">
           <Socials />
         </span>
-        <div className="hidden absolute -bottom-[25%] right-0 w-80 md:block">
+        <div className="hidden absolute -bottom-[18%] right-0 w-80 md:block">
           <motion.img
             style={{ transformOrigin: "top" }}
             initial={{ scaleY: 1 }}

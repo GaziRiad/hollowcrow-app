@@ -70,7 +70,7 @@ export const en = {
       },
       {
         icon: feature2,
-        name: "Workplace Safety",
+        name: "Workplace-Safety",
       },
       {
         icon: feature3,
@@ -78,7 +78,8 @@ export const en = {
       },
       {
         icon: feature4,
-        name: "Sales & Marketing",
+        // name: "Sales & Marketing",
+        name: "Sales-Marketing",
       },
     ],
   },
