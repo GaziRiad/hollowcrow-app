@@ -1,8 +1,11 @@
 import CardsSection from "../components/CardsSection";
+import Footer from "../components/Footer";
 import Heading from "../components/Heading";
 import Hero from "../components/Hero";
 import HowDoesItWork from "../components/HowDoesItWork";
 import useContentHowItWorks from "../hooks/useContentHowItWorks";
+
+import footerImg from "../assets/HowItWorksPage/footer-img.png";
 
 function HowItWorks() {
   const content = useContentHowItWorks();
@@ -17,6 +20,7 @@ function HowItWorks() {
       <HowDoesItWork />
       <Heading type="tag">#BeyondWatching</Heading>
       <CardsSection />
+      <Footer icon={footerImg} type="normal" />
     </>
   );
 }

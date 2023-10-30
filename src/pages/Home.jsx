@@ -23,7 +23,7 @@ function Landing() {
       <PlatformOverview />
       <Testimonials />
 
-      <Footer icon={footerHomeIcon}>
+      <Footer icon={footerHomeIcon} type="home">
         <div className="flex flex-wrap items-center justify-center gap-4 mb-6 md:mb-20 md:gap-10">
           {content.homeFooter.map((el) => (
             <div

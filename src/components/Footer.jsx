@@ -3,7 +3,7 @@ import Button from "./Button";
 
 import { motion, useScroll } from "framer-motion";
 
-function Footer({ children, icon, btn = "get started", btnPath }) {
+function Footer({ children, icon, btn = "get started", type = "normal" }) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -19,9 +19,17 @@ function Footer({ children, icon, btn = "get started", btnPath }) {
       >
         <footer className="flex flex-col items-center justify-center relative ">
           {children}
-          <div className="relative mb-4 lg:mb-10 z-20">
+          <div
+            className={`relative mb-4 z-20 ${
+              type === "home" ? "lg:mb-10" : ""
+            }`}
+          >
             <img src={icon} className=" scale-75 lg:scale-95 " />
-            <p className="absolute top-[40%] left-1/2 translate-x-[-50%] z-10 lg:text-2xl font-bold">
+            <p
+              className={`absolute ${
+                type === "home" ? "top-[40%]" : "top-[55%]"
+              } left-1/2 translate-x-[-50%] z-10 lg:text-2xl font-bold`}
+            >
               #BeyondWatching
             </p>
           </div>
