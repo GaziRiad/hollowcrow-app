@@ -6,6 +6,11 @@ import protectiveCloth from "../assets/icons/Protective Cloth 1.png";
 import construction from "../assets/icons/Under Contruction 1.png";
 import structure from "../assets/icons/Structur 1.png";
 
+import securityIcon from "../assets/HowItWorksPage/security-icon.png";
+import safetyIcon from "../assets/HowItWorksPage/safety-icon.png";
+import marketingIcon from "../assets/HowItWorksPage/marketing-icon.png";
+import controlIcon from "../assets/HowItWorksPage/quality-control-icon.png";
+
 export const en = {
   navigation: {
     links: [
@@ -41,6 +46,63 @@ export const en = {
       { icon: structure, text: "Visitor Counting" },
     ],
   },
+
+  cardsSection: [
+    {
+      icon: securityIcon,
+      title: "Security",
+      options: [
+        "Restricted Area Control",
+        "Vehicle Identification",
+        "Suspicious Item Detection",
+        "Crowd Analysis",
+        "Facial Recognition",
+        "Behavioral Analysis",
+        "Surveillance & Real-time Analysis",
+      ],
+    },
+    {
+      icon: safetyIcon,
+      title: "Safety",
+      options: [
+        "PPE",
+        "Housekeeping",
+        "Workplace Safety",
+        "Machine Interactions",
+        "Pedestrian Path",
+        "Ergonomy Control",
+        "Handrail Usage",
+        "Area Controls",
+        "Vehicle Control",
+        "Man-down Detection",
+      ],
+    },
+    {
+      icon: marketingIcon,
+      title: "Marketing",
+      options: [
+        "Sales & Marketing",
+        "Demographic Targeting",
+        "A/B Testing",
+        "Heatmap & Footfall",
+        "Product Engagement Analysis",
+        "Inventory & Stock Control",
+      ],
+    },
+    {
+      icon: controlIcon,
+      title: "Quality Control",
+      options: [
+        "Stock Controls",
+        "Efficiency",
+        "Patterns & Colours Check",
+        "Operational Excellence",
+        "Staff Efficiency Analysis",
+        "Operational Excellence",
+        "Packaging Control",
+      ],
+    },
+  ],
 };
 
 ///////////////////////////////////////////
@@ -83,4 +145,60 @@ export const tr = {
       { icon: structure, text: "Ziyaretçi Sayma" },
     ],
   },
+  cardsSection: [
+    {
+      icon: securityIcon,
+      title: "Güvenlik",
+      options: [
+        "Kısıtlı Alan Kontrolü",
+        "Ruhsat",
+        "Şüpheli Öğe Tespiti",
+        "Kalabalık Analizi",
+        "Yüz tanıma",
+        "Davranış Analizi",
+        "Gözetim ve Gerçek Zamanlı Analiz",
+      ],
+    },
+    {
+      icon: safetyIcon,
+      title: "Emniyet",
+      options: [
+        "KKD",
+        "Temizlik",
+        "İşyeri güvenliği",
+        "Makine Etkileşimleri",
+        "Yaya yolu",
+        "Ergonomi Kontrolü",
+        "Küpeşte Kullanımı",
+        "Alan Kontrolleri",
+        "Araç kontrol",
+        "Adam Düşmesi Tespiti",
+      ],
+    },
+    {
+      icon: marketingIcon,
+      title: "Pazarlama",
+      options: [
+        "Satış ve Pazarlama",
+        "Demografik Hedefleme",
+        "A/B Testi",
+        "Isı Haritası ve Yaya Sayısı",
+        "Ürün Etkileşim Analizi",
+        "Envanter ve Stok Kontrolü",
+      ],
+    },
+    {
+      icon: controlIcon,
+      title: "Kalite kontrol",
+      options: [
+        "Stok Kontrolleri",
+        "Yeterlik",
+        "Desen ve Renk Kontrolü",
+        "Operasyonel mükemmellik",
+        "Personel Verimliliği Analizi",
+        "Operasyonel mükemmellik",
+        "Paketleme Kontrolü",
+      ],
+    },
+  ],
 };
