@@ -14,7 +14,7 @@ function Features() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, translateY: -100 }}
       transition={{ duration: 0.5, translateY: "0%" }}
-      className="container mx-auto mb-28 px-4 md:px-0"
+      className="container mx-auto mb-8 px-4 md:px-0"
     >
       <Heading type="h1" color="primary">
         {content.featuresSection.heading}
