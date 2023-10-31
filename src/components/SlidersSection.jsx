@@ -15,7 +15,7 @@ function SlidersSection() {
       whileInView={{ opacity: 1, translateY: -100 }}
       transition={{ duration: 0.8, translateY: "0%" }}
       viewport={{ once: false }}
-      className="mb-32 px-4 md:px-0"
+      className="container mx-auto mb-32 px-4 md:px-0"
     >
       <Heading>{content.slidersSection.heading}</Heading>
       <HeadingDescription>

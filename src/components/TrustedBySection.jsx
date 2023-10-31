@@ -12,7 +12,7 @@ function TrustedBySection() {
           <img
             key={company}
             src={company}
-            className=" w-20 h-20 lg:w-40 lg:h-40"
+            className=" w-20 h-20 lg:w-28 lg:h-28"
           />
         ))}
       </div>

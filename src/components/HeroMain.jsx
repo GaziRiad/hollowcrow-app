@@ -15,7 +15,7 @@ function HeroMain() {
 
   return (
     <>
-      <section className="contrast-125 relative w-full h-screen cursor-pointer mb-44 ">
+      <section className="contrast-125 relative w-full h-screen cursor-pointer mb-8 lg:mb-44 ">
         <video
           className="w-full h-full object-cover object-center"
           muted
@@ -32,7 +32,7 @@ function HeroMain() {
         </header>
 
         {/* VID OVERLAY */}
-        <div className="absolute top-[25%] left-1/2 translate-x-[-50%] flex flex-col gap-8 text-white text-4xl items-center font-extrabold lg:top-[40%] lg:translate-x-[-60%] xl:translate-x-[-50%] xl:gap-28  xl:text-7xl lg:flex-row">
+        <div className="absolute top-[25%] left-1/2 translate-x-[-50%] flex flex-col gap-8 text-white text-4xl items-center font-extrabold lg:top-[40%] lg:translate-x-[-60%] xl:translate-x-[-50%] xl:gap-28  xl:text-6xl 2xl:text-7xl lg:flex-row">
           <p>Beyond</p>
           <img src="/images/camera-vector.png" className="w-20 lg:w-32" />
           <p className=" opacity-50">Watching</p>
