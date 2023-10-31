@@ -4,7 +4,7 @@ import useContentHowItWorks from "../hooks/useContentHowItWorks";
 function HowDoesItWork() {
   const content = useContentHowItWorks();
   return (
-    <div className="container mx-auto mb-14 lg:mb-44">
+    <div className="container mx-auto mb-14 lg:mb-36">
       <Heading>{content.howDoesItWorkSection.heading}</Heading>
 
       <div className="flex items-center justify-center flex-col px-10 gap-10 lg:px-0 lg:flex-row lg:gap-16 2xl:gap-36">
