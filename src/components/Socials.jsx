@@ -9,7 +9,7 @@ import {
 function Socials() {
   return (
     <div className="text-white gap-8 flex items-center relative font-secondary font-semibold sm:gap-24">
-      <p className="after:h-0.5 after:w-6  after:bg-white after:absolute after:top-3 after:left-36 sm:after:w-12">
+      <p className="after:h-0.5 after:w-6  after:bg-white after:absolute after:top-3 after:left-36 sm:after:w-12 sm:after:left-40">
         Follow Holocrow
       </p>
       <ul className="flex gap-4 items-center">
