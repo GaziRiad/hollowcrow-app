@@ -49,6 +49,10 @@ function Testimonials() {
               clickable: true,
             }}
             loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
             modules={[Mousewheel, Pagination]}
             className="mySwiperVertical h-80 "
           >

@@ -16,14 +16,14 @@ function Industries() {
       <section className="container mx-auto mb-12 px-10 lg:px-0 lg:mb-32">
         <Heading>{content.firstSection.heading}</Heading>
 
-        <div className="flex items-start justify-center flex-col gap-12 md:flex-row md:flex-wrap lg:gap-8 2xl:gap-12">
+        <div className="flex items-start justify-center flex-col gap-12 md:flex-row md:flex-wrap lg:gap-10 2xl:gap-12">
           {content.firstSection.content.map((el) => (
-            <div key={el.title} className="lg:max-w-md xl:max-w-lg">
-              <img src={el.img} className="rounded-2xl mb-6" />
-              <p className="font-semibold mb-2 text-black-800 text-xl lg:text-2xl">
+            <div key={el.title} className="lg:max-w-md 2xl:max-w-lg">
+              <img src={el.img} className="rounded-2xl mb-6 w-[95%]" />
+              <p className="font-semibold mb-2 text-black-800 text-xl 2xl:text-2xl">
                 {el.title}
               </p>
-              <p className="text-lg text-black-800 lg:text-xl">{el.text}</p>
+              <p className="text-lg text-black-800 2xl:text-xl">{el.text}</p>
             </div>
           ))}
         </div>
@@ -35,7 +35,7 @@ function Industries() {
         </Heading>
 
         <div className="flex items-center justify-center flex-col gap-8 lg:flex-row lg:gap-12 xl:gap-32">
-          <p className="text-xl text-center leading-relaxed lg:text-left lg:text-2xl">
+          <p className="text-xl text-center leading-relaxed lg:text-left lg:text-xl 2xl:text-2xl">
             {content.thirdSection.content.text}
           </p>
           <img

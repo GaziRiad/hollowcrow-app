@@ -20,7 +20,7 @@ function HowItWorks() {
       </div>
       <HowDoesItWork />
       <Heading type="tag">#BeyondWatching</Heading>
-      {/* <CardsSection /> */}
+      <CardsSection />
       <TrustedBySection />
       <Footer icon={footerImg} type="normal" />
     </>
