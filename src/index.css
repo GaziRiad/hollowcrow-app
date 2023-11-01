@@ -112,8 +112,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .industrySwiper {
-  margin-right: 0;
-  margin-left: 15%;
+  margin-left: 8%;
+}
+
+@media (min-width: 768px) {
+  .industrySwiper {
+    margin-right: 0;
+    margin-left: 15%;
+  }
 }
 
 .industrySwiper .swiper-pagination {

@@ -8,13 +8,32 @@ import Button from "./Button";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
 import useContentHowItWorks from "../hooks/useContentHowItWorks";
+import { useState } from "react";
 
 function Hero() {
   const content = useContentHowItWorks();
 
+  // Make nav sticky when scrolling
+  const [sticky, setSticky] = useState(false);
+  const heroHeight = document
+    .getElementById("hero")
+    ?.getBoundingClientRect().height;
+
+  function changeSticky() {
+    if (window.scrollY >= heroHeight) {
+      setSticky(true);
+    } else setSticky(false);
+  }
+  document.addEventListener("scroll", changeSticky);
+
   return (
-    <section className="hero relative lg:mb-32">
-      <header className="absolute top-0 w-full flex justify-between px-8 pt-12 items-center lg:justify-around lg:px-0 xl:top-[4vh]">
+    <section id="hero" className="hero relative lg:mb-32">
+      {/* <header className=" absolute top-0 w-full flex justify-between px-8 py-12 items-center lg:justify-around lg:px-0 xl:top-[4vh]"> */}
+      <header
+        className={`bg-white z-50 top-0 shadow-xl w-full flex justify-between px-8 py-12 items-center lg:justify-around lg:px-0 ${
+          sticky ? "fixed" : "absolute"
+        }`}
+      >
         <Logo />
         <Navigation content={content} />
       </header>
