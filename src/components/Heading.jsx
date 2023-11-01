@@ -12,13 +12,13 @@ function Heading({ type = "h1", color = "primary", style = "", children }) {
 
   if (type === "h2")
     return (
-      <h1
+      <h2
         className={`text-3xl text-center font-bold ${
           color ? `text-${color}` : "text-primary"
         } mb-10 md:text-5xl md:mb-16 lg:mb-20 xl:mb-24 ${style}`}
       >
         {children}
-      </h1>
+      </h2>
     );
 
   if (type === "h3")

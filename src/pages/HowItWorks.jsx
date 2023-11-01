@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 import HowDoesItWork from "../components/HowDoesItWork";
 import useContentHowItWorks from "../hooks/useContentHowItWorks";
 
-import footerImg from "../assets/HowItWorksPage/footer-img.png";
+import footerImg from "../assets/footer-img.png";
 import TrustedBySection from "../components/TrustedBySection";
 
 function HowItWorks() {

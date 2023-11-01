@@ -25,8 +25,8 @@ import company9 from "../assets/HowItWorksPage/companies/image9.png";
 export const en = {
   navigation: {
     links: [
-      { text: "How it works", path: "/HowItWorks" },
-      { text: "Industries", path: "" },
+      { text: "How it works", path: "/howItWorks" },
+      { text: "Industries", path: "/industries" },
       { text: "Solutions", path: "" },
       { text: "Success Stories", path: "" },
       { text: "About Us", path: "" },
@@ -139,8 +139,8 @@ export const en = {
 export const tr = {
   navigation: {
     links: [
-      { text: "Nasıl çalışır", path: "/HowItWorks" },
-      { text: "Endüstriler", path: "" },
+      { text: "Nasıl çalışır", path: "/howItWorks" },
+      { text: "Endüstriler", path: "/industries" },
       { text: "Solutions", path: "" },
       { text: "Çözümler", path: "" },
       { text: "Hakkımızda", path: "" },

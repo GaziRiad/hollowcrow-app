@@ -110,3 +110,25 @@ body::-webkit-scrollbar-thumb {
   background-position: center;
   background-size: contain;
 }
+
+.industrySwiper {
+  margin-right: 0;
+  margin-left: 15%;
+}
+
+.industrySwiper .swiper-pagination {
+  width: auto;
+  left: 0;
+  bottom: 0;
+  --swiper-pagination-bullet-inactive-color: #fff;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-pagination-color: #ffb800;
+  --swiper-pagination-bullet-size: 12px;
+  --swiper-pagination-bullet-width: 12px;
+  --swiper-pagination-bullet-height: 12px;
+  --swiper-pagination-bullet-vertical-gap: 24px;
+}
+
+.industrySwiper .swiper-pagination-bullet {
+  border: 2px solid #ffb800; /* Set bullet border color */
+}
