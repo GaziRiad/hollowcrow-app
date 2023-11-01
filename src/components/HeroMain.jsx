@@ -42,7 +42,6 @@ function HeroMain() {
         type="video/mp4"
       ></video>
 
-      {/* <header className=" bg-white fixed top-0 w-full flex justify-between px-10 py-12  items-center lg:justify-around lg:px-0"> */}
       <header
         className={`${
           sticky

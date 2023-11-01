@@ -28,7 +28,6 @@ function Hero() {
 
   return (
     <section id="hero" className="hero relative lg:mb-32">
-      {/* <header className=" absolute top-0 w-full flex justify-between px-8 py-12 items-center lg:justify-around lg:px-0 xl:top-[4vh]"> */}
       <header
         className={`bg-white z-50 top-0 w-full flex justify-between px-8 py-8 items-center lg:justify-around lg:px-0 ${
           sticky ? "fixed shadow-xl md:py-6 2xl:py-12" : "absolute"
