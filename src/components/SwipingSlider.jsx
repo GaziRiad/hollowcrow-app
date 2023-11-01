@@ -17,6 +17,7 @@ function SwipingSlider({ content }) {
         {content.heading}
       </Heading>
       <Swiper
+        slidesPerView={1}
         pagination={{
           clickable: true,
         }}

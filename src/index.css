@@ -117,6 +117,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .industrySwiper .swiper-pagination {
+  display: none;
   width: auto;
   left: 0;
   bottom: 0;
