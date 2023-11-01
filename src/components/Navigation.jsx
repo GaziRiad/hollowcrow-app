@@ -23,7 +23,7 @@ function Navigation({ textColor = "white", content }) {
       <ul
         className={`hidden ${
           textColor ? " text-slate-600" : "text-white"
-        } gap-4 items-center justify-center lg:flex xl:gap-6 2xl:gap-8 xl:text-xl relative`}
+        } gap-4 items-center justify-center lg:flex xl:gap-6 2xl:gap-8 xl:text-lg 2xl:text-xl relative`}
       >
         {content.navigation.links.map((nav) => (
           <NavLink key={nav.text} to={nav.path}>

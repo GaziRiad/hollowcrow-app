@@ -45,7 +45,9 @@ function HeroMain() {
       {/* <header className=" bg-white fixed top-0 w-full flex justify-between px-10 py-12  items-center lg:justify-around lg:px-0"> */}
       <header
         className={`${
-          sticky ? "bg-white fixed shadow-xl py-10 md:py-12" : "absolute pt-24"
+          sticky
+            ? "bg-white fixed shadow-xl py-8 md:py-6 2xl:py-12"
+            : "absolute pt-24"
         } z-50 top-0 w-full flex justify-between px-10 items-center lg:justify-around lg:px-0`}
       >
         <Logo />
