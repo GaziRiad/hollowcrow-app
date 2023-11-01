@@ -17,8 +17,6 @@ function SwipingSlider({ content }) {
         {content.heading}
       </Heading>
       <Swiper
-        slidesPerView={4}
-        // spaceBetween={10}
         pagination={{
           clickable: true,
         }}
