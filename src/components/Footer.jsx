@@ -1,7 +1,7 @@
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Button from "./Button";
 
-import { motion, useScroll } from "framer-motion";
+import { motion, useInView, useScroll } from "framer-motion";
 
 function Footer({ children, icon, btn = "get started", type = "normal" }) {
   const ref = useRef(null);
@@ -10,8 +10,21 @@ function Footer({ children, icon, btn = "get started", type = "normal" }) {
     offset: ["0 1.3", "1 1"],
   });
 
+  // Make background yellow when footer isInView
+  const [bgColor, setBgColor] = useState(false);
+  const footerRef = useRef();
+  const isInView = useInView(footerRef, { once: false, amount: 0.4 });
+
+  useEffect(() => {
+    if (isInView) setBgColor(false);
+    else setBgColor(true);
+  }, [isInView]);
+
   return (
-    <div className="bg-primary">
+    <motion.div
+      ref={footerRef}
+      className={`${bgColor ? "bg-white" : "bg-primary"}`}
+    >
       <motion.section
         ref={ref}
         style={{ scale: scrollYProgress, opacity: scrollYProgress }}
@@ -39,7 +52,7 @@ function Footer({ children, icon, btn = "get started", type = "normal" }) {
           <Button>{btn}</Button>
         </footer>
       </motion.section>
-    </div>
+    </motion.div>
   );
 }
 

@@ -2,32 +2,29 @@ import heroImg from "../assets/hero-shared-img.png";
 import crowImg from "../assets/HowItWorksPage/crow.png";
 import heropattern from "../assets/hero-pattern.png";
 
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import Heading from "./Heading";
 import Button from "./Button";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
 import useContentHowItWorks from "../hooks/useContentHowItWorks";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function Hero() {
   const content = useContentHowItWorks();
 
   // Make nav sticky when scrolling
   const [sticky, setSticky] = useState(false);
-  const heroHeight = document
-    .getElementById("hero")
-    ?.getBoundingClientRect().height;
+  const heroRef = useRef();
+  const isInView = useInView(heroRef, { once: false, amount: 0.1 });
 
-  function changeSticky() {
-    if (window.scrollY >= heroHeight) {
-      setSticky(true);
-    } else setSticky(false);
-  }
-  document.addEventListener("scroll", changeSticky);
+  useEffect(() => {
+    if (isInView) setSticky(false);
+    else setSticky(true);
+  }, [isInView]);
 
   return (
-    <section id="hero" className="hero relative lg:mb-32">
+    <section ref={heroRef} className="hero relative lg:mb-32">
       <header
         className={`bg-white z-50 top-0 w-full flex justify-between px-8 py-8 items-center lg:justify-around lg:px-0 ${
           sticky ? "fixed shadow-xl md:py-6 2xl:py-12" : "absolute"

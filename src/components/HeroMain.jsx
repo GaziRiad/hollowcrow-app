@@ -5,31 +5,28 @@ import Socials from "./Socials";
 
 import heropattern from "../assets/hero-pattern.png";
 
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import Heading from "./Heading";
 import Button from "./Button";
 import useContentHome from "../hooks/useContentHome";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function HeroMain() {
   const content = useContentHome();
 
   // Make nav sticky when scrolling
   const [sticky, setSticky] = useState(false);
-  const heroHeight = document
-    .getElementById("hero")
-    ?.getBoundingClientRect().height;
+  const heroRef = useRef();
+  const isInView = useInView(heroRef, { once: false, amount: 0.1 });
 
-  function changeSticky() {
-    if (window.scrollY >= heroHeight) {
-      setSticky(true);
-    } else setSticky(false);
-  }
-  document.addEventListener("scroll", changeSticky);
+  useEffect(() => {
+    if (isInView) setSticky(false);
+    else setSticky(true);
+  }, [isInView]);
 
   return (
     <section
-      id="hero"
+      ref={heroRef}
       className="h-screen w-full cursor-pointer mb-8 lg:mb-44 "
     >
       <video

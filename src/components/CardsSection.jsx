@@ -16,9 +16,9 @@ function CardsSection() {
               {card.title}
             </p>
             <ul className="flex flex-wrap gap-4">
-              {card.options.map((text) => (
+              {card.options.map((text, i) => (
                 <li
-                  key={text}
+                  key={i}
                   className="text-base text-black-400 text-center leading-tight shadow-md bg-white rounded-full px-3 py-2"
                 >
                   {text}
