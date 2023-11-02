@@ -7,7 +7,7 @@ import Button from "./Button";
 
 import { motion } from "framer-motion";
 
-function Navigation({ textColor = "white", content }) {
+function Navigation({ content, sticky, home = false }) {
   const [navIsOpen, setNavIsOpen] = useState(false);
   const [displayLangs, setDisplayLangs] = useState(false);
 
@@ -17,13 +17,15 @@ function Navigation({ textColor = "white", content }) {
     if (navIsOpen) document.body.style.overflow = "hidden";
     if (!navIsOpen) document.body.style.overflow = "auto";
   }, [navIsOpen]);
-
+  const textColor = sticky
+    ? "text-black-800"
+    : !sticky && home
+    ? "text-white"
+    : "text-black-800";
   return (
     <nav>
       <ul
-        className={`hidden ${
-          textColor ? " text-slate-600" : "text-white"
-        } gap-4 items-center justify-center lg:flex xl:gap-6 2xl:gap-8 xl:text-lg 2xl:text-xl relative`}
+        className={`hidden ${textColor} gap-4 items-center justify-center lg:flex xl:gap-6 2xl:gap-8 xl:text-lg 2xl:text-xl relative`}
       >
         {content.navigation.links.map((nav) => (
           <NavLink key={nav.text} to={nav.path}>

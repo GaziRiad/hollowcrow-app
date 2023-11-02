@@ -13,7 +13,7 @@ function Footer({ children, icon, btn = "get started", type = "normal" }) {
   // Make background yellow when footer isInView
   const [bgColor, setBgColor] = useState(false);
   const footerRef = useRef();
-  const isInView = useInView(footerRef, { once: false, amount: 0.4 });
+  const isInView = useInView(footerRef, { once: false, amount: 0.55 });
 
   useEffect(() => {
     if (isInView) setBgColor(false);

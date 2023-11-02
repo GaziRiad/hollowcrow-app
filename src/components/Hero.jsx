@@ -31,7 +31,7 @@ function Hero() {
         }`}
       >
         <Logo />
-        <Navigation content={content} />
+        <Navigation content={content} sticky={sticky} />
       </header>
       <img
         src={heroImg}
