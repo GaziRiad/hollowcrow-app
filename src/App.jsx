@@ -5,6 +5,7 @@ import LanguageContext from "./contexts/LanguageContext";
 import HowItWorks from "./pages/HowItWorks";
 import Industries from "./pages/Industries";
 import { AnimatePresence } from "framer-motion";
+import Solutions from "./pages/Solutions";
 
 function App() {
   const location = useLocation();
@@ -16,11 +17,11 @@ function App() {
           <Route index path="/" element={<Home />} />
           <Route path="/howItWorks" element={<HowItWorks />} />
           <Route path="/industries" element={<Industries />} />
+          <Route path="/solutions" element={<Solutions />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </AnimatePresence>
     </LanguageContext>
   );
 }
-
 export default App;

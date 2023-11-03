@@ -7,12 +7,11 @@ import { motion } from "framer-motion";
 
 function HowItWorks() {
   const content = useContentHome();
-
   return (
     <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1, translateY: -100 }}
-      transition={{ duration: 0.8, translateY: "0%" }}
+      initial={{ opacity: 0, translateY: 150 }}
+      whileInView={{ opacity: 1, translateY: 0 }}
+      transition={{ duration: 0.5 }}
       viewport={{ once: false }}
       className="relative mb-32 px-4 bg-primary py-20 md:px-0"
     >
@@ -30,13 +29,13 @@ function HowItWorks() {
           >
             <div className="z-20">
               <Heading type="h4">{step.text.title}</Heading>
-              <p className="text-white text-lg text-center lg:text-left lg:text-xl ">
+              <p className="text-white text-lg text-center lg:text-left 2xl:text-xl ">
                 {step.text.desc}
               </p>
             </div>
             <motion.img
-              initial={{ y: 200 }}
-              whileInView={{ y: 0 }}
+              initial={{ y: 200, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
               transition={{ ease: "easeOut", duration: 0.5 }}
               viewport={{ once: true }}
               src={step.img}
@@ -44,7 +43,6 @@ function HowItWorks() {
             />
           </div>
         ))}
-
         <div className=" flex flex-col justify-center items-center gap-6">
           <Button bgcolor="white">Get started</Button>
           <Link>Learn more</Link>

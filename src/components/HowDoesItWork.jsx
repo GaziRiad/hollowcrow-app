@@ -1,10 +1,17 @@
 import Heading from "../components/Heading";
 import useContentHowItWorks from "../hooks/useContentHowItWorks";
 
+import { motion } from "framer-motion";
+
 function HowDoesItWork() {
   const content = useContentHowItWorks();
   return (
-    <div className="container mx-auto mb-14 lg:mb-36">
+    <motion.section
+      initial={{ opacity: 0, translateY: 150 }}
+      whileInView={{ opacity: 1, translateY: 0 }}
+      transition={{ duration: 0.5 }}
+      className="container mx-auto mb-14 lg:mb-36"
+    >
       <Heading>{content.howDoesItWorkSection.heading}</Heading>
 
       <div className="flex items-center justify-center flex-col px-10 gap-10 lg:px-0 lg:flex-row lg:gap-16 2xl:gap-36">
@@ -27,7 +34,7 @@ function HowDoesItWork() {
           ))}
         </div>
       </div>
-    </div>
+    </motion.section>
   );
 }
 

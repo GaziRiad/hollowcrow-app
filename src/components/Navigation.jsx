@@ -25,7 +25,7 @@ function Navigation({ content, sticky, home = false }) {
   return (
     <nav>
       <ul
-        className={`hidden ${textColor} gap-4 items-center justify-center lg:flex xl:gap-6 2xl:gap-8 xl:text-lg 2xl:text-xl relative`}
+        className={`hidden ${textColor} gap-4 items-center justify-center lg:flex xl:gap-6 2xl:gap-8 xl:text-base 2xl:text-lg relative`}
       >
         {content.navigation.links.map((nav) => (
           <NavLink key={nav.text} to={nav.path}>
@@ -74,29 +74,6 @@ function Navigation({ content, sticky, home = false }) {
 
         <Button type="navigation">Login</Button>
       </ul>
-      {/* MOBILE MENU */}
-      <div
-        className={`cursor-pointer absolute right-10 z-20 lg:hidden`}
-        onClick={() => setNavIsOpen(!navIsOpen)}
-      >
-        <div
-          className={`${navIsOpen ? " -rotate-45" : ""} w-12 h-1 mb-1.5 ${
-            navIsOpen ? "bg-white" : "bg-primary"
-          } duration-500`}
-        ></div>
-        <div
-          className={`${navIsOpen ? "hidden" : "block"} w-12 h-1 mb-1.5 ${
-            navIsOpen ? "bg-white" : "bg-primary"
-          } duration-500 `}
-        ></div>
-        <div
-          className={`${
-            navIsOpen ? "rotate-45 -translate-y-2" : ""
-          } w-12 h-1 mb-1.5 ${
-            navIsOpen ? "bg-white" : "bg-primary"
-          } duration-500 `}
-        ></div>
-      </div>
 
       {navIsOpen && (
         <div
@@ -143,6 +120,29 @@ function Navigation({ content, sticky, home = false }) {
           </motion.ul>
         </div>
       )}
+      {/* MOBILE MENU */}
+      <div
+        className={`cursor-pointer absolute top-1/2 translate-y-1/2 right-10 z-20 lg:hidden`}
+        onClick={() => setNavIsOpen(!navIsOpen)}
+      >
+        <div
+          className={`${navIsOpen ? " -rotate-45" : ""} w-12 h-1 mb-1.5 ${
+            navIsOpen ? "bg-white" : "bg-primary"
+          } duration-500`}
+        ></div>
+        <div
+          className={`${navIsOpen ? "hidden" : "block"} w-12 h-1 mb-1.5 ${
+            navIsOpen ? "bg-white" : "bg-primary"
+          } duration-500 `}
+        ></div>
+        <div
+          className={`${
+            navIsOpen ? "rotate-45 -translate-y-2" : ""
+          } w-12 h-1 mb-1.5 ${
+            navIsOpen ? "bg-white" : "bg-primary"
+          } duration-500 `}
+        ></div>
+      </div>
     </nav>
   );
 }

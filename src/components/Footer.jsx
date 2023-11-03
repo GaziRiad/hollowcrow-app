@@ -37,7 +37,7 @@ function Footer({ children, icon, btn = "get started", type = "normal" }) {
               type === "home" ? "lg:mb-10" : ""
             }`}
           >
-            <img src={icon} className=" scale-75 lg:scale-95 " />
+            <img src={icon} className=" scale-90 lg:scale-75 " />
             <p
               className={`absolute ${
                 type === "home" ? "top-[40%]" : "top-[55%]"

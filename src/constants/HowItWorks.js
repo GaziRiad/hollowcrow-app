@@ -27,7 +27,7 @@ export const en = {
     links: [
       { text: "How it works", path: "/howItWorks" },
       { text: "Industries", path: "/industries" },
-      { text: "Solutions", path: "" },
+      { text: "Solutions", path: "/solutions" },
       { text: "Success Stories", path: "" },
       { text: "About Us", path: "" },
       { text: "News", path: "" },
@@ -141,7 +141,7 @@ export const tr = {
     links: [
       { text: "Nasıl çalışır", path: "/howItWorks" },
       { text: "Endüstriler", path: "/industries" },
-      { text: "Solutions", path: "" },
+      { text: "Çözümler", path: "/solutions" },
       { text: "Çözümler", path: "" },
       { text: "Hakkımızda", path: "" },
       { text: "Haberler", path: "" },

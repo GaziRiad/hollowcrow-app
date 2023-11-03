@@ -27,7 +27,9 @@ function Hero() {
     <section ref={heroRef} className="hero relative lg:mb-32">
       <header
         className={`bg-white z-50 top-0 w-full flex justify-between px-8 py-8 items-center lg:justify-around lg:px-0 ${
-          sticky ? "fixed shadow-xl md:py-6 2xl:py-8" : "absolute pt-20"
+          sticky
+            ? "fixed shadow-xl md:py-6 2xl:py-8"
+            : "absolute pt-10 2xl:pt-20"
         }`}
       >
         <Logo />

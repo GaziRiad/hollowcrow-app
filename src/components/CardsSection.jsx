@@ -1,10 +1,17 @@
 import useContentHowItWorks from "../hooks/useContentHowItWorks";
 
+import { motion } from "framer-motion";
+
 function CardsSection() {
   const content = useContentHowItWorks();
 
   return (
-    <div className="bg-grayish-200 py-4 lg:py-32">
+    <motion.section
+      initial={{ opacity: 0, translateY: 150 }}
+      whileInView={{ opacity: 1, translateY: 0 }}
+      transition={{ duration: 0.5 }}
+      className="bg-grayish-200 py-4 lg:py-32"
+    >
       <section className=" container mx-auto grid grid-cols-1 justify-items-center gap-y-8 md:grid-cols-2 lg:gap-y-12 lg:gap-x-10 lg:px-24 xl:px-0 xl:grid-cols-4 xl:gap-4 2xl:gap-x-16 mb-12 lg:mb-20  ">
         {content.cardsSection.map((card) => (
           <div
@@ -28,7 +35,7 @@ function CardsSection() {
           </div>
         ))}
       </section>
-    </div>
+    </motion.section>
   );
 }
 

@@ -24,9 +24,9 @@ function Testimonials() {
 
   return (
     <motion.section
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1, translateY: -100 }}
-      transition={{ duration: 0.8, translateY: "0%" }}
+      initial={{ opacity: 0, translateY: 200 }}
+      whileInView={{ opacity: 1, translateY: 0 }}
+      transition={{ duration: 0.5 }}
       viewport={{ once: false }}
       className="container mx-auto mb-44 "
     >
