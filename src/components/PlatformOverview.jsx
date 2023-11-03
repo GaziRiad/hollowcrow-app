@@ -13,7 +13,7 @@ function PlatformOverview() {
       whileInView={{ opacity: 1, translateY: 0 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: false }}
-      className="container mx-auto mb-44 px-16"
+      className="container mx-auto mb-44 px-4 xl:px-16"
     >
       <Heading type="h2" style="lg:!text-left">
         {content.platformDetails.heading}
