@@ -22,9 +22,9 @@ function Industries() {
         transition={{ duration: 0.5 }}
         className="container mx-auto mb-12 px-10 lg:px-0 lg:mb-32"
       >
-        <Heading>{content.firstSection.heading}</Heading>
+        <Heading type="h3">{content.firstSection.heading}</Heading>
 
-        <div className="flex items-start justify-center flex-col gap-12 md:flex-row md:flex-wrap lg:gap-10 2xl:gap-12">
+        <div className="flex items-start justify-center flex-col gap-12 md:flex-row md:flex-wrap lg:gap-10 xl:px-4">
           {content.firstSection.content.map((el) => (
             <div key={el.title} className="lg:max-w-md 2xl:max-w-lg">
               <img src={el.img} className="rounded-2xl mb-6 w-[85%]" />
@@ -43,13 +43,13 @@ function Industries() {
         initial={{ opacity: 0, translateY: 150 }}
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 0.5 }}
-        className="container mx-auto mb-12 px-10 lg:px-0 lg:mb-32"
+        className="container mx-auto mb-12 px-10 lg:px-0 lg:mb-32 xl:px-4"
       >
         <Heading type="h2" style="lg:!text-left">
           {content.thirdSection.heading}
         </Heading>
 
-        <div className="flex items-center justify-center flex-col gap-8 lg:flex-row lg:gap-6 xl:gap-32">
+        <div className="flex items-center justify-center flex-col gap-8 lg:flex-row lg:gap-6 xl:gap-32 xl:px-4">
           <p className="text-lg text-center leading-relaxed lg:text-left 2xl:text-xl">
             {content.thirdSection.content.text}
           </p>

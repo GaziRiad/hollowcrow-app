@@ -13,14 +13,14 @@ function PlatformOverview() {
       whileInView={{ opacity: 1, translateY: 0 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: false }}
-      className="container mx-auto mb-44 px-8 lg:px-0"
+      className="container mx-auto mb-44 px-16"
     >
       <Heading type="h2" style="lg:!text-left">
         {content.platformDetails.heading}
       </Heading>
 
       <div>
-        <Accordion />
+        <Accordion content={content.platformDetails.content} />
       </div>
     </motion.section>
   );
