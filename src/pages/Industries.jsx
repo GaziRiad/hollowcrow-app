@@ -5,12 +5,13 @@ import footerImg from "../assets/footer-img.png";
 import Heading from "../components/Heading";
 import useContentIndustries from "../hooks/useContentIndustries";
 import SwipingSlider from "../components/SwipingSlider";
+import PageTransition from "../components/PageTransition";
 
 function Industries() {
   const content = useContentIndustries();
 
   return (
-    <>
+    <PageTransition>
       <Hero />
 
       <section className="container mx-auto mb-12 px-10 lg:px-0 lg:mb-32">
@@ -50,7 +51,7 @@ function Industries() {
       <SwipingSlider content={content.sliderSection} />
 
       <Footer icon={footerImg} />
-    </>
+    </PageTransition>
   );
 }
 

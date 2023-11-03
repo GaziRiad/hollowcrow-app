@@ -10,11 +10,13 @@ import Testimonials from "../components/Testimonials";
 import footerHomeIcon from "../assets/homeimgs/footerHomeIcon.png";
 import useContentHome from "../hooks/useContentHome";
 
+import PageTransition from "../components/PageTransition";
+
 function Landing() {
   const content = useContentHome();
 
   return (
-    <>
+    <PageTransition>
       <HeroMain />
       <Features />
       <Statics />
@@ -41,7 +43,7 @@ function Landing() {
           ))}
         </div>
       </Footer>
-    </>
+    </PageTransition>
   );
 }
 

@@ -1,21 +1,24 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import PageNotFound from "./pages/PageNotFound";
 import LanguageContext from "./contexts/LanguageContext";
 import HowItWorks from "./pages/HowItWorks";
 import Industries from "./pages/Industries";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
+  const location = useLocation();
+
   return (
     <LanguageContext>
-      <BrowserRouter>
-        <Routes>
+      <AnimatePresence initial={false} mode="wait">
+        <Routes location={location} key={location.pathname}>
           <Route index path="/" element={<Home />} />
           <Route path="/howItWorks" element={<HowItWorks />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
-      </BrowserRouter>
+      </AnimatePresence>
     </LanguageContext>
   );
 }
