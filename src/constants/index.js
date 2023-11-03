@@ -34,7 +34,12 @@ import HowItWorksPattern from "../assets/homeimgs/how-it-work-pattern.png";
 
 /////////////////////
 
-import platformOverview from "../assets/homeimgs/platform-overview.png";
+// platformOverview
+import img1 from "../assets/homeimgs/platformOverView/Plug-Use and Alarms.png";
+import img2 from "../assets/homeimgs/platformOverView/platform-overview.png";
+import img3 from "../assets/homeimgs/platformOverView/Visual.png";
+import img4 from "../assets/homeimgs/platformOverView/Guides.png";
+import img5 from "../assets/homeimgs/platformOverView/helpdesk.png";
 
 import footerIcon1 from "../assets/homeimgs/footer-icon1.png";
 import footerIcon2 from "../assets/homeimgs/footer-icon2.png";
@@ -227,25 +232,29 @@ export const en = {
 
   platformDetails: {
     heading: "New user-friendly platform",
-    sectionImg: platformOverview,
-    textContent: [
+    content: [
       {
+        img: img1,
         title: "Plug & Use",
         text: "The moment you register and introduce your cameras to Holocrow, you start using the platform. All models of cameras & CCTVs can be connected. From the dedicated page for devices, you can easily view and control the connection status of the devices.",
       },
       {
+        img: img2,
         title: "Alerts & Notifications",
         text: "Instant alerts and notifications are of vital importance in the solutions you'll use, especially in the fields of workplace safety and security. Holocrow sends instant notifications to relevant departments in risky situations.",
       },
       {
+        img: img3,
         title: "Visual Reports & Analytics",
         text: "The collected data is automatically visualized and made as understandable and interpretable as possible. You can view all the reports and data on a weekly, monthly, yearly basis, or for a date range you determine.",
       },
       {
+        img: img4,
         title: "Detailed Guides",
         text: "While we take pride in creating the most user-friendly platform, you can find our guides, which will allow you to get instant answers to any questions that might arise, in the Help Center section whenever you want.",
       },
       {
+        img: img5,
         title: "Helpdesk",
         text: "If you have different questions that might come to your mind, you can immediately reach out to HelpDesk and get assistance from our expert team.",
       },
@@ -471,26 +480,30 @@ export const tr = {
     ],
   },
   platformDetails: {
-    sectionImg: platformOverview,
     heading: "Yeni kullanıcı dostu platform",
-    textContent: [
+    content: [
       {
+        img: img1,
         title: "Tak ve Kullan",
         text: "Kameralarınızı Holocrow'a kaydedip tanıttığınız anda platformu kullanmaya başlıyorsunuz. Tüm kamera ve CCTV modelleri bağlanabilir. Cihazlara özel sayfadan cihazların bağlantı durumunu kolayca görüntüleyebilir ve kontrol edebilirsiniz.",
       },
       {
+        img: img2,
         title: "Uyarılar ve Bildirimler",
         text: "Özellikle iş yeri emniyeti ve güvenliği alanlarında kullanacağınız çözümlerde anlık uyarılar ve bildirimler hayati önem taşıyor. Holocrow riskli durumlarda ilgili departmanlara anlık bildirimler gönderir.",
       },
       {
+        img: img3,
         title: "Görsel Raporlar ve Analitikler",
         text: "Toplanan veriler otomatik olarak görselleştirilerek mümkün olduğunca anlaşılır ve yorumlanabilir hale getirilir. Haftalık, aylık, yıllık veya belirleyeceğiniz tarih aralığına ait tüm rapor ve verileri görüntüleyebilirsiniz.",
       },
       {
+        img: img4,
         title: "Ayrıntılı Kılavuzlar",
         text: "En kullanıcı dostu platformu oluşturmanın gururunu yaşarken, aklınıza gelebilecek her türlü soruya anında cevap almanızı sağlayacak rehberlerimizi Yardım Merkezi bölümünde dilediğiniz zaman bulabilirsiniz.",
       },
       {
+        img: img5,
         title: "Yardım Masası",
         text: "Aklınıza gelebilecek farklı sorular olursa hemen HelpDesk'e ulaşarak uzman ekibimizden yardım alabilirsiniz.",
       },

@@ -20,7 +20,7 @@ function PlatformOverview() {
 
       <div className="flex flex-col items-center justify-center gap-14 xl:flex-row xl:gap-24">
         <div>
-          {content.platformDetails.textContent.map((content) => (
+          {content.platformDetails.content.map((content) => (
             <div key={content.title} className="text-center mb-8 lg:text-left">
               <Heading type="h4" style="!text-primary">
                 {content.title}
@@ -31,13 +31,13 @@ function PlatformOverview() {
         </div>
         <motion.img
           initial={{ translateY: 1 }}
-          animate={{ translateY: 10 }}
+          animate={{ translateY: 20 }}
           transition={{
             repeat: Infinity,
             repeatType: "mirror",
             duration: 1.5,
           }}
-          src={content.platformDetails.sectionImg}
+          src={content.platformDetails.content[0].img}
           className=" rounded-3xl shadow-lg lg:aspect-auto lg:h-1/2 lg:w-1/2"
         />
       </div>
