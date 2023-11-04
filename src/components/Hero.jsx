@@ -9,6 +9,7 @@ import Logo from "./Logo";
 import Navigation from "./Navigation";
 import useContentHowItWorks from "../hooks/useContentHowItWorks";
 import { useEffect, useRef, useState } from "react";
+import HeroPattern from "./HeroPattern";
 
 function Hero() {
   const content = useContentHowItWorks();
@@ -44,27 +45,7 @@ function Hero() {
         className=" absolute bottom-[42%] left-1/2 -translate-x-[50%] w-1/2 md:bottom-[38%] lg:bottom-[34%] lg:w-1/3 xl:w-1/4 xl:bottom-[28%] "
       />
 
-      <div className="hidden absolute -bottom-[18%] right-0 w-80 md:block">
-        <motion.img
-          style={{ transformOrigin: "top" }}
-          initial={{ scaleY: 1 }}
-          animate={{ scaleY: 1.1 }}
-          transition={{
-            repeat: Infinity,
-            repeatType: "mirror",
-            duration: 2,
-          }}
-          src={heropattern}
-          className="z-10"
-        />
-        <div className=" z-20 absolute top-1/2 -translate-y-[55%] px-10 pl-14 text-center">
-          <Heading type="h4">Beyond Watching</Heading>
-          <p className="text-white font-semibold mb-3">
-            Predict, Protect, and Perform with AI
-          </p>
-          <Button type="small">Connect Now</Button>
-        </div>
-      </div>
+      <HeroPattern />
     </section>
   );
 }

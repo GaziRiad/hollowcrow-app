@@ -12,7 +12,7 @@ function App() {
 
   return (
     <LanguageContext>
-      <AnimatePresence initial={false} mode="wait">
+      <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route index path="/" element={<Home />} />
           <Route path="/howItWorks" element={<HowItWorks />} />
