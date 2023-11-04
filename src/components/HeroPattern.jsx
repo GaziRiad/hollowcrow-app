@@ -18,7 +18,7 @@ function HeroPattern() {
         src={heropattern}
         className="z-10"
       />
-      <div className=" z-20 absolute top-1/2 -translate-y-[55%] px-10 pl-14 text-center">
+      <div className=" z-20 absolute top-[28%] px-10 pl-20 text-center">
         <Heading type="h4">Beyond Watching</Heading>
         <p className="text-white font-semibold mb-3">
           Predict, Protect, and Perform with AI
