@@ -122,7 +122,9 @@ function Navigation({ content, sticky, home = false }) {
       )}
       {/* MOBILE MENU */}
       <div
-        className={`cursor-pointer absolute top-1/2 translate-y-1/2 right-10 z-20 lg:hidden`}
+        className={`cursor-pointer absolute ${
+          sticky ? "top-1/2 -translate-y-[35%]" : ""
+        } right-10 z-20 lg:hidden`}
         onClick={() => setNavIsOpen(!navIsOpen)}
       >
         <div

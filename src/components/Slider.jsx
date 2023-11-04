@@ -72,10 +72,12 @@ function Slider({ slider }) {
                 src={slide.icon}
                 className="w-1/5 mb-8"
               />
-              <p className="font-semibold text-xl text-black-800 capitalize mb-3">
+              <p className="font-semibold text-lg text-black-800 capitalize mb-3">
                 {slide.title}
               </p>
-              <p className="text-lg text-black-800 text-center">{slide.text}</p>
+              <p className="text-base text-black-800 text-center">
+                {slide.text}
+              </p>
             </div>
           </SwiperSlide>
         ))}
