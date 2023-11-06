@@ -22,11 +22,14 @@ import company7 from "../assets/HowItWorksPage/companies/image7.png";
 import company8 from "../assets/HowItWorksPage/companies/image8.png";
 import company9 from "../assets/HowItWorksPage/companies/image9.png";
 
+import crowImg from "../assets/hero-crow-img.png";
+
 export const en = {
+  heroImg: crowImg,
   navigation: {
     links: [
       { text: "How it works", path: "/howItWorks" },
-      { text: "Industries", path: "/industries" },
+      { text: "Industries", path: "" },
       { text: "Solutions", path: "/solutions" },
       { text: "Success Stories", path: "" },
       { text: "About Us", path: "" },
@@ -137,10 +140,11 @@ export const en = {
 ///////////////////////////////////////////
 
 export const tr = {
+  heroImg: crowImg,
   navigation: {
     links: [
       { text: "Nasıl çalışır", path: "/howItWorks" },
-      { text: "Endüstriler", path: "/industries" },
+      { text: "Endüstriler", path: "" },
       { text: "Çözümler", path: "/solutions" },
       { text: "Çözümler", path: "" },
       { text: "Hakkımızda", path: "" },

@@ -102,15 +102,6 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid #ffb800; /* Set bullet border color */
 }
 
-/* HOW IT WORKS */
-.hero {
-  height: 100vh;
-  background-image: url("./assets/hero-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
 .industrySwiper {
   margin-left: 8%;
 }
@@ -138,4 +129,21 @@ body::-webkit-scrollbar-thumb {
 
 .industrySwiper .swiper-pagination-bullet {
   border: 2px solid #ffb800; /* Set bullet border color */
+}
+
+/* HOW IT WORKS */
+.hero {
+  height: 100vh;
+  background-image: url("./assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-solutions {
+  height: 100vh;
+  background-image: url("./assets/Solutions/solutions-hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

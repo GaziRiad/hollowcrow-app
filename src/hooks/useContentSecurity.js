@@ -1,11 +1,11 @@
 import { useLanguage } from "../contexts/LanguageContext";
-import { en } from "../constants/industries";
-import { tr } from "../constants/industries";
+import { en } from "../constants/security";
+import { tr } from "../constants/security";
 
-function useContentIndustries() {
+function useContentSecurity() {
   const { activeLanguage } = useLanguage();
   const content = activeLanguage === "tr" ? tr : en;
   return content;
 }
 
-export default useContentIndustries;
+export default useContentSecurity;

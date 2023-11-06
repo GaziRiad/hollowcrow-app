@@ -1,15 +1,19 @@
-import img1 from "../assets/IndustriesPage/img-1.jpg";
-import img2 from "../assets/IndustriesPage/img-2.jpg";
-import img3 from "../assets/IndustriesPage/img-3.jpg";
+import img1 from "../assets/Solutions/securityPage/img-1.jpg";
+import img2 from "../assets/Solutions/securityPage/img-2.jpg";
+import img3 from "../assets/Solutions/securityPage/img-3.jpg";
 
-import img4 from "../assets/IndustriesPage/img-4.jpg";
+import img4 from "../assets/Solutions/securityPage/img-4.jpg";
 
 // Slides
-import slide1 from "../assets/IndustriesPage/industriesSlider/industry1.png";
+import slide1 from "../assets/Solutions/industriesSlider/industry1.png";
+
+import securityImg from "../assets/Solutions/securityPage/SecurityHero.png";
 
 export const en = {
+  heroImg: securityImg,
+  heroHeading: "Security",
+  subHero: ["Allways On", "Billion Hours Trained", "Security Guard"],
   firstSection: {
-    heading: "Lorem Ipsum",
     content: [
       {
         img: img1,
@@ -56,8 +60,10 @@ export const en = {
 ///////////////////////////////////s
 
 export const tr = {
+  heroImg: securityImg,
+  heroHeading: "Güvenlik",
+  subHero: ["Her zaman", "Milyar Saat Eğitim", "Güvenlik görevlisi"],
   firstSection: {
-    heading: "Lorem Ipsum",
     content: [
       {
         img: img1,

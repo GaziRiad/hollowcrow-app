@@ -53,7 +53,7 @@ export const en = {
   navigation: {
     links: [
       { text: "How it works", path: "/howItWorks" },
-      { text: "Industries", path: "/industries" },
+      { text: "Industries", path: "" },
       { text: "Solutions", path: "/solutions" },
       { text: "Success Stories", path: "" },
       { text: "About Us", path: "" },
@@ -306,7 +306,7 @@ export const tr = {
   navigation: {
     links: [
       { text: "Nasıl çalışır", path: "/howItWorks" },
-      { text: "Endüstriler", path: "/industries" },
+      { text: "Endüstriler", path: "" },
       { text: "Solutions", path: "/solutions" },
       { text: "Çözümler", path: "" },
       { text: "Hakkımızda", path: "" },

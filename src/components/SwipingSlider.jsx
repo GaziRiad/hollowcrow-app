@@ -31,7 +31,7 @@ function SwipingSlider({ content }) {
         className="industrySwiper pb-16 pt-4"
       >
         {content.slides.map((slide) => (
-          <SwiperSlide key={slide.title} className="!w-64 md:!w-72 2xl:!w-72">
+          <SwiperSlide key={slide.img} className="!w-64 md:!w-72 2xl:!w-72">
             <div className="w-56 shadow-[5px_-10px_10px_rgb(0,0,0,0.1)] rounded-t-3xl 2xl:w-60">
               <p className=" text-center font-semibold py-4 text-lg md:py-8 2xl:py-8 ">
                 {slide.title}

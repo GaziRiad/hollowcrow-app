@@ -1,20 +1,24 @@
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
-
-import footerImg from "../assets/footer-img.png";
 import Heading from "../components/Heading";
-import useContentIndustries from "../hooks/useContentIndustries";
+import useContentSecurity from "../hooks/useContentSecurity";
 import SwipingSlider from "../components/SwipingSlider";
 import PageTransition from "../components/PageTransition";
 
 import { motion } from "framer-motion";
 
-function Industries() {
-  const content = useContentIndustries();
+import footerImg from "../assets/footer-img.png";
+
+function Security() {
+  const content = useContentSecurity();
 
   return (
     <PageTransition>
-      <Hero />
+      <Hero
+        img={content.heroImg}
+        heading={content.heroHeading}
+        herobg="hero-solutions"
+      />
 
       <motion.section
         initial={{ opacity: 0, translateY: 150 }}
@@ -22,7 +26,11 @@ function Industries() {
         transition={{ duration: 0.5 }}
         className="container mx-auto mb-12 px-10 lg:px-0 lg:mb-32"
       >
-        <Heading type="h3">{content.firstSection.heading}</Heading>
+        <div className=" text-center text-lg md:text-xl lg:text-2xl flex flex-col gap-4 mb-12 lg:mb-32">
+          {content.subHero.map((text) => (
+            <p key={text}>{text}</p>
+          ))}
+        </div>
 
         <div className="flex items-start justify-center flex-col gap-12 md:flex-row md:flex-wrap lg:gap-10 xl:px-4">
           {content.firstSection.content.map((el) => (
@@ -67,4 +75,4 @@ function Industries() {
   );
 }
 
-export default Industries;
+export default Security;
