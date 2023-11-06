@@ -1,0 +1,61 @@
+{
+  "heroImg": "assets/Solutions/MarketingHero.png",
+  "heroHeading": "İşyeri güvenliği",
+  "subHero": ["Her zaman", "Milyar Saat Eğitim", "Güvenlik Görevlisi"],
+  "firstSection": {
+    "content": [
+      {
+        "img": "assets/Solutions/img-1.jpg",
+        "title": "Anlık Uyarılar",
+        "text": "Kapsamlı video sahne analizi ile şüpheli durumlarda anında uyarı alın ve yanlış alarmları %90 azaltın."
+      },
+      {
+        "img": "assets/Solutions/insights.png",
+        "title": "Gerçek Zamanlı Uyarılar",
+        "text": "İşyerinde güvenlik protokolleri ihlal edildiğinde ilgili çalışanlara canlı uyarı gönderin."
+      },
+      {
+        "img": "assets/Solutions/stock.jpeg",
+        "title": "Veri goruntuleme",
+        "text": "Anlaşılması kolay görsellerle canlı raporlar ve uyarılar alın."
+      }
+    ]
+  },
+  "thirdSection": {
+    "heading": "Özel Veri Toplama",
+    "content": {
+      "img": "assets/Solutions/img-4.jpg",
+      "text": "Holocrow, işlediğimiz görsel içeriklerden hiçbir zaman kişisel kimlik bilgilerini toplamaz. Öncelikli hedefimiz insanların gizliliğini korurken güvenliği artırmaktır."
+    }
+  },
+
+  "sliderSection": {
+    "heading": "endüstriler",
+    "slides": [
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      }
+    ]
+  }
+}

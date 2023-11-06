@@ -1,0 +1,61 @@
+{
+  "heroImg": "assets/Solutions/EfficiencyHero.png",
+  "heroHeading": "Yeterlik",
+  "subHero": ["Her zaman", "Milyar Saat Eğitim", "Operasyon Müdürü"],
+  "firstSection": {
+    "content": [
+      {
+        "img": "assets/Solutions/img-1.jpeg",
+        "title": "Mükemmel Doğruluk",
+        "text": "Yapay zekanın %99,9 doğruluğuyla üretim hatlarınızdaki hataları tespit edin."
+      },
+      {
+        "img": "assets/Solutions/img-2.jpeg",
+        "title": "Verimliliği Artırın",
+        "text": "Tüm çalışanların verimliliğini analiz edin ve operasyonel verimliliğinizi %50'ye kadar artırın."
+      },
+      {
+        "img": "assets/Solutions/img-3.jpg",
+        "title": "Veri goruntuleme",
+        "text": "Anlaşılması kolay görsellerle canlı raporlar ve uyarılar alın."
+      }
+    ]
+  },
+  "thirdSection": {
+    "heading": "Özel Veri Toplama",
+    "content": {
+      "img": "assets/Solutions/img-4.jpg",
+      "text": "Holocrow, işlediğimiz görsel içeriklerden hiçbir zaman kişisel kimlik bilgilerini toplamaz. Öncelikli hedefimiz insanların gizliliğini korurken güvenliği artırmaktır."
+    }
+  },
+
+  "sliderSection": {
+    "heading": "endüstriler",
+    "slides": [
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      }
+    ]
+  }
+}

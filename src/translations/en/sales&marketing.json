@@ -1,0 +1,61 @@
+{
+  "heroImg": "assets/Solutions/MarketingHero.png",
+  "heroHeading": "Satış ve Pazarlama",
+  "subHero": ["Allways On", "Billion Hours Trained", "Marketing Analyst"],
+  "firstSection": {
+    "content": [
+      {
+        "img": "assets/Solutions/insights.png",
+        "title": "Doğru Analizler",
+        "text": "Ziyaretçi sayısını, ısı haritasını, demografik bilgileri ve çok daha fazlasını %99,9 doğrulukla elde edin."
+      },
+      {
+        "img": "assets/Solutions/stock.jpeg",
+        "title": "Stok Tükenmesini Engelle",
+        "text": "Stok tükenmesini önlemek ve değerli bilgiler toplamak için her satın alma işlemini yalnızca video akışları aracılığıyla tespit edip izleyin."
+      },
+      {
+        "img": "assets/Solutions/img-3.jpg",
+        "title": "Data Visualization",
+        "text": "Get live reports and alerts with easy to understand visuals."
+      }
+    ]
+  },
+  "thirdSection": {
+    "heading": "Private Data Collection",
+    "content": {
+      "img": "assets/Solutions/img-4.jpg",
+      "text": "Holocrow never collects personal identification details from the visual content we handle. Our primary goal is to enhance security while preserving people’s confidentiality."
+    }
+  },
+
+  "sliderSection": {
+    "heading": "industries",
+    "slides": [
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      }
+    ]
+  }
+}

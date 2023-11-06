@@ -1,0 +1,61 @@
+{
+  "heroImg": "assets/Solutions/WorkplaceHero.png",
+  "heroHeading": "Workplace Safety",
+  "subHero": ["Allways On", "Billion Hours Trained", "Safety Officer"],
+  "firstSection": {
+    "content": [
+      {
+        "img": "assets/Solutions/img-1.jpg",
+        "title": "Instant Alerts",
+        "text": "Get instant alerts in suspicious situations and reduce false alarms by %90 with comprehensive video scene analysis."
+      },
+      {
+        "img": "assets/Solutions/officer.png",
+        "title": "Real-Time Warnings",
+        "text": "Send live alerts to the relevant employees when safety protocols are violated at the workplace."
+      },
+      {
+        "img": "assets/Solutions/img-3.jpg",
+        "title": "Data Visualization",
+        "text": "Get live reports and alerts with easy to understand visuals."
+      }
+    ]
+  },
+  "thirdSection": {
+    "heading": "Private Data Collection",
+    "content": {
+      "img": "assets/Solutions/img-4.jpg",
+      "text": "Holocrow never collects personal identification details from the visual content we handle. Our primary goal is to enhance security while preserving people’s confidentiality."
+    }
+  },
+
+  "sliderSection": {
+    "heading": "industries",
+    "slides": [
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      }
+    ]
+  }
+}
