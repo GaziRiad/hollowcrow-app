@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import PageNotFound from "./pages/PageNotFound";
 import LanguageContext from "./contexts/LanguageContext";
@@ -17,7 +17,8 @@ function App() {
     <LanguageContext>
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          <Route index path="/home" element={<Home />} />
+          <Route index element={<Navigate replace to="home" />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/howitworks" element={<HowItWorks />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/security" element={<Security />} />
