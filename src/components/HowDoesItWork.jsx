@@ -1,10 +1,7 @@
 import Heading from "../components/Heading";
-import useContentHowItWorks from "../hooks/useContentHowItWorks";
-
 import { motion } from "framer-motion";
 
-function HowDoesItWork() {
-  const content = useContentHowItWorks();
+function HowDoesItWork({ content }) {
   return (
     <motion.section
       initial={{ opacity: 0, translateY: 150 }}

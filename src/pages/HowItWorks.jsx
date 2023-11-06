@@ -6,12 +6,14 @@ import HowDoesItWork from "../components/HowDoesItWork";
 import TrustedBySection from "../components/TrustedBySection";
 import PageTransition from "../components/PageTransition";
 
-import useContentHowItWorks from "../hooks/useContentHowItWorks";
+import useContent from "../hooks/useContent";
 
 import footerImg from "../assets/footer-img.png";
 
 function HowItWorks() {
-  const content = useContentHowItWorks();
+  const { content } = useContent();
+
+  if (!content) return <p>Loading...</p>;
   return (
     <PageTransition>
       <Hero img={content.heroImg} />
@@ -20,10 +22,10 @@ function HowItWorks() {
           <p key={text}>{text}</p>
         ))}
       </div>
-      <HowDoesItWork />
+      <HowDoesItWork content={content} />
       <Heading type="tag">#BeyondWatching</Heading>
-      <CardsSection />
-      <TrustedBySection />
+      <CardsSection content={content} />
+      <TrustedBySection content={content} />
       <Footer icon={footerImg} type="normal" />
     </PageTransition>
   );

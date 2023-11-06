@@ -1,0 +1,69 @@
+{
+  "heroImg": "../assets/Solutions/SecurityHero.png",
+  "heroHeading": "Güvenlik",
+  "subHero": ["Her zaman", "Milyar Saat Eğitim", "Güvenlik görevlisi"],
+  "firstSection": {
+    "content": [
+      {
+        "img": "../assets/Solutions/img-1.jpg",
+        "title": "Anlık Uyarılar",
+        "text": "Kapsamlı video sahne analizi ile şüpheli durumlarda anında uyarı alın ve yanlış alarmları %90 azaltın."
+      },
+      {
+        "img": "../assets/Solutions/img-2.jpg",
+        "title": "Hızlı Soruşturmalar",
+        "text": "Öğenin göründüğü her video örneğini etkili bir şekilde bulmak için öğelerin görsel özelliklerinden yararlanın."
+      },
+      {
+        "img": "../assets/Solutions/img-3.jpg",
+        "title": "Veri goruntuleme",
+        "text": "Anlaşılması kolay görsellerle canlı raporlar ve uyarılar alın."
+      }
+    ]
+  },
+  "thirdSection": {
+    "heading": "Özel Veri Toplama",
+    "content": {
+      "img": "../assets/Solutions/img-4.jpg",
+      "text": "Holocrow, işlediğimiz görsel içeriklerden hiçbir zaman kişisel kimlik bilgilerini toplamaz. Öncelikli hedefimiz insanların gizliliğini korurken güvenliği artırmaktır."
+    }
+  },
+
+  "sliderSection": {
+    "heading": "endüstriler",
+    "slides": [
+      {
+        "title": "Lorem Ipsum",
+        "img": "../assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "../assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "../assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "../assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "../assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "../assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "../assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "../assets/Solutions/industriesSlider/industry1.png"
+      }
+    ]
+  }
+}

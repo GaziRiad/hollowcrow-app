@@ -1,11 +1,8 @@
-import useContentHowItWorks from "../hooks/useContentHowItWorks";
 import Heading from "./Heading";
 
 import { motion } from "framer-motion";
 
-function TrustedBySection() {
-  const content = useContentHowItWorks();
-
+function TrustedBySection({ content }) {
   return (
     <motion.section
       initial={{ opacity: 0, translateY: 150 }}

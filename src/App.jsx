@@ -6,6 +6,7 @@ import HowItWorks from "./pages/HowItWorks";
 import { AnimatePresence } from "framer-motion";
 import Solutions from "./pages/Solutions";
 import Security from "./pages/security";
+import Efficiency from "./pages/Efficiency";
 
 function App() {
   const location = useLocation();
@@ -14,10 +15,11 @@ function App() {
     <LanguageContext>
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          <Route index path="/" element={<Home />} />
-          <Route path="/howItWorks" element={<HowItWorks />} />
+          <Route index path="/home" element={<Home />} />
+          <Route path="/howitworks" element={<HowItWorks />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/security" element={<Security />} />
+          <Route path="/efficiency" element={<Efficiency />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </AnimatePresence>

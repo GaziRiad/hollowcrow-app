@@ -4,13 +4,11 @@ import { FaPlay } from "react-icons/fa6";
 import Socials from "./Socials";
 
 import { motion, useInView } from "framer-motion";
-import useContentHome from "../hooks/useContentHome";
 import { useEffect, useRef, useState } from "react";
 import HeroPattern from "./HeroPattern";
+import { navigation } from "../constants/navigation";
 
 function HeroMain() {
-  const content = useContentHome();
-
   // Make nav sticky when scrolling
   const [sticky, setSticky] = useState(false);
   const heroRef = useRef();
@@ -44,7 +42,7 @@ function HeroMain() {
         } z-50 top-0 w-full flex justify-between px-10 items-center lg:justify-around lg:px-0`}
       >
         <Logo />
-        <Navigation content={content} sticky={sticky} home={true} />
+        <Navigation content={navigation} sticky={sticky} home={true} />
       </header>
 
       {/* VID OVERLAY */}

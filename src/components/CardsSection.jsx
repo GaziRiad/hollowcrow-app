@@ -1,10 +1,6 @@
-import useContentHowItWorks from "../hooks/useContentHowItWorks";
-
 import { motion } from "framer-motion";
 
-function CardsSection() {
-  const content = useContentHowItWorks();
-
+function CardsSection({ content }) {
   return (
     <motion.section
       initial={{ opacity: 0, translateY: 150 }}

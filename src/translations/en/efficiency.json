@@ -1,0 +1,61 @@
+{
+  "heroImg": "assets/Solutions/EfficiencyHero.png",
+  "heroHeading": "Efficiency",
+  "subHero": ["Allways On", "Billion Hours Trained", "Operational Manager"],
+  "firstSection": {
+    "content": [
+      {
+        "img": "assets/Solutions/img-1.jpeg",
+        "title": "Perfect Accuracy",
+        "text": "Detect errors on your production lines with AI’s 99.9% accuracy."
+      },
+      {
+        "img": "assets/Solutions/img-2.jpeg",
+        "title": "Increase Efficiency",
+        "text": "Analyze the productivity of all employees and increase your operational efficiency by up to 50%."
+      },
+      {
+        "img": "assets/Solutions/img-3.jpg",
+        "title": "Data Visualization",
+        "text": "Get live reports and alerts with easy to understand visuals."
+      }
+    ]
+  },
+  "thirdSection": {
+    "heading": "Private Data Collection",
+    "content": {
+      "img": "assets/Solutions/img-4.jpg",
+      "text": "Holocrow never collects personal identification details from the visual content we handle. Our primary goal is to enhance security while preserving people’s confidentiality."
+    }
+  },
+
+  "sliderSection": {
+    "heading": "industries",
+    "slides": [
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
+      }
+    ]
+  }
+}

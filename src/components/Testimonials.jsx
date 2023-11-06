@@ -15,13 +15,10 @@ import "swiper/css/pagination";
 // import required modules
 import { Mousewheel, Pagination } from "swiper/modules";
 import { FaQuoteLeft } from "react-icons/fa6";
-import useContentHome from "../hooks/useContentHome";
 
 import { motion } from "framer-motion";
 
-function Testimonials() {
-  const content = useContentHome();
-
+function Testimonials({ content }) {
   return (
     <motion.section
       initial={{ opacity: 0, translateY: 200 }}

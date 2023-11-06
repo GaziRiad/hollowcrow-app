@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Heading from "../components/Heading";
-import useContentSecurity from "../hooks/useContentSecurity";
+import useContent from "../hooks/useContent";
 import SwipingSlider from "../components/SwipingSlider";
 import PageTransition from "../components/PageTransition";
 
@@ -10,7 +10,9 @@ import { motion } from "framer-motion";
 import footerImg from "../assets/footer-img.png";
 
 function Security() {
-  const content = useContentSecurity();
+  const { content } = useContent();
+
+  if (!content) return <p>Loading...</p>;
 
   return (
     <PageTransition>

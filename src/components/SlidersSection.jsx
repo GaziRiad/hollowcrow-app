@@ -3,12 +3,9 @@ import HeadingDescription from "./HeadingDescription";
 import Slider from "./Slider";
 import Link from "./Link";
 
-import useContentHome from "../hooks/useContentHome";
 import { motion } from "framer-motion";
 
-function SlidersSection() {
-  const content = useContentHome();
-
+function SlidersSection({ content }) {
   return (
     <motion.section
       initial={{ opacity: 0, translateY: 150 }}

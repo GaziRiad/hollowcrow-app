@@ -1,12 +1,9 @@
 import Heading from "./Heading";
-import useContentHome from "../hooks/useContentHome";
 
 import { motion } from "framer-motion";
 import Accordion from "./Accordion";
 
-function PlatformOverview() {
-  const content = useContentHome();
-
+function PlatformOverview({ content }) {
   return (
     <motion.section
       initial={{ opacity: 0, translateY: 150 }}

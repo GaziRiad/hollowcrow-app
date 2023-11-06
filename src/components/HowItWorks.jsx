@@ -1,12 +1,10 @@
-import useContentHome from "../hooks/useContentHome";
 import Button from "./Button";
 import Heading from "./Heading";
 import Link from "./Link";
 
 import { motion } from "framer-motion";
 
-function HowItWorks() {
-  const content = useContentHome();
+function HowItWorks({ content }) {
   return (
     <motion.section
       initial={{ opacity: 0, translateY: 150 }}

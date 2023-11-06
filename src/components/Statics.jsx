@@ -1,12 +1,9 @@
-import useContentHome from "../hooks/useContentHome";
 import Heading from "./Heading";
 import Static from "./Static";
 
 import { motion } from "framer-motion";
 
-function Statics() {
-  const content = useContentHome();
-
+function Statics({ content }) {
   return (
     <motion.section
       initial={{ opacity: 0, translateY: 150 }}

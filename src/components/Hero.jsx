@@ -1,14 +1,12 @@
 import { useInView } from "framer-motion";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
-import useContentHowItWorks from "../hooks/useContentHowItWorks";
 import { useEffect, useRef, useState } from "react";
 import HeroPattern from "./HeroPattern";
 import Heading from "./Heading";
+import { navigation } from "../constants/navigation";
 
 function Hero({ img, heading, herobg = "hero" }) {
-  const content = useContentHowItWorks();
-
   // Make nav sticky when scrolling
   const [sticky, setSticky] = useState(false);
   const heroRef = useRef();
@@ -29,7 +27,7 @@ function Hero({ img, heading, herobg = "hero" }) {
         }`}
       >
         <Logo />
-        <Navigation content={content} sticky={sticky} />
+        <Navigation content={navigation} sticky={sticky} />
       </header>
       {img && (
         <img

@@ -27,7 +27,7 @@ function Navigation({ content, sticky, home = false }) {
       <ul
         className={`hidden ${textColor} gap-4 items-center justify-center lg:flex xl:gap-6 2xl:gap-8 xl:text-base 2xl:text-lg relative`}
       >
-        {content.navigation.links.map((nav) => (
+        {content.links.map((nav) => (
           <NavLink key={nav.text} to={nav.path}>
             <li className="cursor-pointer translate-x-0 origin-left hover:text-green-500 hover:translate-x-1 transition-all">
               {nav.text}
@@ -35,7 +35,7 @@ function Navigation({ content, sticky, home = false }) {
           </NavLink>
         ))}
         <ul className=" text-primary flex flex-col items-start justify-center gap-3 relative ">
-          {content.navigation.languages.map((lang) => {
+          {content.languages.map((lang) => {
             if (lang.attribute === activeLanguage)
               return (
                 <button
@@ -53,7 +53,7 @@ function Navigation({ content, sticky, home = false }) {
 
           {displayLangs && (
             <ul className="absolute top-10 flex flex-col gap-3">
-              {content.navigation.languages.map((lang) => {
+              {content.languages.map((lang) => {
                 if (lang.attribute !== activeLanguage)
                   return (
                     <li
@@ -108,7 +108,7 @@ function Navigation({ content, sticky, home = false }) {
                 );
               })}
             </ul>
-            {content.navigation.links.map((nav) => (
+            {content.links.map((nav) => (
               <NavLink key={nav.text} to={nav.path}>
                 {/*  translate-x-0 origin-left hover:text-green-500 hover:translate-x-1 transition-all */}
                 <li className="cursor-pointer hover:text-green-500 hover:translate-x-1 transition-all">

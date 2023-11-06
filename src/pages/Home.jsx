@@ -8,22 +8,24 @@ import Statics from "../components/Statics";
 import Testimonials from "../components/Testimonials";
 
 import footerHomeIcon from "../assets/homeimgs/footerHomeIcon.png";
-import useContentHome from "../hooks/useContentHome";
+import useContent from "../hooks/useContent";
 
 import PageTransition from "../components/PageTransition";
 
 function Landing() {
-  const content = useContentHome();
+  const { content } = useContent();
+
+  if (!content) return <p>Loading...</p>;
 
   return (
     <PageTransition>
       <HeroMain />
-      <Features />
-      <Statics />
-      <HowItWorks />
-      <SlidersSection />
-      <PlatformOverview />
-      <Testimonials />
+      <Features content={content} />
+      <Statics content={content} />
+      <HowItWorks content={content} />
+      <SlidersSection content={content} />
+      <PlatformOverview content={content} />
+      <Testimonials content={content} />
 
       <Footer icon={footerHomeIcon} type="home">
         <div className="flex flex-wrap items-center justify-center gap-4 mb-6 md:mb-20 md:gap-10">
