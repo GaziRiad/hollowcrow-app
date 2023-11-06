@@ -5,7 +5,7 @@ import LanguageContext from "./contexts/LanguageContext";
 import HowItWorks from "./pages/HowItWorks";
 import { AnimatePresence } from "framer-motion";
 import Solutions from "./pages/Solutions";
-import Security from "./pages/security";
+import Security from "./pages/Security";
 import Efficiency from "./pages/Efficiency";
 import WorkPlaceSafety from "./pages/WorkPlaceSafety";
 import SalesAndMarketing from "./pages/SalesAndMarketing";
