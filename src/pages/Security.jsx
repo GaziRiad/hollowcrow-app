@@ -37,7 +37,10 @@ function Security() {
         <div className="flex items-start justify-center flex-col gap-12 md:flex-row md:flex-wrap lg:gap-10 xl:px-4">
           {content.firstSection.content.map((el) => (
             <div key={el.title} className="lg:max-w-md 2xl:max-w-lg">
-              <img src={el.img} className="rounded-2xl mb-6 w-[85%] h-80" />
+              <img
+                src={el.img}
+                className="rounded-2xl mb-6 w-[85%] h-44 md:h-96"
+              />
               <p className="font-semibold mb-2 text-black-800 text-lg 2xl:text-xl">
                 {el.title}
               </p>

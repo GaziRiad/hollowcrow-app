@@ -91,7 +91,7 @@ function Navigation({ content, sticky, home = false }) {
             className="text-white text-2xl flex flex-col items-center mt-44 gap-6 "
           >
             <ul className="flex gap-3 text-black-800">
-              {content.navigation.languages.map((lang) => {
+              {content.languages.map((lang) => {
                 return (
                   <li
                     className={`${

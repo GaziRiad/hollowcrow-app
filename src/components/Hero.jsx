@@ -32,15 +32,15 @@ function Hero({ img, heading, herobg = "hero" }) {
       {img && (
         <img
           src={img}
-          className={`absolute left-1/2 -translate-x-[50%]  w-96   ${
+          className={`absolute left-1/2 -translate-x-[50%]     ${
             heading
-              ? "bottom-[35%] lg:bottom-[30%] xl:w-1/4"
-              : "bottom-[20%] md:w-1/2 lg:w-1/3 lg:bottom-[18%] xl:bottom-[15%]"
+              ? " w-72 bottom-[35%] lg:bottom-[30%] xl:w-1/4"
+              : " w-96 bottom-[20%] md:w-1/2 lg:w-1/3 lg:bottom-[18%] xl:bottom-[15%]"
           } `}
         />
       )}
       {heading && (
-        <div className="absolute left-1/2 -translate-x-[50%] bottom-[20%] lg:bottom-[10%]">
+        <div className="absolute left-1/2 -translate-x-[50%] bottom-[15%] lg:bottom-[10%]">
           <Heading>{heading}</Heading>
         </div>
       )}
