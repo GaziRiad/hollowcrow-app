@@ -1,14 +1,16 @@
 import { motion } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 function Feature({ src, name }) {
   const imageRef = useRef(null);
+  const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseMove = (e) => {
+    setIsHovered(true);
     const image = imageRef.current;
     if (!image) return;
 
-    const sensitivityFactor = 0.7; // Adjust as needed
+    const sensitivityFactor = 0.3; // Adjust as needed
 
     const rect = image.getBoundingClientRect();
     const offsetX = (e.clientX - rect.left) / rect.width - 0.5;
@@ -21,11 +23,20 @@ function Feature({ src, name }) {
   };
 
   const handleMouseLeave = () => {
+    setIsHovered(false);
     const image = imageRef.current;
     if (!image) return;
 
     image.style.transform = "translate(0, 0)";
   };
+
+  const imgSrc = isHovered
+    ? `${
+        "../assets/features/" +
+        src.split("/").at(-1).split(".")[0] +
+        "-yellow.png"
+      }`
+    : src;
 
   return (
     <div
@@ -34,12 +45,11 @@ function Feature({ src, name }) {
       className="w-52 flex flex-col items-center justify-center gap-5 "
     >
       <motion.img
-        // data-title={name}
         ref={imageRef}
         // initial={{ opacity: 0.8, scale: 1 }}
         // whileHover={{ opacity: 1, scale: 1.2 }}
         // whileHover={{ scale: 1.1 }}
-        src={src}
+        src={imgSrc}
         className="w-32 md:w-40"
       />
       <p className=" text-black-800 uppercase text-lg font-semibold text-center md:text-xl">

@@ -1,18 +1,18 @@
 {
   "heroImg": "assets/Solutions/MarketingHero.png",
-  "heroHeading": "Satış ve Pazarlama",
+  "heroHeading": "Sales & Marketing",
   "subHero": ["Allways On", "Billion Hours Trained", "Marketing Analyst"],
   "firstSection": {
     "content": [
       {
         "img": "assets/Solutions/insights.png",
-        "title": "Doğru Analizler",
-        "text": "Ziyaretçi sayısını, ısı haritasını, demografik bilgileri ve çok daha fazlasını %99,9 doğrulukla elde edin."
+        "title": "Accurate Insights",
+        "text": "Obtain visitor count, heatmap, demographic insights, and many more with 99.9% accuracy."
       },
       {
         "img": "assets/Solutions/stock.jpeg",
-        "title": "Stok Tükenmesini Engelle",
-        "text": "Stok tükenmesini önlemek ve değerli bilgiler toplamak için her satın alma işlemini yalnızca video akışları aracılığıyla tespit edip izleyin."
+        "title": "Prevent Out of Stock",
+        "text": "Detect and track every single buying transactions only via video streams to prevent stock out and gather precious insights."
       },
       {
         "img": "assets/Solutions/img-3.jpg",

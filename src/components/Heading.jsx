@@ -24,7 +24,7 @@ function Heading({ type = "h1", color = "primary", style = "", children }) {
   if (type === "h3")
     return (
       <h3
-        className={`text-3xl text-center text-primary font-semibold mb-12 ${style}`}
+        className={`text-3xl text-center text-primary font-semibold mb-12 capitalize ${style}`}
       >
         {children}
       </h3>

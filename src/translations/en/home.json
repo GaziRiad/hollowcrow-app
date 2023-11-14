@@ -12,11 +12,11 @@
         "name": "Workplace-Safety"
       },
       {
-        "icon": "../assets/features/quality-control.png",
+        "icon": "../assets/features/efficiency.png",
         "name": "Efficiency"
       },
       {
-        "icon": "../assets/features/marketing.png",
+        "icon": "../assets/features/sales-marketing.png",
         "name": "Sales-Marketing"
       }
     ]
@@ -24,7 +24,7 @@
 
   "statics": [
     { "title": "Active Users", "number": "+1k" },
-    { "title": "years of experience", "number": "10" },
+    { "title": "CONNECTED CAMERAS", "number": "2500" },
     { "title": "images generated", "number": "2B Per min" }
   ],
 
@@ -172,7 +172,7 @@
         "text": "The moment you register and introduce your cameras to Holocrow, you start using the platform. All models of cameras & CCTVs can be connected. From the dedicated page for devices, you can easily view and control the connection status of the devices."
       },
       {
-        "img": "../assets/homeimgs/platformOverView/platform-overview.png",
+        "img": "../assets/homeimgs/platformOverView/Plug-Use and Alarms.png",
         "title": "Alerts & Notifications",
         "text": "Instant alerts and notifications are of vital importance in the solutions you'll use, especially in the fields of workplace safety and security. Holocrow sends instant notifications to relevant departments in risky situations."
       },

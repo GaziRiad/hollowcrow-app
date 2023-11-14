@@ -1,0 +1,26 @@
+{
+  "heading": "İyileşmek",
+  "text": "tesislerdeki mevcut kameralarla sorunsuz bir şekilde entegre edilerek",
+  "features": [
+    {
+      "icon": "../assets/features/security.png",
+      "name": "Güvenlik",
+      "link": "security"
+    },
+    {
+      "icon": "../assets/features/safety.png",
+      "name": "İşyeri güvenliği",
+      "link": "efficiency"
+    },
+    {
+      "icon": "../assets/features/efficiency.png",
+      "name": "Yeterlik",
+      "link": "workplace-safety"
+    },
+    {
+      "icon": "../assets/features/sales-marketing.png",
+      "name": "Satış ve Pazarlama",
+      "link": "sales-marketing"
+    }
+  ]
+}

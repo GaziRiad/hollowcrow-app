@@ -8,11 +8,12 @@ import PageTransition from "../components/PageTransition";
 import { motion } from "framer-motion";
 
 import footerImg from "../assets/footer-img.png";
+import Loader from "../ui/Loader";
 
 function Security() {
   const { content } = useContent();
 
-  if (!content) return <p>Loading...</p>;
+  if (!content) return <Loader />;
 
   return (
     <PageTransition>

@@ -11,7 +11,7 @@ function HowItWorks({ content }) {
       whileInView={{ opacity: 1, translateY: 0 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: false }}
-      className="relative mb-32 px-4 bg-primary py-20 md:px-0"
+      className="relative mb-32 px-4 bg-primary py-20 md:px-0 overflow-hidden"
     >
       <div className="container mx-auto ">
         <Heading color="white" type="h2">
@@ -23,7 +23,7 @@ function HowItWorks({ content }) {
             key={step.text.title}
             className={`flex flex-col items-center gap-6 sm:gap-10 px-4 sm:px-12 lg:flex-row ${
               i % 2 !== 0 ? "lg:flex-row-reverse" : ""
-            } md:mb-20 lg:mb-36  xl:gap-36 lg:px-30 xl:px-44 mb-16 `}
+            } md:mb-20 lg:mb-40 xl:gap-36 lg:px-30 xl:px-44 mb-16 `}
           >
             <div className="z-20">
               <Heading type="h4">{step.text.title}</Heading>
@@ -37,7 +37,7 @@ function HowItWorks({ content }) {
               transition={{ ease: "easeOut", duration: 0.5 }}
               viewport={{ once: true }}
               src={step.img}
-              className=" w-2/3 lg:w-1/2 mx-auto z-20"
+              className=" w-2/3 lg:w-1/2 mx-auto z-20 rounded-2xl"
             />
           </div>
         ))}
@@ -54,7 +54,7 @@ function HowItWorks({ content }) {
         transition={{ ease: "easeOut", duration: 0.5 }}
         viewport={{ once: true }}
         src={content.howItWorksSection.patternImg}
-        className="absolute top-[10%] left-0 h-[75%] z-10 xl:top-[8%]"
+        className="absolute top-[8%] right-0 h-[80%] z-10 xl:-top-[7%]"
       />
     </motion.section>
   );

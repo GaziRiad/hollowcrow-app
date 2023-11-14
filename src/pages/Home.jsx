@@ -11,11 +11,12 @@ import footerHomeIcon from "../assets/homeimgs/footerHomeIcon.png";
 import useContent from "../hooks/useContent";
 
 import PageTransition from "../components/PageTransition";
+import Loader from "../ui/Loader";
 
 function Landing() {
   const { content } = useContent();
 
-  if (!content) return <p>Loading...</p>;
+  if (!content) return <Loader />;
 
   return (
     <PageTransition>

@@ -22,8 +22,6 @@ function SlidersSection({ content }) {
       {content.slidersSection.sliders.map((slider) => (
         <Slider slider={slider} key={slider.heading} />
       ))}
-
-      <Link>SOLUTIONS BY INDUSTRIES</Link>
     </motion.section>
   );
 }

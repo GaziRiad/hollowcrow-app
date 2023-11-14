@@ -27,11 +27,11 @@
         "name": "İşyeri güvenliği"
       },
       {
-        "icon": "../assets/features/quality-control.png",
+        "icon": "../assets/features/efficiency.png",
         "name": "Yeterlik"
       },
       {
-        "icon": "../assets/features/marketing.png",
+        "icon": "../assets/features/sales-marketing.png",
         "name": "Satış ve Pazarlama"
       }
     ]
@@ -39,7 +39,7 @@
 
   "statics": [
     { "title": "Aktif Kullanıcılar", "number": "+1 bin" },
-    { "title": "Yılların Deneyimi", "number": "10" },
+    { "title": "BAĞLI KAMERALAR", "number": "2500" },
     { "title": "oluşturulan görüntüler", "number": "Dakikada 2B" }
   ],
 
@@ -187,7 +187,7 @@
         "text": "Kameralarınızı Holocrow'a kaydedip tanıttığınız anda platformu kullanmaya başlıyorsunuz. Tüm kamera ve CCTV modelleri bağlanabilir. Cihazlara özel sayfadan cihazların bağlantı durumunu kolayca görüntüleyebilir ve kontrol edebilirsiniz."
       },
       {
-        "img": "../assets/homeimgs/platformOverView/platform-overview.png",
+        "img": "../assets/homeimgs/platformOverView/Plug-Use and Alarms.png",
         "title": "Uyarılar ve Bildirimler",
         "text": "Özellikle iş yeri emniyeti ve güvenliği alanlarında kullanacağınız çözümlerde anlık uyarılar ve bildirimler hayati önem taşıyor. Holocrow riskli durumlarda ilgili departmanlara anlık bildirimler gönderir."
       },

@@ -29,7 +29,7 @@ function Navigation({ content, sticky, home = false }) {
       >
         {content.links.map((nav) => (
           <NavLink key={nav.text} to={nav.path}>
-            <li className="cursor-pointer translate-x-0 origin-left hover:text-green-500 hover:translate-x-1 transition-all">
+            <li className="cursor-pointer translate-x-0 origin-left hover:text-primary hover:translate-x-1 transition-all">
               {nav.text}
             </li>
           </NavLink>
@@ -110,8 +110,8 @@ function Navigation({ content, sticky, home = false }) {
             </ul>
             {content.links.map((nav) => (
               <NavLink key={nav.text} to={nav.path}>
-                {/*  translate-x-0 origin-left hover:text-green-500 hover:translate-x-1 transition-all */}
-                <li className="cursor-pointer hover:text-green-500 hover:translate-x-1 transition-all">
+                {/*  translate-x-0 origin-left hover:text-primary hover:translate-x-1 transition-all */}
+                <li className="cursor-pointer hover:text-primary hover:translate-x-1 transition-all">
                   {nav.text}
                 </li>
               </NavLink>

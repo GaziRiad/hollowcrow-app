@@ -8,7 +8,6 @@ function useContentSecurity() {
   const { activeLanguage } = useLanguage();
   const [content, setContent] = useState(null);
 
-  console.log(fileName);
   useEffect(() => {
     async function getContent() {
       const content = await import(
