@@ -40,7 +40,7 @@ function Hero({ img, heading, herobg = "hero" }) {
         />
       )}
       {heading && (
-        <div className="absolute left-1/2 -translate-x-[50%] bottom-[15%] lg:bottom-[10%]">
+        <div className="absolute left-1/2 -translate-x-[50%] bottom-[15%] lg:bottom-[6%]">
           <Heading>{heading}</Heading>
         </div>
       )}

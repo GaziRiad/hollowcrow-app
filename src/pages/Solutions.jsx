@@ -11,19 +11,15 @@ function Solutions() {
 
   if (!content) return <Loader />;
   return (
-    <div>
+    <div className="relative">
       <Hero />
-
       <motion.section
         initial={{ opacity: 0, translateY: 150 }}
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 0.5 }}
-        className="container mx-auto mb-8 px-4 md:px-0"
+        className="mb-8 px-4 md:px-0 absolute top-1/3 w-full"
       >
-        <Heading type="h1" color="primary">
-          {content.heading}
-        </Heading>
-        <div className="flex items-center justify-center gap-8 flex-wrap mb-10 xl:gap-20  ">
+        <div className="flex items-center justify-center gap-8 flex-wrap mb-10 ">
           {content.features.map((feature) => (
             <Link key={feature.name} to={`/${feature.link}`}>
               <Feature name={feature.name} src={feature.icon} />
@@ -31,9 +27,9 @@ function Solutions() {
           ))}
         </div>
 
-        <p className="text-black-800 text-center text-lg font-normal">
+        {/* <p className="text-black-800 text-center text-lg font-normal">
           {content.text}
-        </p>
+        </p> */}
       </motion.section>
     </div>
   );
