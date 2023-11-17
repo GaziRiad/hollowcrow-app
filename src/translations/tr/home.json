@@ -28,11 +28,11 @@
       },
       {
         "icon": "../assets/features/efficiency.png",
-        "name": "Yeterlik"
+        "name": "OPERASYONEL MÜKEMMELLİK"
       },
       {
         "icon": "../assets/features/sales-marketing.png",
-        "name": "Satış ve Pazarlama"
+        "name": "PERAKENDE & FMCG"
       }
     ]
   },
@@ -79,22 +79,22 @@
         "heading": "güvenlik",
         "slides": [
           {
-            "icon": "../assets/icons/Dangeruos 1.png",
+            "icon": "../assets/icons/9.png",
             "title": "Kısıtlı Alan Kontrolü",
             "text": "Varlıklarınızı güvenlik kuralınıza göre yalnızca gerçek alarmlarla izleyin."
           },
           {
-            "icon": "../assets/icons/Certificate 1.png",
+            "icon": "../assets/icons/8.png",
             "title": "Ruhsat",
             "text": "Araçların plakası ve diğer özellikleriyle ihlal ve dolandırıcılığın önlenmesi amacıyla erişim kontrolü."
           },
           {
-            "icon": "../assets/icons/Under Contruction 1.png",
+            "icon": "../assets/icons/17.png",
             "title": "Şüpheli Öğe Tespiti",
             "text": "Bölgenizi güvence altına almak için şüpheli tutumları ve potansiyel zararlı nesneleri, çantaları, kutuları vb. tespit edin."
           },
           {
-            "icon": "../assets/icons/Dangeruos 1.png",
+            "icon": "../assets/icons/9.png",
             "title": "Kısıtlı Alan Kontrolü 2",
             "text": "Varlıklarınızı güvenlik kuralınıza göre yalnızca gerçek alarmlarla izleyin."
           }
@@ -104,22 +104,22 @@
         "heading": "Emniyet",
         "slides": [
           {
-            "icon": "../assets/icons/Enginerr 1.png",
+            "icon": "../assets/icons/1.png",
             "title": "KKD",
             "text": "İş kazalarının personel üzerindeki etkilerini en aza indirmek için personelin uygun KKD kullanımını kontrol edin."
           },
           {
-            "icon": "../assets/icons/Jackhammer  1.png",
+            "icon": "../assets/icons/2.png",
             "title": "Makine Etkileşimleri",
             "text": "Makinenin kötü kullanımı ciddi yaralanmalara neden olabilir. Personelinizi ve işletmenizi korumak için gerçek zamanlı uyarılarla dikkat edin ve kazaları engelleyin."
           },
           {
-            "icon": "../assets/icons/man 6.png",
+            "icon": "../assets/icons/15.png",
             "title": "Temizlik",
             "text": "Yetersiz temizlik nedeniyle yaralanmalar tamamen önlenebilir. Hızlı tanımlama, hızlı düzeltmeye ve zararın önlenmesine yol açar."
           },
           {
-            "icon": "../assets/icons/Dangeruos 1.png",
+            "icon": "../assets/icons/9.png",
             "title": "Kısıtlı Alan Kontrolü 2",
             "text": "Varlıklarınızı güvenlik kuralınıza göre yalnızca gerçek alarmlarla izleyin."
           }
@@ -129,22 +129,22 @@
         "heading": "Pazarlama",
         "slides": [
           {
-            "icon": "../assets/icons/Structur 1.png",
+            "icon": "../assets/icons/19.png",
             "title": "Ziyaretçi Sayma",
             "text": "Mağazalarınızın potansiyelini ölçmek için personel hariç anonim kimlikleri kullanarak benzersiz ziyaretçileri sayın."
           },
           {
-            "icon": "../assets/icons/Tablet-Management 1.png",
+            "icon": "../assets/icons/20.png",
             "title": "Demografik Hedefleme",
             "text": "Doğru segmentasyonu uygulamak için ziyaretçilerinizin demografik çeşitliliğini öğrenin."
           },
           {
-            "icon": "../assets/icons/Education Icon9 1.png",
+            "icon": "../assets/icons/3.png",
             "title": "A/B Testi",
             "text": "Müşterilerin yeni ürünlerinize ilişkin tercihlerini hızlı bir şekilde anlayın."
           },
           {
-            "icon": "../assets/icons/Dangeruos 1.png",
+            "icon": "../assets/icons/9.png",
             "title": "Kısıtlı Alan Kontrolü 2",
             "text": "Varlıklarınızı güvenlik kuralınıza göre yalnızca gerçek alarmlarla izleyin."
           }
@@ -154,22 +154,22 @@
         "heading": "Qkalite kontrol",
         "slides": [
           {
-            "icon": "../assets/icons/To-do-list 1.png",
+            "icon": "../assets/icons/21.png",
             "title": "Stok Kontrolleri",
             "text": "Stoklarınızı CCTV ile sayın veya ölçün."
           },
           {
-            "icon": "../assets/icons/Brifecase 1.png",
+            "icon": "../assets/icons/7.png",
             "title": "Desen ve Renk Kontrolü",
             "text": "Kalite güvencesini onaylamak için akışlar ve resimler üzerinden üretilen ürünün görünürlüğünü analiz edin."
           },
           {
-            "icon": "../assets/icons/Education Icon2 1.png",
+            "icon": "../assets/icons/10.png",
             "title": "Operasyonel mükemmellik",
             "text": "İyileştirmeye açık süreçleri analiz etmek için operasyonlarınızın her adımını tespit edip takip edin."
           },
           {
-            "icon": "../assets/icons/Dangeruos 1.png",
+            "icon": "../assets/icons/9.png",
             "title": "Kısıtlı Alan Kontrolü 2",
             "text": "Varlıklarınızı güvenlik kuralınıza göre yalnızca gerçek alarmlarla izleyin."
           }

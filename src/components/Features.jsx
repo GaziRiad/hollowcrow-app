@@ -16,7 +16,7 @@ function Features({ content }) {
       <Heading type="h1" color="primary">
         {content.featuresSection.heading}
       </Heading>
-      <div className="flex items-center justify-center gap-8 flex-wrap mb-10 xl:gap-20  ">
+      <div className="flex items-center justify-center gap-8 flex-wrap mb-10 xl:gap-12  ">
         {content.featuresSection.features.map((feature) => (
           <Feature key={feature.name} name={feature.name} src={feature.icon} />
         ))}

@@ -9,8 +9,10 @@ import { motion } from "framer-motion";
 
 import footerImg from "../assets/footer-img.png";
 import Loader from "../ui/Loader";
+import FirstSection from "../components/solutions/firstSection";
+import ProductsSection from "../components/solutions/ProductsSection";
 
-function SalesAndMarketing() {
+function OperationalExcellence() {
   const { content } = useContent();
 
   if (!content) return <Loader />;
@@ -23,35 +25,9 @@ function SalesAndMarketing() {
         herobg="hero-solutions"
       />
 
-      <motion.section
-        initial={{ opacity: 0, translateY: 150 }}
-        whileInView={{ opacity: 1, translateY: 0 }}
-        transition={{ duration: 0.5 }}
-        className="container mx-auto mb-12 px-10 lg:px-0 lg:mb-32"
-      >
-        <div className=" text-center text-lg md:text-xl lg:text-2xl flex flex-col gap-4 mb-12 lg:mb-32">
-          {content.subHero.map((text) => (
-            <p key={text}>{text}</p>
-          ))}
-        </div>
+      <FirstSection content={content} />
 
-        <div className="flex items-start justify-center flex-col gap-12 md:flex-row md:flex-wrap lg:gap-10 xl:px-4">
-          {content.firstSection.content.map((el) => (
-            <div key={el.title} className="lg:max-w-md 2xl:max-w-lg">
-              <img
-                src={el.img}
-                className="rounded-2xl mb-6 w-[85%] h-44 md:h-96"
-              />
-              <p className="font-semibold mb-2 text-black-800 text-lg 2xl:text-xl">
-                {el.title}
-              </p>
-              <p className="text-black-800 lg:text-base 2xl:text-lg">
-                {el.text}
-              </p>
-            </div>
-          ))}
-        </div>
-      </motion.section>
+      <ProductsSection content={content} />
 
       <motion.section
         initial={{ opacity: 0, translateY: 150 }}
@@ -81,4 +57,4 @@ function SalesAndMarketing() {
   );
 }
 
-export default SalesAndMarketing;
+export default OperationalExcellence;

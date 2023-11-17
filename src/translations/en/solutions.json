@@ -10,17 +10,17 @@
     {
       "icon": "../assets/features/safety.png",
       "name": "Workplace-Safety",
-      "link": "efficiency"
-    },
-    {
-      "icon": "../assets/features/efficiency.png",
-      "name": "Efficiency",
       "link": "workplace-safety"
     },
     {
+      "icon": "../assets/features/efficiency.png",
+      "name": "OPERATIONAL EXCELLENCE",
+      "link": "operational-excellence"
+    },
+    {
       "icon": "../assets/features/sales-marketing.png",
-      "name": "Sales-Marketing",
-      "link": "sales-marketing"
+      "name": "RETAIL & FMCG",
+      "link": "retail"
     }
   ]
 }

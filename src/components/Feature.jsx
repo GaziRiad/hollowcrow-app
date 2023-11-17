@@ -42,7 +42,7 @@ function Feature({ src, name }) {
     <div
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className="w-52 flex flex-col items-center justify-center gap-5 "
+      className=" w-72 flex flex-col items-center justify-center gap-5 "
     >
       <motion.img
         ref={imageRef}

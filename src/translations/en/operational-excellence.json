@@ -1,6 +1,6 @@
 {
   "heroImg": "assets/Solutions/EfficiencyHero.png",
-  "heroHeading": "Efficiency",
+  "heroHeading": "Operational Excellence",
   "subHero": ["Allways On", "Billion Hours Trained", "Operational Manager"],
   "firstSection": {
     "content": [
@@ -21,6 +21,38 @@
       }
     ]
   },
+  "productsSection": {
+    "heading": "BEYOND WATCHING",
+    "subHeading": "See our all security products",
+    "content": [
+      {
+        "icon": "/assets/icons/21.png",
+        "title": "Stock Controls",
+        "text": "Count or measure your stocks by CCTV."
+      },
+      {
+        "icon": "/assets/icons/7.png",
+        "title": "Patterns & Colours Check",
+        "text": "Analyze visibility of product has been produced over streams and images to approve quality assurance."
+      },
+      {
+        "icon": "/assets/icons/10.png",
+        "title": "Operational Excellence",
+        "text": "Detect and track every single step of your operations to analyze processes open to improvement."
+      },
+      {
+        "icon": "/assets/icons/26.png",
+        "title": "Staff Efficiency Analysis",
+        "text": "Enhance workforce productivity by analyzing staff movements and activities using video data."
+      },
+      {
+        "icon": "/assets/icons/27.png",
+        "title": "Packaging Control",
+        "text": "Ensure accuracy and quality in packaging by visually inspecting for conformity and detecting anomalies."
+      }
+    ]
+  },
+
   "thirdSection": {
     "heading": "Private Data Collection",
     "content": {

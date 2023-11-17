@@ -6,9 +6,9 @@ import HowItWorks from "./pages/HowItWorks";
 import { AnimatePresence } from "framer-motion";
 import Solutions from "./pages/Solutions";
 import Security from "./pages/Security";
-import Efficiency from "./pages/Efficiency";
+import OperationalExcellence from "./pages/OperationalExcellence";
 import WorkPlaceSafety from "./pages/WorkPlaceSafety";
-import SalesAndMarketing from "./pages/SalesAndMarketing";
+import Retail from "./pages/Retail";
 
 function App() {
   const location = useLocation();
@@ -22,9 +22,12 @@ function App() {
           <Route path="/howitworks" element={<HowItWorks />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/security" element={<Security />} />
-          <Route path="/efficiency" element={<Efficiency />} />
+          <Route
+            path="/operational-excellence"
+            element={<OperationalExcellence />}
+          />
           <Route path="/workplace-safety" element={<WorkPlaceSafety />} />
-          <Route path="/sales-marketing" element={<SalesAndMarketing />} />
+          <Route path="/retail" element={<Retail />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </AnimatePresence>

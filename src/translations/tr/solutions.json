@@ -9,18 +9,18 @@
     },
     {
       "icon": "../assets/features/safety.png",
-      "name": "İşyeri güvenliği",
-      "link": "efficiency"
+      "name": "işyeri güvenliği",
+      "link": "workplace-safety"
     },
     {
       "icon": "../assets/features/efficiency.png",
-      "name": "Yeterlik",
-      "link": "workplace-safety"
+      "name": "operasyonel mükemmellik",
+      "link": "operational-excellence"
     },
     {
       "icon": "../assets/features/sales-marketing.png",
       "name": "Satış ve Pazarlama",
-      "link": "sales-marketing"
+      "link": "retail"
     }
   ]
 }
