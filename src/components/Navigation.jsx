@@ -57,7 +57,7 @@ function Navigation({ content, sticky, home = false }) {
                 if (lang.attribute !== activeLanguage)
                   return (
                     <li
-                      className=""
+                      className=" cursor-pointer"
                       key={lang.attribute}
                       onClick={() => {
                         setActiveLanguage(lang.attribute);
