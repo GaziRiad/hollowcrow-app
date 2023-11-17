@@ -21,10 +21,10 @@ function HowDoesItWork({ content }) {
           {content.howDoesItWorkSection.features.map((feature) => (
             <div
               key={feature.text}
-              className=" w-44 flex flex-col items-center justify-center border-gray-200 border-2 rounded-3xl px-4 py-2"
+              className="w-40 flex flex-col items-center justify-center border-gray-200 border-2 rounded-3xl px-4 py-2"
             >
-              <img src={feature.icon} className="mx-auto w-20  xl:w-24" />
-              <p className=" font-semibold text-center md:text-lg">
+              <img src={feature.icon} className="mx-auto w-16 xl:w-20" />
+              <p className=" font-semibold text-center md:text-base">
                 {feature.text}
               </p>
             </div>

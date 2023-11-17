@@ -12,20 +12,20 @@
     "img": "../assets/HowItWorksPage/mac-intro.png",
     "features": [
       {
-        "icon": "../assets/icons/Certificate 1.png",
+        "icon": "../assets/icons/8.png",
         "text": "Vehicle Identification"
       },
-      { "icon": "../assets/icons/To-do-list 1.png", "text": "Stock Controls" },
-      { "icon": "../assets/icons/Enginerr 1.png", "text": "PPE Check" },
+      { "icon": "../assets/icons/21.png", "text": "Stock Controls" },
+      { "icon": "../assets/icons/1.png", "text": "PPE Check" },
       {
-        "icon": "../assets/icons/Protective Cloth 1.png",
+        "icon": "../assets/icons/18.png",
         "text": "Ergonomy Control"
       },
       {
-        "icon": "../assets/icons/Under Contruction 1.png",
+        "icon": "../assets/icons/17.png",
         "text": "Suspicious Item Detection"
       },
-      { "icon": "../assets/icons/Structur 1.png", "text": "Visitor Counting" }
+      { "icon": "../assets/icons/19.png", "text": "Visitor Counting" }
     ]
   },
 

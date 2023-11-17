@@ -27,7 +27,7 @@ function HowItWorks() {
       <Heading type="tag">#BeyondWatching</Heading>
       <CardsSection content={content} />
       <TrustedBySection content={content} />
-      <Footer icon={footerImg} type="normal" />
+      <Footer icon={footerImg} />
     </PageTransition>
   );
 }

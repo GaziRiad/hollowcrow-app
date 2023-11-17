@@ -28,16 +28,19 @@ function Footer({ children, icon, btn = "get started", type = "normal" }) {
       <motion.section
         ref={ref}
         style={{ scale: scrollYProgress, opacity: scrollYProgress }}
-        className="px-6 py-20 "
+        className="px-6 py-8"
       >
         <footer className="flex flex-col items-center justify-center relative ">
           {children}
           <div
-            className={`relative mb-4 z-20 ${
+            className={`relative mb-4 z-20 flex items-center justify-center ${
               type === "home" ? "lg:mb-10" : ""
             }`}
           >
-            <img src={icon} className=" scale-90 lg:scale-75 " />
+            <img
+              src={icon}
+              className=" scale-125 md:scale-100 lg:w-[90%] xl:w-[80%]"
+            />
             <p
               className={`absolute ${
                 type === "home" ? "top-[40%]" : "top-[55%]"

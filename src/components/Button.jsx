@@ -14,7 +14,7 @@ function Button({ children, type = "medium" }) {
   if (type === "navigation")
     return (
       <motion.button
-        className={`rounded-full shadow-sm uppercase tracking-wider bg-primary text-white text-center font-secondary font-semibold px-8 py-2 md:text-lg`}
+        className={`rounded-full shadow-sm uppercase tracking-wider bg-primary text-white text-center font-secondary font-semibold px-8 py-2`}
         whileTap={{ scale: 0.9 }}
       >
         {children}
@@ -24,7 +24,7 @@ function Button({ children, type = "medium" }) {
   if (type === "small")
     return (
       <motion.button
-        className={`rounded-full shadow-sm uppercase text-sm tracking-wide bg-white text-primary text-center font-secondary font-bold px-3 py-3 `}
+        className={`rounded-full shadow-sm uppercase text-xs tracking-wide bg-white text-primary text-center font-secondary font-bold px-3 py-3 `}
         whileTap={{ scale: 0.9 }}
       >
         {children}
