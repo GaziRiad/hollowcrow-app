@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import footerImg from "../assets/footer-img.png";
 import Loader from "../ui/Loader";
 import ProductsSection from "../components/solutions/ProductsSection";
-import FirstSection from "../components/solutions/firstSection";
+import FirstSection from "../components/solutions/FirstSection";
 
 function SalesAndMarketing() {
   const { content } = useContent();
