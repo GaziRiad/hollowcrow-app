@@ -3,7 +3,7 @@ export const navigation = {
     { text: "How it works", path: "/howitworks" },
     { text: "Solutions", path: "/solutions" },
     { text: "Success Stories", path: "" },
-    { text: "About Us", path: "" },
+    { text: "About Us", path: "/about" },
     { text: "News", path: "" },
   ],
   languages: [

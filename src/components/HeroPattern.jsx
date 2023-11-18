@@ -5,7 +5,7 @@ import Button from "./Button";
 
 function HeroPattern() {
   return (
-    <div className="hidden absolute md:-bottom-[20%] right-0 w-72 md:block xl:-bottom-[27%] 2xl:-bottom-[20%]">
+    <div className="hidden absolute md:-bottom-[20%] right-0 w-72 lg:block xl:-bottom-[27%] 2xl:-bottom-[20%]">
       <motion.img
         style={{ transformOrigin: "top" }}
         initial={{ scaleY: 0.95 }}

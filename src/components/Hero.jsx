@@ -35,7 +35,7 @@ function Hero({ img, heading, herobg = "hero" }) {
           className={`absolute left-1/2 -translate-x-[50%] ${
             heading
               ? " w-72 bottom-[35%] lg:bottom-[30%] xl:w-1/4"
-              : " w-96 bottom-[20%] md:w-1/2 lg:w-1/3 lg:bottom-[18%] xl:bottom-[15%]"
+              : " w-96 bottom-[20%] md:w-1/2 lg:w-1/4 lg:bottom-[18%] xl:bottom-[20%]"
           } `}
         />
       )}

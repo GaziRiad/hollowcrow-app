@@ -1,0 +1,77 @@
+import Hero from "../components/Hero";
+import useContentSecurity from "../hooks/useContent";
+import Loader from "../ui/Loader";
+
+import { motion } from "framer-motion";
+
+function About() {
+  const { content } = useContentSecurity();
+
+  if (!content) return <Loader />;
+
+  return (
+    <>
+      <div className=" relative">
+        <Hero img={content.heroImg} herobg="hero-solutions" />
+        <p className="absolute bottom-[5%] w-full left-1/2 -translate-x-[50%] flex items-center justify-center px-4 text-center md:px-0 lg:bottom-[10%] lg:w-auto ">
+          <span className="text-3xl">{"{"}</span>
+          <span className="px-2 text-lg lg:text-xl">{content.heroText}</span>
+          <span className="text-3xl">{"}"}</span>
+        </p>
+      </div>
+
+      <section className="container mx-auto text-center flex flex-col gap-2 mb-12 px-4 lg:gap-7 lg:px-0 lg:mb-40">
+        <p className=" text-xl lg:text-3xl 2xl:text-4xl">{`${content.firstSection.text}`}</p>
+        <p className=" font-semibold text-2xl lg:text-4xl 2xl:text-5xl">
+          {content.firstSection.quote}
+        </p>
+      </section>
+
+      <section className="bg-primary text-black-800 py-24 mb-12 lg:mb-40">
+        <div className="container mx-auto px-4 lg:scroll-px-10 xl:px-20">
+          <p className="text-2xl tracking-wide font-semibold mb-4 text-center leading-snug lg:leading-relaxed lg:text-left lg:mb-10 lg:text-3xl xl:text-4xl">
+            {content.secondSection.heading}
+          </p>
+          <p className="text-base text-center lg:text-lg lg:text-left">
+            {content.secondSection.text}
+          </p>
+        </div>
+      </section>
+
+      <section className="container mx-auto mb-12 px-4 flex flex-col items-center justify-center gap-6 lg:flex-row lg:gap-24 xl:gap-32 lg:px-16 lg:mb-40 relative">
+        <div className="relative w-full lg:absolute lg:-top-36 xl:right-1/4 lg:w-1/2">
+          <motion.img
+            src="/assets/Vector-wave.png"
+            className="w-40 top-0 xl:w-52 -z-50"
+            style={{}}
+            initial={{ scaleY: 0.9 }}
+            animate={{ scaleY: 1 }}
+            transition={{
+              repeat: Infinity,
+              repeatType: "mirror",
+              duration: 2,
+            }}
+          />
+          <p className="text-primary font-bold text-6xl absolute z-10 -mt-28 pl-4 xl:-mt-32 xl:pl-16">
+            <span className="text-white">
+              {content.thirdSection.heading.split(" ")[0]}
+            </span>
+            <span> {content.thirdSection.heading.split(" ").at(-1)}</span>
+          </p>
+        </div>
+        <img
+          src={content.thirdSection.img}
+          alt={content.thirdSection.heading}
+          className="rounded-xl lg:w-[40%] xl:w-[35%]"
+        />
+        <div className="flex flex-col gap-4 lg:gap-12 lg:text-lg">
+          {content.thirdSection.text.map((par) => (
+            <p key={par}>{par}</p>
+          ))}
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default About;

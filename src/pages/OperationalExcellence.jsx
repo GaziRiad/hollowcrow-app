@@ -33,7 +33,7 @@ function OperationalExcellence() {
         initial={{ opacity: 0, translateY: 150 }}
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 0.5 }}
-        className="container mx-auto mb-12 px-10 lg:px-0 lg:mb-32 xl:px-4"
+        className="container mx-auto mb-12 px-10 lg:px-0 lg:mb-40 xl:px-4"
       >
         <Heading type="h2" style="lg:!text-left">
           {content.thirdSection.heading}
