@@ -188,12 +188,12 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
   transition: background-color 0.3s ease; /* Add a transition for a smoother effect */
 }
-.swiper-button-prev {
+.storiesSlider .swiper-button-prev {
   left: 90%; /* Adjust the left position for the previous button */
   top: 90%;
 }
 
-.swiper-button-next {
+.storiesSlider .swiper-button-next {
   right: 2%; /* Adjust the left position for the previous button */
   top: 90%;
   z-index: 99999;
