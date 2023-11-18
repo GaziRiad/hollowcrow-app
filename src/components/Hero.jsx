@@ -6,7 +6,7 @@ import HeroPattern from "./HeroPattern";
 import Heading from "./Heading";
 import { navigation } from "../constants/navigation";
 
-function Hero({ img, heading, herobg = "hero" }) {
+function Hero({ img, heading, herobg = "hero", noPattern = false }) {
   // Make nav sticky when scrolling
   const [sticky, setSticky] = useState(false);
   const heroRef = useRef();
@@ -45,7 +45,7 @@ function Hero({ img, heading, herobg = "hero" }) {
         </div>
       )}
 
-      <HeroPattern />
+      {!noPattern && <HeroPattern />}
     </section>
   );
 }

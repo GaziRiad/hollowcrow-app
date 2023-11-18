@@ -11,6 +11,7 @@ import footerImg from "../assets/footer-img.png";
 import Loader from "../ui/Loader";
 import FirstSection from "../components/solutions/FirstSection";
 import ProductsSection from "../components/solutions/ProductsSection";
+import MainFooter from "../components/MainFooter";
 
 function WorkPlaceSafety() {
   const { content } = useContent();
@@ -52,7 +53,7 @@ function WorkPlaceSafety() {
 
       <SwipingSlider content={content.sliderSection} />
 
-      <Footer icon={footerImg} />
+      <MainFooter />
     </PageTransition>
   );
 }

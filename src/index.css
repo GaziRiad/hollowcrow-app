@@ -174,3 +174,27 @@ body::-webkit-scrollbar-thumb {
     background-size: 20% 100%, 20% 100%, 20% 100%;
   }
 }
+
+.storiesSlider .swiper-button-next,
+.storiesSlider .swiper-button-prev {
+  --swiper-navigation-size: 24px;
+  color: #ffb800; /* Set the text color */
+  border: solid 2px #ffb800;
+  padding: 22px;
+  border-radius: 50%; /* Make the buttons circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a transition for a smoother effect */
+}
+.swiper-button-prev {
+  left: 90%; /* Adjust the left position for the previous button */
+  top: 90%;
+}
+
+.swiper-button-next {
+  right: 2%; /* Adjust the left position for the previous button */
+  top: 90%;
+  z-index: 99999;
+}

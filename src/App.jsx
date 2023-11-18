@@ -10,6 +10,7 @@ import OperationalExcellence from "./pages/OperationalExcellence";
 import WorkPlaceSafety from "./pages/WorkPlaceSafety";
 import Retail from "./pages/Retail";
 import About from "./pages/About";
+import SuccessStories from "./pages/SuccessStories";
 
 function App() {
   const location = useLocation();
@@ -22,7 +23,6 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/howitworks" element={<HowItWorks />} />
           <Route path="/solutions" element={<Solutions />} />
-          <Route path="/about" element={<About />} />
           <Route path="/security" element={<Security />} />
           <Route
             path="/operational-excellence"
@@ -30,6 +30,8 @@ function App() {
           />
           <Route path="/workplace-safety" element={<WorkPlaceSafety />} />
           <Route path="/retail" element={<Retail />} />
+          <Route path="/success" element={<SuccessStories />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </AnimatePresence>

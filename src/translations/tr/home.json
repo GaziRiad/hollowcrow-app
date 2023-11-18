@@ -228,19 +228,5 @@
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
       }
     ]
-  },
-  "homeFooter": [
-    {
-      "icon": "../assets/homeimgs/footer-icon1.png",
-      "text": "Kurulum Yok"
-    },
-    {
-      "icon": "../assets/homeimgs/footer-icon2.png",
-      "text": "İstediğiniz Zaman İptal Edin"
-    },
-    {
-      "icon": "../assets/homeimgs/footer-icon3.png",
-      "text": "7 Günlük Ücretsiz Deneme"
-    }
-  ]
+  }
 }

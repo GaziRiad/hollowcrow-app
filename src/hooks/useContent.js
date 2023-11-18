@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 import { useLocation } from "react-router";
 
-function useContentSecurity() {
+function useContent() {
   const location = useLocation();
   const fileName = location.pathname.slice(1);
   const { activeLanguage } = useLanguage();
@@ -21,4 +21,4 @@ function useContentSecurity() {
   return { content };
 }
 
-export default useContentSecurity;
+export default useContent;

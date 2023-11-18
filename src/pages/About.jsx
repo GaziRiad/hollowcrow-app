@@ -1,4 +1,7 @@
+import Heading from "../components/Heading";
+import HeadingDescription from "../components/HeadingDescription";
 import Hero from "../components/Hero";
+import MainFooter from "../components/MainFooter";
 import useContentSecurity from "../hooks/useContent";
 import Loader from "../ui/Loader";
 
@@ -27,7 +30,7 @@ function About() {
         </p>
       </section>
 
-      <section className="bg-primary text-black-800 py-24 mb-12 lg:mb-40">
+      <section className="bg-primary text-black-800 py-24 mb-14 lg:mb-44">
         <div className="container mx-auto px-4 lg:scroll-px-10 xl:px-20">
           <p className="text-2xl tracking-wide font-semibold mb-4 text-center leading-snug lg:leading-relaxed lg:text-left lg:mb-10 lg:text-3xl xl:text-4xl">
             {content.secondSection.heading}
@@ -54,9 +57,9 @@ function About() {
           />
           <p className="text-primary font-bold text-5xl md:text-6xl absolute z-10 -mt-28 pl-8 xl:-mt-32 xl:pl-16">
             <span className="text-white">
-              {content.thirdSection.heading.split(" ")[0]}
+              {content.thirdSection.heading.slice(0, 3)}
             </span>
-            <span> {content.thirdSection.heading.split(" ").at(-1)}</span>
+            <span> {content.thirdSection.heading.slice(3, -1)}</span>
           </p>
         </div>
         <img
@@ -70,6 +73,27 @@ function About() {
           ))}
         </div>
       </section>
+
+      <section className="container mx-auto mb-12 lg:mb-40">
+        <Heading>{content.teamSection.heading}</Heading>
+        <HeadingDescription>
+          {content.teamSection.subHeading}
+        </HeadingDescription>
+
+        <div className="flex flex-wrap items-end justify-center gap-8 text-black-800 md:gap-16 xl:gap-24">
+          {content.teamSection.team.map((el) => (
+            <div key={el.name} className="w-80">
+              <img src={el.img} alt={el.name} className="mb-4" />
+              <p className="font-semibold text-lg">{el.name}</p>
+              <p className="uppercase text-sm text-black-700/80">
+                {el.position}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <MainFooter />
     </>
   );
 }

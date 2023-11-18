@@ -1,0 +1,29 @@
+{
+  "stories": [
+    {
+      "text": "The Directorate of Forestry in Türkiye used photo-capture devices across the country to protect forests from illegal activities and theft. Initially, these devices weren't centrally managed and used various email types for sending data, which was inefficient. After implementing Holocrow Enterprise, a centralized system with a standard sender address structure was established. This system transformed into an IoT platform for managing 4,000 devices, treating each as an individual 'thing.' With asynchronous architecture, it efficiently handles data capturing and processing using AI. If any real object (like humans, animals, or vehicles if vehicle then type, plate number, make-model, and color) is detected, the system sends an alert with proof snapshots to the relevant staff via email.",
+      "img": "/assets/successStories/img1.png",
+      "logo": "/assets/successStories/logo1.png"
+    },
+    {
+      "text": "The Directorate of Forestry in Türkiye used photo-capture devices across the country to protect forests from illegal activities and theft. Initially, these devices weren't centrally managed and used various email types for sending data, which was inefficient. After implementing Holocrow Enterprise, a centralized system with a standard sender address structure was established. This system transformed into an IoT platform for managing 4,000 devices, treating each as an individual 'thing.' With asynchronous architecture, it efficiently handles data capturing and processing using AI. If any real object (like humans, animals, or vehicles if vehicle then type, plate number, make-model, and color) is detected, the system sends an alert with proof snapshots to the relevant staff via email.",
+      "img": "/assets/successStories/img1.png",
+      "logo": "/assets/successStories/logo1.png"
+    },
+    {
+      "text": "The Directorate of Forestry in Türkiye used photo-capture devices across the country to protect forests from illegal activities and theft. Initially, these devices weren't centrally managed and used various email types for sending data, which was inefficient. After implementing Holocrow Enterprise, a centralized system with a standard sender address structure was established. This system transformed into an IoT platform for managing 4,000 devices, treating each as an individual 'thing.' With asynchronous architecture, it efficiently handles data capturing and processing using AI. If any real object (like humans, animals, or vehicles if vehicle then type, plate number, make-model, and color) is detected, the system sends an alert with proof snapshots to the relevant staff via email.",
+      "img": "/assets/successStories/img1.png",
+      "logo": "/assets/successStories/logo1.png"
+    },
+    {
+      "text": "The Directorate of Forestry in Türkiye used photo-capture devices across the country to protect forests from illegal activities and theft. Initially, these devices weren't centrally managed and used various email types for sending data, which was inefficient. After implementing Holocrow Enterprise, a centralized system with a standard sender address structure was established. This system transformed into an IoT platform for managing 4,000 devices, treating each as an individual 'thing.' With asynchronous architecture, it efficiently handles data capturing and processing using AI. If any real object (like humans, animals, or vehicles if vehicle then type, plate number, make-model, and color) is detected, the system sends an alert with proof snapshots to the relevant staff via email.",
+      "img": "/assets/successStories/img1.png",
+      "logo": "/assets/successStories/logo1.png"
+    },
+    {
+      "text": "The Directorate of Forestry in Türkiye used photo-capture devices across the country to protect forests from illegal activities and theft. Initially, these devices weren't centrally managed and used various email types for sending data, which was inefficient. After implementing Holocrow Enterprise, a centralized system with a standard sender address structure was established. This system transformed into an IoT platform for managing 4,000 devices, treating each as an individual 'thing.' With asynchronous architecture, it efficiently handles data capturing and processing using AI. If any real object (like humans, animals, or vehicles if vehicle then type, plate number, make-model, and color) is detected, the system sends an alert with proof snapshots to the relevant staff via email.",
+      "img": "/assets/successStories/img1.png",
+      "logo": "/assets/successStories/logo1.png"
+    }
+  ]
+}

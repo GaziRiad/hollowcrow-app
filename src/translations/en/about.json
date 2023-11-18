@@ -17,5 +17,26 @@
       "By utilizing Artificial Intelligence in conjunction with computer vision, we can analyze image and video data captured by cameras. This process transforms the analog world into a digital reflection, providing accurate, reliable, and precisely counted or measured data.",
       "Our goal is to continuously deliver digitized data through our Holocrow B2X video analytics platform, thereby supporting and accelerating humanity's progress as much as possible."
     ]
+  },
+  "teamSection": {
+    "heading": "Meet the team.",
+    "subHeading": "Over 100 years of experience combined.",
+    "team": [
+      {
+        "img": "/assets/aboutUs/team1.png",
+        "name": "Mike Cannon - Brookes",
+        "position": "CO-FOUNDER & CO-CEO"
+      },
+      {
+        "img": "/assets/aboutUs/team2.png",
+        "name": "Scott Farquhar",
+        "position": "CO-FOUNDER & CO-CEO"
+      },
+      {
+        "img": "/assets/aboutUs/team3.png",
+        "name": "Anu Bharadwaj",
+        "position": "PRESIDENT"
+      }
+    ]
   }
 }
