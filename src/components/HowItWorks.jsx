@@ -1,6 +1,6 @@
 import Button from "./Button";
 import Heading from "./Heading";
-import Link from "./Link";
+import Link from "./LinkButton";
 
 import { motion } from "framer-motion";
 
@@ -43,7 +43,7 @@ function HowItWorks({ content }) {
         ))}
         <div className=" flex flex-col justify-center items-center gap-6">
           <Button bgcolor="white">Get started</Button>
-          <Link>Learn more</Link>
+          <Link to="/howitworks">Learn more</Link>
         </div>
       </div>
 

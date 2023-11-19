@@ -1,7 +1,7 @@
 import Heading from "./Heading";
 import HeadingDescription from "./HeadingDescription";
 import Slider from "./Slider";
-import Link from "./Link";
+import Link from "./LinkButton";
 
 import { motion } from "framer-motion";
 

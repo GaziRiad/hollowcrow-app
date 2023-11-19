@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
-function Button({ children, type = "medium" }) {
+function Button({ children, type = "medium", to }) {
   if (type === "mobile-navigation")
     return (
       <motion.button
@@ -33,13 +34,14 @@ function Button({ children, type = "medium" }) {
 
   if (type === "medium")
     return (
-      <motion.button
+      <Link
+        to={to}
         className={`rounded-full shadow-sm uppercase tracking-wider bg-white text-primary text-sm text-center font-secondary font-bold px-6 py-3.5 md:text-lg`}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >
         {children}
-      </motion.button>
+      </Link>
     );
 }
 

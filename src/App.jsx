@@ -11,6 +11,7 @@ import WorkPlaceSafety from "./pages/WorkPlaceSafety";
 import Retail from "./pages/Retail";
 import About from "./pages/About";
 import SuccessStories from "./pages/SuccessStories";
+import Signup from "./pages/Signup";
 
 function App() {
   const location = useLocation();
@@ -32,6 +33,7 @@ function App() {
           <Route path="/retail" element={<Retail />} />
           <Route path="/success" element={<SuccessStories />} />
           <Route path="/about" element={<About />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </AnimatePresence>
