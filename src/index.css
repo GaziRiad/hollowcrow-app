@@ -198,3 +198,34 @@ body::-webkit-scrollbar-thumb {
   top: 90%;
   z-index: 99999;
 }
+
+@media (max-width: 1366px) {
+  .storiesSlider .swiper-button-prev {
+    left: 86%;
+    top: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .storiesSlider .swiper-button-prev {
+    left: 85%;
+    top: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .storiesSlider .swiper-button-prev {
+    left: 7%;
+    top: 90%;
+  }
+  .storiesSlider .swiper-button-next {
+    right: 5%;
+    top: 90%;
+  }
+}
+/* @media (min-width: 200) {
+  .storiesSlider .swiper-button-prev {
+    left: 0%;
+    top: 90%;
+  }
+} */

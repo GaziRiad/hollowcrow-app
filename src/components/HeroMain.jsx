@@ -52,9 +52,9 @@ function HeroMain() {
         <p className=" opacity-50">Watching</p>
       </div>
 
-      <motion.span className="border rounded-full p-8 absolute top-[65%] left-1/2 -translate-x-[70%] cursor-pointer ">
+      {/* <motion.span className="border rounded-full p-8 absolute top-[65%] left-1/2 -translate-x-[70%] cursor-pointer ">
         <FaPlay size={56} color="white" />
-      </motion.span>
+      </motion.span> */}
       <span className="absolute top-[92%] ml-8 sm:ml-8 lg:left-[10%] ">
         <Socials />
       </span>
