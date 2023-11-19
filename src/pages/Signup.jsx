@@ -21,7 +21,7 @@ function Signup() {
           </div>
           <div className="">
             <img
-              src="../../public/assets/sign-up-hand.png"
+              src="/assets/sign-up-hand.png"
               // className="absolute -top-[12%] -right-[14%] scale-75"
               className="absolute right-4 -top-[10%] w-44 2xl:-top-[12%] 2xl:-right-[14%] lg:w-fit lg:scale-50 lg:-right-[26%] xl:scale-75"
             />
