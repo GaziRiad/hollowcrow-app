@@ -23,19 +23,14 @@
     "subHeading": "Over 100 years of experience combined.",
     "team": [
       {
-        "img": "/assets/aboutUs/team1.png",
-        "name": "Mike Cannon - Brookes",
-        "position": "CO-FOUNDER & CO-CEO"
-      },
-      {
-        "img": "/assets/aboutUs/team2.png",
+        "img": "/assets/aboutUs/team12.png",
         "name": "Scott Farquhar",
         "position": "CO-FOUNDER & CO-CEO"
       },
       {
-        "img": "/assets/aboutUs/team3.png",
-        "name": "Anu Bharadwaj",
-        "position": "PRESIDENT"
+        "img": "/assets/aboutUs/team11.png",
+        "name": "Mike Cannon - Brookes",
+        "position": "CO-FOUNDER & CO-CEO"
       }
     ]
   }

@@ -66,28 +66,28 @@
     "heading": "endüstriler",
     "slides": [
       {
-        "title": "Lorem Ipsum",
+        "title": "Manufacturing:",
         "img": "assets/Solutions/industriesSlider/industry1.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "title": "Automotive Industry:",
+        "img": "assets/Solutions/industriesSlider/industry2.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "title": "Pharmaceuticals:",
+        "img": "assets/Solutions/industriesSlider/industry3.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "title": "Electronics:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "title": "Food & Beverage Industry:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "title": "Aerospace:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
       }
     ]
   }

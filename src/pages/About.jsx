@@ -82,7 +82,7 @@ function About() {
             {content.teamSection.subHeading}
           </HeadingDescription>
 
-          <div className="flex flex-wrap items-end justify-center gap-8 text-black-800 md:gap-16 xl:gap-24">
+          <div className="flex flex-wrap items-end justify-center gap-8 text-black-800 md:gap-16 xl:gap-24 mb-6 lg:mb-12">
             {content.teamSection.team.map((el) => (
               <div key={el.name} className="w-80">
                 <img src={el.img} alt={el.name} className="mb-4" />
@@ -92,6 +92,9 @@ function About() {
                 </p>
               </div>
             ))}
+          </div>
+          <div className="flex items-center justify-center">
+            <img src="/assets/aboutUs/employees.png" className="" />
           </div>
         </section>
 

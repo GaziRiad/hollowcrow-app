@@ -81,28 +81,44 @@
     "heading": "endüstriler",
     "slides": [
       {
-        "title": "Lorem Ipsum",
+        "title": "Manufacturing:",
         "img": "assets/Solutions/industriesSlider/industry1.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "title": "Construction:",
+        "img": "assets/Solutions/industriesSlider/industry2.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "title": "Healthcare:",
+        "img": "assets/Solutions/industriesSlider/industry3.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "title": "Retail:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "title": "Warehousing & Logistics:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "title": "Office Environments:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
+      },
+      {
+        "title": "Mining:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
+      },
+      {
+        "title": "Agriculture:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
+      },
+      {
+        "title": "Food Processing:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
+      },
+      {
+        "title": "Energy and Utilities:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
       }
     ]
   }

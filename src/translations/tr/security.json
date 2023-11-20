@@ -76,36 +76,40 @@
     "heading": "endüstriler",
     "slides": [
       {
-        "title": "Lorem Ipsum",
-        "img": "../assets/Solutions/industriesSlider/industry1.png"
+        "title": "Retail:",
+        "img": "assets/Solutions/industriesSlider/industry1.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "../assets/Solutions/industriesSlider/industry1.png"
+        "title": "Banking and Finance:",
+        "img": "assets/Solutions/industriesSlider/industry2.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "../assets/Solutions/industriesSlider/industry1.png"
+        "title": "Transports & Logistics:",
+        "img": "assets/Solutions/industriesSlider/industry3.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "../assets/Solutions/industriesSlider/industry1.png"
+        "title": "Healthcare:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "../assets/Solutions/industriesSlider/industry1.png"
+        "title": "Manufacturing:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "../assets/Solutions/industriesSlider/industry1.png"
+        "title": "Public Security:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "../assets/Solutions/industriesSlider/industry1.png"
+        "title": "Airports & Transports Hubs:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "../assets/Solutions/industriesSlider/industry1.png"
+        "title": "Hospitality:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
+      },
+      {
+        "title": "Smart Cities:",
+        "img": "assets/Solutions/industriesSlider/industry4.png"
       }
     ]
   }

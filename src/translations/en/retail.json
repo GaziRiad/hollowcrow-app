@@ -70,28 +70,12 @@
     "heading": "industries",
     "slides": [
       {
-        "title": "Lorem Ipsum",
+        "title": "Inventory Management:",
         "img": "assets/Solutions/industriesSlider/industry1.png"
       },
       {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
-      },
-      {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
-      },
-      {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
-      },
-      {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
-      },
-      {
-        "title": "Lorem Ipsum",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "title": "Customer Experience:",
+        "img": "assets/Solutions/industriesSlider/industry2.png"
       }
     ]
   }
