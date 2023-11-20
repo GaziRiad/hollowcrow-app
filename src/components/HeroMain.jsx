@@ -25,12 +25,14 @@ function HeroMain() {
       className="h-screen w-full cursor-pointer mb-8 lg:mb-44 "
     >
       <video
-        className="w-full h-full object-cover object-center contrast-125"
+        className="w-full h-full object-cover object-center"
         muted
         loop
         autoPlay
         playsInline
-        src="/videos/hero-preview-2.mp4"
+        loading="lazy"
+        // src="/videos/hero-preview-2.mp4"
+        src="/videos/hero-preview-3.mp4"
         type="video/mp4"
       ></video>
 
