@@ -5,12 +5,12 @@
   "firstSection": {
     "content": [
       {
-        "img": "assets/Solutions/img-1.jpeg",
+        "img": "assets/Solutions/img-4.png",
         "title": "Perfect Accuracy",
         "text": "Detect errors on your production lines with AI’s 99.9% accuracy."
       },
       {
-        "img": "assets/Solutions/img-2.jpeg",
+        "img": "assets/Solutions/img-5.png",
         "title": "Increase Efficiency",
         "text": "Analyze the productivity of all employees and increase your operational efficiency by up to 50%."
       },
@@ -56,7 +56,7 @@
   "thirdSection": {
     "heading": "Private Data Collection",
     "content": {
-      "img": "assets/Solutions/img-4.jpg",
+      "img": "assets/Solutions/data-collection.jpg",
       "text": "Holocrow never collects personal identification details from the visual content we handle. Our primary goal is to enhance security while preserving people’s confidentiality."
     }
   },

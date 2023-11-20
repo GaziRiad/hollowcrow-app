@@ -10,7 +10,7 @@
         "text": "Kapsamlı video sahne analizi ile şüpheli durumlarda anında uyarı alın ve yanlış alarmları %90 azaltın."
       },
       {
-        "img": "assets/Solutions/officer.png",
+        "img": "assets/Solutions/img-6.png",
         "title": "Gerçek Zamanlı Uyarılar",
         "text": "İşyerinde güvenlik protokolleri ihlal edildiğinde ilgili çalışanlara canlı uyarı gönderin."
       },
@@ -72,7 +72,7 @@
   "thirdSection": {
     "heading": "Özel Veri Toplama",
     "content": {
-      "img": "assets/Solutions/img-4.jpg",
+      "img": "assets/Solutions/data-collection.jpg",
       "text": "Holocrow, işlediğimiz görsel içeriklerden hiçbir zaman kişisel kimlik bilgilerini toplamaz. Öncelikli hedefimiz insanların gizliliğini korurken güvenliği artırmaktır."
     }
   },

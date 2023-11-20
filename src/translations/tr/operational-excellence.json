@@ -5,12 +5,12 @@
   "firstSection": {
     "content": [
       {
-        "img": "assets/Solutions/img-1.jpeg",
+        "img": "assets/Solutions/img-4.png",
         "title": "Mükemmel Doğruluk",
         "text": "Yapay zekanın %99,9 doğruluğuyla üretim hatlarınızdaki hataları tespit edin."
       },
       {
-        "img": "assets/Solutions/img-2.jpeg",
+        "img": "assets/Solutions/img-5.png",
         "title": "Verimliliği Artırın",
         "text": "Tüm çalışanların verimliliğini analiz edin ve operasyonel verimliliğinizi %50'ye kadar artırın."
       },
@@ -57,7 +57,7 @@
   "thirdSection": {
     "heading": "Özel Veri Toplama",
     "content": {
-      "img": "assets/Solutions/img-4.jpg",
+      "img": "assets/Solutions/data-collection.jpg",
       "text": "Holocrow, işlediğimiz görsel içeriklerden hiçbir zaman kişisel kimlik bilgilerini toplamaz. Öncelikli hedefimiz insanların gizliliğini korurken güvenliği artırmaktır."
     }
   },

@@ -5,12 +5,12 @@
   "firstSection": {
     "content": [
       {
-        "img": "assets/Solutions/insights.png",
+        "img": "assets/Solutions/img-7.png",
         "title": "Accurate Insights",
         "text": "Obtain visitor count, heatmap, demographic insights, and many more with 99.9% accuracy."
       },
       {
-        "img": "assets/Solutions/stock.jpeg",
+        "img": "assets/Solutions/img-8.png",
         "title": "Prevent Out of Stock",
         "text": "Detect and track every single buying transactions only via video streams to prevent stock out and gather precious insights."
       },
@@ -61,7 +61,7 @@
   "thirdSection": {
     "heading": "Private Data Collection",
     "content": {
-      "img": "assets/Solutions/img-4.jpg",
+      "img": "assets/Solutions/data-collection.jpg",
       "text": "Holocrow never collects personal identification details from the visual content we handle. Our primary goal is to enhance security while preserving people’s confidentiality."
     }
   },
