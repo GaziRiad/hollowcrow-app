@@ -66,27 +66,27 @@
     "slides": [
       {
         "title": "Manufacturing:",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "img": "assets/Solutions/industriesSlider/Manufacturing-min.jpg"
       },
       {
         "title": "Automotive Industry:",
-        "img": "assets/Solutions/industriesSlider/industry2.png"
+        "img": "assets/Solutions/industriesSlider/Automotive-min.jpg"
       },
       {
         "title": "Pharmaceuticals:",
-        "img": "assets/Solutions/industriesSlider/industry3.png"
+        "img": "assets/Solutions/industriesSlider/Pharmaceuticals-min.jpg"
       },
       {
         "title": "Electronics:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/industry4.png **"
       },
       {
         "title": "Food & Beverage Industry:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/Food and Beverage Industry-min.jpg"
       },
       {
         "title": "Aerospace:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/aerospace manufacturin-min.jpg"
       }
     ]
   }

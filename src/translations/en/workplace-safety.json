@@ -81,43 +81,43 @@
     "slides": [
       {
         "title": "Manufacturing:",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "img": "assets/Solutions/industriesSlider/Manufacturing-min.jpg"
       },
       {
         "title": "Construction:",
-        "img": "assets/Solutions/industriesSlider/industry2.png"
+        "img": "assets/Solutions/industriesSlider/industry2.png **"
       },
       {
         "title": "Healthcare:",
-        "img": "assets/Solutions/industriesSlider/industry3.png"
+        "img": "assets/Solutions/industriesSlider/Healthcare-min.JPG"
       },
       {
         "title": "Retail:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/Retail-min.jpg"
       },
       {
         "title": "Warehousing & Logistics:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/warehoouse-min.jpg"
       },
       {
         "title": "Office Environments:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/office-min.jpg"
       },
       {
         "title": "Mining:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/mining-min.jpg"
       },
       {
         "title": "Agriculture:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/Agriculture-min.jpg"
       },
       {
         "title": "Food Processing:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/Food processing-min.jpg"
       },
       {
         "title": "Energy and Utilities:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/industry4.png **"
       }
     ]
   }

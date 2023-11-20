@@ -77,39 +77,39 @@
     "slides": [
       {
         "title": "Retail:",
-        "img": "assets/Solutions/industriesSlider/industry1.png"
+        "img": "assets/Solutions/industriesSlider/Retail-min.jpg"
       },
       {
         "title": "Banking and Finance:",
-        "img": "assets/Solutions/industriesSlider/industry2.png"
+        "img": "assets/Solutions/industriesSlider/industry2.png **"
       },
       {
         "title": "Transports & Logistics:",
-        "img": "assets/Solutions/industriesSlider/industry3.png"
+        "img": "assets/Solutions/industriesSlider/Transportation - Logistics-min.jpg"
       },
       {
         "title": "Healthcare:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/Healthcare-min.JPG"
       },
       {
         "title": "Manufacturing:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/Manufacturing-min.jpg"
       },
       {
         "title": "Public Security:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/industry4.png **"
       },
       {
         "title": "Airports & Transports Hubs:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/industry4.png **"
       },
       {
         "title": "Hospitality:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/hospitality-min.jpg"
       },
       {
         "title": "Smart Cities:",
-        "img": "assets/Solutions/industriesSlider/industry4.png"
+        "img": "assets/Solutions/industriesSlider/smart cities-min.jpg"
       }
     ]
   }
