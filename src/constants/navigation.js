@@ -1,6 +1,6 @@
 export const navigation = {
   links: [
-    { text: "How it works", path: "/howitworks" },
+    { text: "How It works", path: "/howitworks" },
     { text: "Solutions", path: "/solutions" },
     { text: "Success Stories", path: "/success" },
     { text: "About Us", path: "/about" },

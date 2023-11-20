@@ -79,9 +79,24 @@
             "text": "Detect doubtful attitudes and potential harmful objects, bags, box etc. to secure your area."
           },
           {
-            "icon": "../assets/icons/9.png",
-            "title": "Restricted Area Control 2",
-            "text": "Watch your assets with only true alarms according to your security rule."
+            "icon": "../assets/icons/5.png",
+            "title": "Crowd Analysis",
+            "text": "Analyze crowd dynamics to manage large gatherings effectively. Monitor crowd density, flow, and behavior to ensure safety and optimize space utilization."
+          },
+          {
+            "icon": "../assets/icons/12.png",
+            "title": "Facial Recognition",
+            "text": "Enhance security with accurate facial recognition for identity verification."
+          },
+          {
+            "icon": "../assets/icons/6.png",
+            "title": "Behavioral Analysis",
+            "text": "Identify suspicious behaviors through advanced motion and activity analysis."
+          },
+          {
+            "icon": "../assets/icons/25.png",
+            "title": "Surveillance and Real-time Analysis",
+            "text": "Implement real-time video surveillance for immediate incident response and security."
           }
         ]
       },
@@ -104,9 +119,29 @@
             "text": "Injuries due to inadequate housekeeping are entirely avoidable. Prompt identification leads to swift rectification and the prevention of harm."
           },
           {
-            "icon": "../assets/icons/9.png",
-            "title": "Restricted Area Control 2",
-            "text": "Watch your assets with only true alarms according to your security rule."
+            "icon": "../assets/icons/11.png",
+            "title": "Ergonomy Control",
+            "text": "Monitor ergonomic practices of staff to prevent work-related musculoskeletal disorders and enhance workplace safety."
+          },
+          {
+            "icon": "../assets/icons/13.png",
+            "title": "Handrail Usage",
+            "text": "Automatically detect and encourage proper use of handrails in critical areas to prevent falls and injuries."
+          },
+          {
+            "icon": "../assets/icons/22.png",
+            "title": "Area Controls",
+            "text": "Manage access to restricted or hazardous areas through visual identification and control systems."
+          },
+          {
+            "icon": "../assets/icons/23.png",
+            "title": "Vehicle Control",
+            "text": "Oversee and regulate vehicle movement within premises to prevent accidents and ensure safety compliance."
+          },
+          {
+            "icon": "../assets/icons/24.png",
+            "title": "Man-down Detection",
+            "text": "Instantly detect and respond to incidents where staff are incapacitated or in distress for rapid assistance."
           }
         ]
       },
@@ -129,9 +164,19 @@
             "text": "Understand customers' choices on your new products in a quick way."
           },
           {
-            "icon": "../assets/icons/9.png",
-            "title": "Restricted Area Control 2",
-            "text": "Watch your assets with only true alarms according to your security rule."
+            "icon": "../assets/icons/14.png",
+            "title": "Heatmap & Footfall",
+            "text": "Analyze customer movement patterns and store hotspots to optimize layout and product placement."
+          },
+          {
+            "icon": "../assets/icons/4.png",
+            "title": "Product Engagement Analysis",
+            "text": "Monitor customer interactions with products to gain insights into preferences and engagement levels."
+          },
+          {
+            "icon": "../assets/icons/16.png",
+            "title": "Inventory & Stock Control",
+            "text": "Automate inventory tracking and maintain optimal stock levels using real-time visual data analysis."
           }
         ]
       },
@@ -154,9 +199,14 @@
             "text": "Detect and track every single step of your operations to analyze processes open to improvement."
           },
           {
-            "icon": "../assets/icons/9.png",
-            "title": "Restricted Area Control 2",
-            "text": "Watch your assets with only true alarms according to your security rule."
+            "icon": "../assets/icons/26.png",
+            "title": "Staff Efficiency Analysis",
+            "text": "Enhance workforce productivity by analyzing staff movements and activities using video data."
+          },
+          {
+            "icon": "../assets/icons/27.png",
+            "title": "Packaging Control",
+            "text": "Ensure accuracy and quality in packaging by visually inspecting for conformity and detecting anomalies."
           }
         ]
       }
