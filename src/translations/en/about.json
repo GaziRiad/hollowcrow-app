@@ -24,13 +24,13 @@
     "team": [
       {
         "img": "/assets/aboutUs/team12.png",
-        "name": "Scott Farquhar",
-        "position": "CO-FOUNDER & CO-CEO"
+        "name": "Eray Hangül",
+        "position": "FOUNDER & CO-CEO"
       },
       {
         "img": "/assets/aboutUs/team11.png",
-        "name": "Mike Cannon - Brookes",
-        "position": "CO-FOUNDER & CO-CEO"
+        "name": "Ali  Güner",
+        "position": "CO-CEO"
       }
     ]
   }
