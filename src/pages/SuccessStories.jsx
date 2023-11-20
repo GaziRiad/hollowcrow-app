@@ -28,7 +28,7 @@ function SuccessStories() {
   return (
     <PageTransition>
       <div className="mb-24">
-        <section className="relative h-screen mb-72 sm:mb-24 md:mb-12 xl:mb-4">
+        <section className="relative h-screen mb-12 sm:mb-24 md:mb-12 xl:mb-4">
           <Hero herobg="hero-solutions" noPattern={true} />
           <div className="absolute top-0 w-full h-full">
             <Swiper
@@ -41,21 +41,20 @@ function SuccessStories() {
               centeredSlides
               initialSlide={1}
               // onSlideChange={(swiper) => handleSlideChange(swiper)}
-              className="storiesSlider w-[95%] absolute right-1/2 translate-x-1/2 top-[50%] -translate-y-1/3 sm:top-[40%] md:top-[35%] lg:w-[80%] xl:top-[45%] xl:w-[65%] shadow-2xl rounded-2xl"
+              className="storiesSlider w-[95%] absolute right-1/2 translate-x-1/2 top-[40%] -translate-y-1/3 sm:top-[40%] md:top-[35%] lg:w-[80%] xl:top-[45%] xl:w-[65%] shadow-2xl rounded-2xl h-[80%] md:h-[60%]"
             >
               {content.stories.map((story, index) => (
                 <SwiperSlide
-                  // !w-[600px]
-                  className={`transition-transform duration-300 transform  `}
+                  className={`transition-transform duration-300 transform`}
                   key={index}
                 >
-                  <div className="bg-white/50 flex flex-col items-center justify-center gap-6 px-6 py-6 xl:flex-row xl:p-10 2xl:p-20 2xl:gap-24">
+                  <div className="bg-white/50 h-full flex flex-col items-center justify-center gap-2 px-6 py-6 xl:flex-row xl:p-10 2xl:p-20 2xl:gap-20">
                     <div className="xl:w-1/2">
                       <p className="">{story.text}</p>
                     </div>
-                    <div className=" flex flex-col items-center gap-6 h-full xl:w-1/2">
+                    <div className=" flex flex-col items-center justify-center gap-6 h-full xl:w-1/2">
                       {/* <img src={story.img} /> */}
-                      <div className=" h-44"></div>
+                      {/* <div className="h-44 w-full"></div> */}
                       <img src={story.logo} className="w-32 h-36" />
                     </div>
                   </div>
