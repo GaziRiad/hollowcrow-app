@@ -51,11 +51,12 @@ function SuccessStories() {
                 >
                   <div className="bg-white/50 flex flex-col items-center justify-center gap-6 px-6 py-6 xl:flex-row xl:p-10 2xl:p-20 2xl:gap-24">
                     <div className="xl:w-1/2">
-                      <p className="text">{story.text}</p>
+                      <p className="">{story.text}</p>
                     </div>
-                    <div className=" flex flex-col items-center gap-6 xl:w-1/2">
-                      <img src={story.img} />
-                      <img src={story.logo} className="w-fit" />
+                    <div className=" flex flex-col items-center gap-6 h-full xl:w-1/2">
+                      {/* <img src={story.img} /> */}
+                      <div className=" h-44"></div>
+                      <img src={story.logo} className="w-32 h-36" />
                     </div>
                   </div>
                 </SwiperSlide>
