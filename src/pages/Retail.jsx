@@ -51,7 +51,7 @@ function SalesAndMarketing() {
         </div>
       </motion.section>
 
-      <SwipingSlider content={content.sliderSection} />
+      {/* <SwipingSlider content={content.sliderSection} /> */}
 
       <MainFooter />
     </PageTransition>
