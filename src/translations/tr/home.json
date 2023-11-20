@@ -101,7 +101,7 @@
         ]
       },
       {
-        "heading": "Emniyet",
+        "heading": "İşyeri güvenliği",
         "slides": [
           {
             "icon": "../assets/icons/1.png",
@@ -126,7 +126,7 @@
         ]
       },
       {
-        "heading": "Pazarlama",
+        "heading": "Perakende ve FMCG",
         "slides": [
           {
             "icon": "../assets/icons/19.png",
@@ -151,7 +151,7 @@
         ]
       },
       {
-        "heading": "Qkalite kontrol",
+        "heading": "Operasyonel mükemmellik",
         "slides": [
           {
             "icon": "../assets/icons/21.png",
