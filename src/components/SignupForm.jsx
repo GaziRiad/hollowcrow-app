@@ -31,7 +31,9 @@ function SignupForm({ step, setStep }) {
     <form className="flex flex-col" onSubmit={handleSubmit(handleFormSubmit)}>
       {step === 1 && (
         <>
-          {" "}
+          <p className="text-left text-primary text-3xl font-semibold mb-8 2xl:text-4xl">
+            Sign Up
+          </p>
           <FormRow type="horizontal">
             <FormRow id="firstName" label="First Name:">
               <Input id="firstName" register={register} />
@@ -67,7 +69,9 @@ function SignupForm({ step, setStep }) {
       {/*  */}
       {step === 2 && (
         <>
-          {" "}
+          <p className="text-left text-primary text-3xl font-semibold mb-8 2xl:text-4xl">
+            Device Type:
+          </p>
           <FormRow type="horizontal">
             <FormRow id="recordingDevice" label="recordingDevice">
               <Input id="text" register={register} />

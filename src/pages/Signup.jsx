@@ -19,9 +19,6 @@ function Signup() {
         <div className="container mx-auto flex justify-center items-center">
           <div className="relative flex  justify-between bg-white px-8 py-8 rounded-xl shadow-2xl w-[95%] lg:py-12 lg:px-16 lg:w-[75%] xl:w-[60%]">
             <div className="w-full lg:w-[65%] xl:w-[55%]">
-              <p className="text-left text-primary text-3xl font-semibold mb-8 2xl:text-4xl">
-                Sign Up
-              </p>
               <SignupForm step={step} setStep={setStep} />
             </div>
             <div className="">
