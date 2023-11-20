@@ -189,7 +189,7 @@ body::-webkit-scrollbar-thumb {
   transition: background-color 0.3s ease; /* Add a transition for a smoother effect */
 }
 .storiesSlider .swiper-button-prev {
-  left: 90%; /* Adjust the left position for the previous button */
+  left: 90%;
   top: 90%;
 }
 
@@ -199,9 +199,16 @@ body::-webkit-scrollbar-thumb {
   z-index: 99999;
 }
 
+@media (max-width: 1760px) {
+  .storiesSlider .swiper-button-prev {
+    left: 87%;
+    top: 90%;
+  }
+}
+
 @media (max-width: 1366px) {
   .storiesSlider .swiper-button-prev {
-    left: 86%;
+    left: 85%;
     top: 90%;
   }
 }

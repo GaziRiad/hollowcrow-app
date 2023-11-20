@@ -13,11 +13,29 @@ function Socials() {
         Follow Holocrow
       </p>
       <ul className="flex gap-4 items-center">
-        <li>{<FaFacebookF />}</li>
-        <li>{<FaLinkedinIn />}</li>
-        <li>{<FaXTwitter />}</li>
-        <li>{<FaYoutube />}</li>
-        <li>{<FaInstagram />}</li>
+        <li>
+          <a
+            href="https://www.instagram.com/_ayvos_/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {<FaInstagram />}
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/company/ayvos/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {<FaLinkedinIn />}
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/ayvos_" rel="noreferrer" target="_blank">
+            {<FaXTwitter />}
+          </a>
+        </li>
       </ul>
     </div>
   );
