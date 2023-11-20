@@ -23,7 +23,9 @@ function HeroPattern() {
           Beyond Watching
         </Heading>
         <p className="text-white mb-3 px-6">Detect Perform Protect with AI</p>
-        <Button type="small">Connect Now</Button>
+        <Button to="/signup" type="small">
+          Connect Now
+        </Button>
       </div>
     </div>
   );

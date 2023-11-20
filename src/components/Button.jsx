@@ -24,12 +24,13 @@ function Button({ children, type = "medium", to }) {
 
   if (type === "small")
     return (
-      <motion.button
+      <Link
+        to={to}
         className={`rounded-full shadow-sm uppercase text-xs tracking-wide bg-white text-primary text-center font-secondary font-bold px-3 py-3 `}
         whileTap={{ scale: 0.9 }}
       >
         {children}
-      </motion.button>
+      </Link>
     );
 
   if (type === "medium")

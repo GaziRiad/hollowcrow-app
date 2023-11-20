@@ -1,64 +1,94 @@
 import Button from "./Button";
 import FormRow from "./FormRow";
+import Input from "./Input";
+import { useForm } from "react-hook-form";
 
-function SignupForm() {
+function SignupForm({ step, setStep }) {
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm();
+
+  let newAccount = {};
+  let newDevice = {};
+
+  function handleFormSubmit(data, e) {
+    e.preventDefault();
+    console.log(data);
+    if (step === 1) {
+      newAccount = data;
+      reset();
+      setStep(2);
+    }
+    if (step === 2) {
+      newDevice = data;
+    }
+  }
+
   return (
-    <div className="">
-      <form className="flex flex-col">
-        <div className=" flex flex-col md:flex-row md:gap-6">
-          <FormRow label="First Name:">
-            <input
-              type="text"
-              className=" bg-stone-100 px-2 py-2 rounded-md w-full lg:w-full text-black-800 outline-none focus:ring-2 ring-primary"
-            />
+    <form className="flex flex-col" onSubmit={handleSubmit(handleFormSubmit)}>
+      {step === 1 && (
+        <>
+          {" "}
+          <FormRow type="horizontal">
+            <FormRow id="firstName" label="First Name:">
+              <Input id="firstName" register={register} />
+            </FormRow>
+            <FormRow id="lastName" label="Last Name:">
+              <Input id="lastName" register={register} />
+            </FormRow>
           </FormRow>
-          <FormRow label="Last Name:">
-            <input
-              type="text"
-              className=" bg-stone-100 px-2 py-2 rounded-md w-full lg:w-full text-black-800 outline-none focus:ring-2 ring-primary"
-            />
+          <FormRow id="email" label="Email:">
+            <Input type="email" id="email" register={register} />
           </FormRow>
-        </div>
-        <FormRow label="Email:">
-          <input
-            type="email"
-            className=" bg-stone-100 px-2 py-2 rounded-md w-full text-black-800 outline-none focus:ring-2 ring-primary"
-          />
-        </FormRow>
-        <div className="flex flex-col md:flex-row md:gap-6">
-          <FormRow label="Password:">
-            <input
-              type="password"
-              className=" bg-stone-100 px-2 py-2 rounded-md w-full lg:w-full text-black-800 outline-none focus:ring-2 ring-primary"
-            />
+          <FormRow type="horizontal">
+            <FormRow label="Password:">
+              <Input type="password" id="password" register={register} />
+            </FormRow>
+            <FormRow label="Confirm:">
+              <Input type="password" />
+            </FormRow>
           </FormRow>
-          <FormRow label="Confirm:">
+          <span className=" text-xs max-w-xs text-slate-400 -mt-5 mb-4">
+            Use 8 or more characters with a mix letters, numbers & symbols
+          </span>
+          <div className="flex items-center gap-2 mb-12">
             <input
-              type="password"
-              className=" bg-stone-100 px-2 py-2 rounded-md w-full lg:w-full text-black-800 outline-none focus:ring-2 ring-primary"
+              className=" bg-stone-100 h-4 w-4 accent-primary"
+              type="checkbox"
             />
+            <p className="text-black-800 text-sm font-normal">Show password</p>
+          </div>{" "}
+        </>
+      )}
+      {/*  */}
+      {/*  */}
+      {step === 2 && (
+        <>
+          {" "}
+          <FormRow type="horizontal">
+            <FormRow id="recordingDevice" label="recordingDevice">
+              <Input id="text" register={register} />
+            </FormRow>
+            <FormRow id="camera" label="Camera:">
+              <Input id="text" register={register} />
+            </FormRow>
           </FormRow>
-        </div>
-        <span className=" text-xs max-w-xs text-slate-400 -mt-5 mb-4">
-          Use 8 or more characters with a mix letters, numbers & symbols
-        </span>
+          <FormRow id="dataChannel" label="Data Channel:">
+            <Input type="text" id="dataChannel" register={register} />
+          </FormRow>
+          <FormRow id="devicesQuantity" label="Quantitiy of devices:">
+            <Input type="number" id="devicesQuantity" register={register} />
+          </FormRow>
+        </>
+      )}
 
-        <div className="flex items-center gap-2 mb-12">
-          <input
-            className=" bg-stone-100 h-4 w-4 accent-primary"
-            type="checkbox"
-          />
-          <p className="text-black-800 text-sm font-normal">Show password</p>
-        </div>
-
-        <div className="flex items-center justify-between">
-          <p className="text-primary cursor-pointer hover:text-primary-darker transition-all">
-            Sign in instead
-          </p>
-          <Button type="navigation">next</Button>
-        </div>
-      </form>
-    </div>
+      <div className="flex items-center justify-between">
+        <Button type="navigation">{step === 1 ? "Next" : "sign up"}</Button>
+      </div>
+    </form>
   );
 }
 
